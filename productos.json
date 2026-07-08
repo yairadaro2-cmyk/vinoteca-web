@@ -3,4599 +3,4096 @@
     "id": "99",
     "nombre": "ALTO LAS HORMIGAS MALBEC CLASICO ORGANICO",
     "marca": "Alto las Hormigas",
-    "precio": 9659.6,
+    "precio": 7570.711499999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "106",
     "nombre": "AMARETTO DISARONNO",
     "marca": "Disarono",
-    "precio": 47200.0,
+    "precio": 36993.0002508,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 1
+    "subrubro": "LICORES"
   },
   {
     "id": "107",
     "nombre": "AMARGO OBRERO",
     "marca": "AMARGO OBRERO",
-    "precio": 5641.6,
+    "precio": 4421.603999999999,
     "rubro": "APERITIVO",
-    "subrubro": "APERITIVO",
-    "stock": 1
+    "subrubro": "APERITIVO"
   },
   {
     "id": "108",
     "nombre": "AMARULLA X 750",
     "marca": "Amarula",
-    "precio": 38727.88,
+    "precio": 30352.974696,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 6
+    "subrubro": "LICORES"
   },
   {
     "id": "131",
     "nombre": "ANIS CHIN CHON",
     "marca": "Chinchon",
-    "precio": 55000.0,
-    "rubro": "Anis",
-    "subrubro": "Anis",
-    "stock": 1
+    "precio": 43106.24952975,
+    "rubro": "ANIS",
+    "subrubro": "ANIS"
   },
   {
     "id": "135",
     "nombre": "AQUI ESTAMOS TODOS LOCOS GARNACHA ",
     "marca": "Niven Wines",
-    "precio": 12710.0,
+    "precio": 9961.462500000001,
     "rubro": "VINO",
-    "subrubro": "Garnacha",
-    "stock": 5
+    "subrubro": "GARNACHA"
   },
   {
     "id": "136",
     "nombre": "AQUI ESTAMOS TODOS LOCOS SAUVIGNON BLANC",
     "marca": "Niven Wines",
-    "precio": 9761.28,
+    "precio": 7650.403199999999,
     "rubro": "VINO",
-    "subrubro": "SAVIGNON BLANC",
-    "stock": 2
+    "subrubro": "SAVIGNON BLANC"
   },
   {
     "id": "166",
     "nombre": "BAILEYS SALTED CARAMEL",
     "marca": "Baileys",
-    "precio": 39360.0,
+    "precio": 30848.399999999998,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 4
+    "subrubro": "LICORES"
   },
   {
     "id": "198",
     "nombre": "BITTER ANGOSTURA",
     "marca": "Bitter",
-    "precio": 56500.0,
+    "precio": 44281.875627,
     "rubro": "APERITIVO",
-    "subrubro": "BITTER",
-    "stock": 1
+    "subrubro": "BITTER"
   },
   {
     "id": "220",
     "nombre": "BOMBAY X 750 ",
     "marca": "Bombay",
-    "precio": 41062.32,
+    "precio": 32182.593300000004,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 5
+    "subrubro": "GIN"
   },
   {
     "id": "232",
     "nombre": "BROKER´S GIN 40%",
     "marca": "Broker´S",
-    "precio": 45500.0,
+    "precio": 35660.6244357,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 1
+    "subrubro": "GIN"
   },
   {
     "id": "241",
     "nombre": "CAELUM  CLASICO  MALBEC",
     "marca": "Bodega Caelum",
-    "precio": 12800.0,
+    "precio": 10031.9999373,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "244",
     "nombre": "CAELUM  ECLAT RESERVA (DORADO)",
     "marca": "Bodega Caelum",
-    "precio": 32500.0,
+    "precio": 25471.87478055,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 8
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "248",
     "nombre": "CAELUM CLASICO CHARDONAY",
     "marca": "Bodega Caelum",
-    "precio": 12800.0,
+    "precio": 10031.9999373,
     "rubro": "VINO",
-    "subrubro": "CHARDONNAY",
-    "stock": 3
+    "subrubro": "CHARDONNAY"
   },
   {
     "id": "249",
     "nombre": "CAELUM CLASICO ROSADO",
     "marca": "Bodega Caelum",
-    "precio": 12800.0,
+    "precio": 10031.9999373,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 4
+    "subrubro": "ROSADO"
   },
   {
     "id": "250",
     "nombre": "CAELUM ECLAT EXTRA BRUT",
     "marca": "Bodega Caelum",
-    "precio": 22878.0,
+    "precio": 17930.6325,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 5
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "252",
     "nombre": "CAELUM FIANO GRAN RESERVA",
     "marca": "Bodega Caelum",
-    "precio": 28500.0,
+    "precio": 22336.87528215,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 4
+    "subrubro": "MALBEC"
   },
   {
     "id": "254",
     "nombre": "CAELUM GRAN  RESERVA CABERNET",
     "marca": "Bodega Caelum",
-    "precio": 32400.0,
+    "precio": 25393.500564300004,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 5
+    "subrubro": "CABERNET"
   },
   {
     "id": "256",
     "nombre": "CAELUM GRAN RESERVA BLEND (ICONO)",
     "marca": "Bodega Caelum",
-    "precio": 58500.0,
+    "precio": 45849.375376200005,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 10
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "257",
     "nombre": "CAELUM GRAN RESERVA MALBEC MAGNUN",
     "marca": "Bodega Caelum",
-    "precio": 84600.0,
+    "precio": 66305.25018809999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 9
+    "subrubro": "MALBEC"
   },
   {
     "id": "258",
     "nombre": "CAELUM GRAN RESERVA PINOT",
     "marca": "Bodega Caelum",
-    "precio": 32400.0,
+    "precio": 25393.500564300004,
     "rubro": "VINO",
-    "subrubro": "PINOT NOIR",
-    "stock": 2
+    "subrubro": "PINOT NOIR"
   },
   {
     "id": "272",
     "nombre": "CAJA NAVIDAD CARTON VACIA",
     "marca": "LDG ESTUCHES",
-    "precio": 1220.16,
+    "precio": 956.3003999999999,
     "rubro": "CAJA NAVIDEÑAS",
-    "subrubro": "CAJA NAVIDEÑA",
-    "stock": 147
+    "subrubro": "CAJA NAVIDEÑA"
   },
   {
     "id": "276",
     "nombre": "CAMPARI x 750cc",
     "marca": "Campari",
-    "precio": 12500.0,
+    "precio": 9796.874717850002,
     "rubro": "APERITIVO",
-    "subrubro": "APERITIVO",
-    "stock": 3
+    "subrubro": "APERITIVO"
   },
   {
     "id": "373",
     "nombre": "CERVEZA GUINNESS EXTRA STOUT",
     "marca": "GUINNESS",
-    "precio": 4649.4,
+    "precio": 3643.96725,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 15
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "419",
     "nombre": "CHACABUCO CABERNET",
     "marca": "CHACABUCO",
-    "precio": 5800.0,
+    "precio": 4545.74952975,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 1
+    "subrubro": "CABERNET"
   },
   {
     "id": "423",
     "nombre": "CHAMPAGNE VEUVE CLICQUOT",
     "marca": "Champagne Clicquot",
-    "precio": 208669.73,
+    "precio": 163544.900574,
     "rubro": "ESPUMANTE",
-    "subrubro": "CHAMPPAGNE",
-    "stock": 3
+    "subrubro": "CHAMPPAGNE"
   },
   {
     "id": "427",
     "nombre": "CHANDON EXTRA BRUT 187",
     "marca": "Chandon",
-    "precio": 6532.66,
+    "precio": 5119.9732155,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 7
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "432",
     "nombre": "CHOCOLART  ARANDANOS CON CHOCOLATE",
     "marca": "Chocolart",
-    "precio": 4880.64,
+    "precio": 3825.2015999999994,
     "rubro": "CHOCOLATES",
-    "subrubro": "CHOCOLATES",
-    "stock": 18
+    "subrubro": "CHOCOLATES"
   },
   {
     "id": "435",
     "nombre": "CHOCOLART ALMENDRAS CON CHOCOLATE CON LECHE",
     "marca": "Chocolart",
-    "precio": 4575.6,
+    "precio": 3586.1265,
     "rubro": "CHOCOLATES",
-    "subrubro": "CHOCOLATES",
-    "stock": 4
+    "subrubro": "CHOCOLATES"
   },
   {
     "id": "436",
     "nombre": "CHOCOLART ALMENDRAS CON CHOCOLATE AMARGO",
     "marca": "Chocolart",
-    "precio": 4600.0,
+    "precio": 3605.2499373,
     "rubro": "CHOCOLATES",
-    "subrubro": "CHOCOLATES",
-    "stock": 1
+    "subrubro": "CHOCOLATES"
   },
   {
     "id": "437",
     "nombre": "CHOCOLART AVELLANAS CON CHOCOLATE",
     "marca": "Chocolart",
-    "precio": 4880.64,
+    "precio": 3825.2015999999994,
     "rubro": "CHOCOLATES",
-    "subrubro": "CHOCOLATES",
-    "stock": 11
+    "subrubro": "CHOCOLATES"
   },
   {
     "id": "443",
     "nombre": "CHOCOLART NARANJA COBERTURA SEMIAMARGA",
     "marca": "Chocolart",
-    "precio": 4880.64,
+    "precio": 3825.2015999999994,
     "rubro": "CHOCOLATES",
-    "subrubro": "CHOCOLATES",
-    "stock": 9
+    "subrubro": "CHOCOLATES"
   },
   {
     "id": "466",
     "nombre": "CINZANO BIANCO  AMERICANO",
     "marca": "Cinzano",
-    "precio": 6990.0,
+    "precio": 5478.412343249999,
     "rubro": "APERITIVO",
-    "subrubro": "APERITIVO",
-    "stock": 1
+    "subrubro": "APERITIVO"
   },
   {
     "id": "468",
     "nombre": "CINZANO ROSSO",
     "marca": "Cinzano",
-    "precio": 11125.76,
+    "precio": 8719.8144,
     "rubro": "APERITIVO",
-    "subrubro": "APERITIVO",
-    "stock": 6
+    "subrubro": "APERITIVO"
   },
   {
     "id": "482",
     "nombre": "COCA COLA LATA 310 ",
     "marca": "Coca",
-    "precio": 1400.0,
+    "precio": 1097.25059565,
     "rubro": "GASEOSA",
-    "subrubro": "GASEOSA",
-    "stock": 17
+    "subrubro": "GASEOSA"
   },
   {
     "id": "496",
     "nombre": "CONO SUR RESERVA ESPECIAL CARMENERE",
     "marca": "Trivento",
-    "precio": 23091.2,
+    "precio": 18097.727999999996,
     "rubro": "VINO",
-    "subrubro": "CARMENERE",
-    "stock": 19
+    "subrubro": "CARMENERE"
   },
   {
     "id": "511",
     "nombre": "CRISTAL WINE COPA BRUNELLO",
     "marca": "CRISTAL WINE",
-    "precio": 5667.84,
+    "precio": 4442.169599999999,
     "rubro": "CRISTAL",
-    "subrubro": "CRISTAL",
-    "stock": 47
+    "subrubro": "CRISTAL"
   },
   {
     "id": "557",
     "nombre": "CYNAR 70 PREMIUM",
     "marca": "Cynar",
-    "precio": 15760.4,
+    "precio": 12352.213500000002,
     "rubro": "APERITIVO",
-    "subrubro": "APERITIVO",
-    "stock": 7
+    "subrubro": "APERITIVO"
+  },
+  {
+    "id": "661",
+    "nombre": "661",
+    "marca": "661",
+    "precio": 849.6163499999999,
+    "rubro": "661",
+    "subrubro": "661"
   },
   {
     "id": "663",
     "nombre": "ESPUMANTE BARON B BRUT NATURE",
     "marca": "Baron B",
-    "precio": 46500.0,
+    "precio": 36444.37559565,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 9
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "664",
     "nombre": "ESPUMANTE BARON B BRUT ROSE",
     "marca": "Baron B",
-    "precio": 43900.0,
+    "precio": 34406.625407550004,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 1
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "665",
     "nombre": "ESPUMANTE BARON B EXTRA BRUT",
     "marca": "Baron B",
-    "precio": 43559.81,
+    "precio": 34140.001401,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 14
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "678",
     "nombre": "ESPUMANTE ENCUENTRO PINOT NOIR  BRUT NAT",
     "marca": "Rutini Wines",
-    "precio": 34112.0,
+    "precio": 26735.28,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 12
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "680",
     "nombre": "ESPUMANTE LUIGI BOSCA BRUT NATURE",
     "marca": "Luigi Bosca",
-    "precio": 26945.2,
+    "precio": 21118.300499999998,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 12
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "681",
     "nombre": "ESPUMANTE LUIGI BOSCA  EXTRA BRUT",
     "marca": "Luigi Bosca",
-    "precio": 25928.4,
+    "precio": 20321.3835,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 22
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "682",
     "nombre": "ESPUMANTE MARIA BRUT NATURE",
     "marca": "Septima",
-    "precio": 14235.2,
+    "precio": 11156.837999999998,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 3
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "684",
     "nombre": "ESPUMANTE MARIA CODORNIU EXTRA BRUT",
     "marca": "Septima",
-    "precio": 14000.0,
+    "precio": 10972.499529749999,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 9
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "688",
     "nombre": "ESPUMANTE RUTINI EXTRA BRUT",
     "marca": "Rutini Wines",
-    "precio": 30500.0,
+    "precio": 23904.37503135,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 4
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "694",
     "nombre": "ESPUMANTE SOTTANO  EXTRA BRUT",
     "marca": "Sottano",
-    "precio": 14300.0,
+    "precio": 11207.6247492,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 1
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "702",
     "nombre": "ESPUMANTE TRUMPETER EXTRA BRUT",
     "marca": "Rutini Wines",
-    "precio": 13726.8,
+    "precio": 10758.379500000001,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 7
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "743",
     "nombre": "ESTRELLA UNICA MALBEC",
     "marca": "Estrella de Los Andes",
-    "precio": 21047.76,
+    "precio": 16496.1819,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "746",
     "nombre": "ESTUCHE  LO DE GRANADO 2 BOTELLAS",
     "marca": "LDG",
-    "precio": 6000.0,
-    "rubro": "Merchandising",
-    "subrubro": "Merchandising",
-    "stock": 38
+    "precio": 4702.50053295,
+    "rubro": "MERCHANDISING",
+    "subrubro": "MERCHANDISING"
   },
   {
     "id": "786",
     "nombre": "LUIGI BOSCA DE SANGRE MALBEC DOC",
     "marca": "Luigi Bosca",
-    "precio": 38310.4,
+    "precio": 30025.775999999994,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 9
+    "subrubro": "MALBEC"
   },
   {
     "id": "801",
     "nombre": "ESTUCHE RUTINI CABERNET MALBEC X 2 BOTEL",
     "marca": "Rutini Wines",
-    "precio": 52480.0,
+    "precio": 41131.200000000004,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 5
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "802",
     "nombre": "ESTUCHE RUTINI CABERNET MALBEC X1 BOT",
     "marca": "Rutini Wines",
-    "precio": 32012.8,
+    "precio": 25090.032,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 12
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "807",
     "nombre": "ESTUCHE TRUMPETER MALBEC 2 BOT.",
     "marca": "Rutini Wines",
-    "precio": 28864.0,
+    "precio": 22622.160000000003,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 10
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "837",
     "nombre": "GANCIA AMERICANO",
     "marca": "Gancia",
-    "precio": 8900.0,
+    "precio": 6975.37465515,
     "rubro": "APERITIVO",
-    "subrubro": "APERITIVO",
-    "stock": 3
+    "subrubro": "APERITIVO"
   },
   {
     "id": "841",
     "nombre": "GARRAPIÑADA KING",
     "marca": "King",
-    "precio": 965.96,
+    "precio": 757.07115,
     "rubro": "MANI",
-    "subrubro": "MANI",
-    "stock": 27
+    "subrubro": "MANI"
   },
   {
     "id": "854",
     "nombre": "GIN GORDON ´S",
     "marca": "GORDON ´S",
-    "precio": 18081.0,
+    "precio": 14170.98375,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 10
+    "subrubro": "GIN"
   },
   {
     "id": "865",
     "nombre": "GIN TANQUERAY INGLES",
     "marca": "Tanqueray",
-    "precio": 40811.4,
+    "precio": 31985.934749999997,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 8
+    "subrubro": "GIN"
   },
   {
     "id": "881",
     "nombre": "GRAN SOMBRERO CABERNET FRANC",
     "marca": "Huentala",
-    "precio": 20992.0,
+    "precio": 16452.48,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 13
+    "subrubro": "CABERNET"
   },
   {
     "id": "882",
     "nombre": "GRAN SOMBRERO MALBEC",
     "marca": "Huentala",
-    "precio": 20992.0,
+    "precio": 16452.48,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 8
+    "subrubro": "MALBEC"
   },
   {
     "id": "902",
     "nombre": "HESPERIDINA",
     "marca": "Hesperidina",
-    "precio": 14617.88,
+    "precio": 11456.761569,
     "rubro": "HESPERIDINA",
-    "subrubro": "HESPERIDINA",
-    "stock": 2
+    "subrubro": "HESPERIDINA"
   },
   {
     "id": "925",
     "nombre": "INDAMA CHARDONNAY-VIOGNIER",
     "marca": "Terra Camiare",
-    "precio": 8236.08,
+    "precio": 6455.0277,
     "rubro": "VINO",
-    "subrubro": "CHARDONNAY",
-    "stock": 1
+    "subrubro": "CHARDONNAY"
   },
   {
     "id": "936",
     "nombre": "JEREZ EL ABUELO",
     "marca": "El Abuelo",
-    "precio": 3500.0,
+    "precio": 2743.1245611,
     "rubro": "LICOR",
-    "subrubro": "Jerez",
-    "stock": 2
+    "subrubro": "JEREZ"
   },
   {
     "id": "973",
     "nombre": "LA LINDA CHARDONNAY",
     "marca": "Luigi Bosca",
-    "precio": 10391.04,
+    "precio": 8143.9776,
     "rubro": "VINO",
-    "subrubro": "CHARDONNAY",
-    "stock": 11
+    "subrubro": "CHARDONNAY"
   },
   {
     "id": "975",
     "nombre": "LA LINDA EXTRA BRUT",
     "marca": "Luigi Bosca",
-    "precio": 13900.0,
+    "precio": 10894.1253135,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 12
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "976",
     "nombre": "LA LINDA MALBEC",
     "marca": "Luigi Bosca",
-    "precio": 10391.04,
+    "precio": 8143.9776,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 12
+    "subrubro": "MALBEC"
   },
   {
     "id": "1020",
     "nombre": "LICOR CUSENIER FRUTILLA",
     "marca": "CUSENIER",
-    "precio": 3900.0,
+    "precio": 3056.6252821499993,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 2
+    "subrubro": "LICORES"
   },
   {
     "id": "1049",
     "nombre": "LOS PASOS MALBEC",
     "marca": "Septima",
-    "precio": 6000.0,
+    "precio": 4702.50053295,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "1061",
     "nombre": "LUIGI BOSCA CABERNET",
     "marca": "Luigi Bosca",
-    "precio": 17843.2,
+    "precio": 13984.608000000002,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 28
+    "subrubro": "CABERNET"
   },
   {
     "id": "1064",
     "nombre": "LUIGI BOSCA DE SANGRE BLEND ",
     "marca": "Luigi Bosca",
-    "precio": 23500.0,
+    "precio": 18418.1246238,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 16
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "1070",
     "nombre": "LUIGI BOSCA MALBEC",
     "marca": "Luigi Bosca",
-    "precio": 17843.2,
+    "precio": 13984.608000000002,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 15
+    "subrubro": "MALBEC"
   },
   {
     "id": "1074",
     "nombre": "LUIGI BOSCA PINOT",
     "marca": "Luigi Bosca",
-    "precio": 20467.2,
+    "precio": 16041.167999999998,
     "rubro": "VINO",
-    "subrubro": "PINOT NOIR",
-    "stock": 22
+    "subrubro": "PINOT NOIR"
   },
   {
     "id": "1089",
     "nombre": "MALIBU",
     "marca": "PERNORD RICARD",
-    "precio": 18500.0,
+    "precio": 14499.375250799998,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 2
+    "subrubro": "LICORES"
   },
   {
     "id": "1095",
     "nombre": "MANI KING CON CHOCOLATE",
     "marca": "King",
-    "precio": 2706.0,
+    "precio": 2120.8275000000003,
     "rubro": "MANI",
-    "subrubro": "MANI",
-    "stock": 106
+    "subrubro": "MANI"
   },
   {
     "id": "1096",
     "nombre": "MANI KING  SABOR JAMON",
     "marca": "King",
-    "precio": 2200.0,
+    "precio": 1724.24946705,
     "rubro": "MANI",
-    "subrubro": "MANI",
-    "stock": 4
+    "subrubro": "MANI"
   },
   {
     "id": "1099",
     "nombre": "MANI KING SABOR PIZZA",
     "marca": "King",
-    "precio": 2200.0,
+    "precio": 1724.24946705,
     "rubro": "MANI",
-    "subrubro": "MANI",
-    "stock": 4
+    "subrubro": "MANI"
   },
   {
     "id": "1100",
     "nombre": "MANI KING SABOR QUESO",
     "marca": "King",
-    "precio": 2200.0,
+    "precio": 1724.24946705,
     "rubro": "MANI",
-    "subrubro": "MANI",
-    "stock": 5
+    "subrubro": "MANI"
   },
   {
     "id": "1102",
     "nombre": "MANI KING TOSTADO SIN SAL X 100",
     "marca": "King",
-    "precio": 1859.76,
+    "precio": 1457.5869,
     "rubro": "MANI",
-    "subrubro": "MANI",
-    "stock": 14
+    "subrubro": "MANI"
   },
   {
     "id": "1112",
     "nombre": "MARTES 13 ",
     "marca": "Domingo",
-    "precio": 14850.0,
+    "precio": 11638.687437300001,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "1114",
     "nombre": "MARTINI BIANCO",
     "marca": "Martini",
-    "precio": 12070.4,
+    "precio": 9460.176,
     "rubro": "APERITIVO",
-    "subrubro": "APERITIVO",
-    "stock": 6
+    "subrubro": "APERITIVO"
   },
   {
     "id": "1115",
     "nombre": "MARTINI DRY X 950 CC",
     "marca": "Martini",
-    "precio": 10500.0,
+    "precio": 8229.37496865,
     "rubro": "APERITIVO",
-    "subrubro": "APERITIVO",
-    "stock": 3
+    "subrubro": "APERITIVO"
   },
   {
     "id": "1116",
     "nombre": "MARTINI ROSSO",
     "marca": "Martini",
-    "precio": 12070.4,
+    "precio": 9460.176,
     "rubro": "APERITIVO",
-    "subrubro": "APERITIVO",
-    "stock": 4
+    "subrubro": "APERITIVO"
   },
   {
     "id": "1121",
     "nombre": "MIL DEMONIOS ASSAMBLAGE",
     "marca": "Mil Demonios",
-    "precio": 25190.4,
+    "precio": 19742.976,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 6
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "1122",
     "nombre": "MIL DEMONIOS BRUT NATURE",
     "marca": "Mil Demonios",
-    "precio": 27300.0,
+    "precio": 21396.374404349997,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 1
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "1123",
     "nombre": "MIL DEMONIOS MALBEC",
     "marca": "Mil Demonios",
-    "precio": 25190.4,
+    "precio": 19742.976,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 6
+    "subrubro": "MALBEC"
   },
   {
     "id": "1126",
     "nombre": "MOSCATO EL ABUELO",
     "marca": "El Abuelo",
-    "precio": 5500.0,
+    "precio": 4310.62559565,
     "rubro": "VINO",
-    "subrubro": "Moscato",
-    "stock": 1
+    "subrubro": "MOSCATO"
   },
   {
     "id": "1146",
     "nombre": "PALA CORAZON EXTRAVIADO",
     "marca": "Niven Wines",
-    "precio": 15760.4,
+    "precio": 12352.213500000002,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 10
+    "subrubro": "MALBEC"
   },
   {
     "id": "1153",
     "nombre": "CORAZON VALIENTE C SAU / MERLOT R NEGRO",
     "marca": "Niven Wines",
-    "precio": 17488.96,
+    "precio": 13706.972399999999,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 2
+    "subrubro": "BLEND"
   },
   {
     "id": "1156",
     "nombre": "PAN DULCE CON CHIP EN CAJA",
     "marca": "Deubel",
-    "precio": 6100.8,
-    "rubro": "Panificacion",
-    "subrubro": "Panificacion",
-    "stock": 2
+    "precio": 4781.5019999999995,
+    "rubro": "PANIFICACION",
+    "subrubro": "PANIFICACION"
   },
   {
     "id": "1157",
     "nombre": "PAN DULCE DEUBEL CON FRUTAS X 400GR",
     "marca": "Deubel",
-    "precio": 4067.2,
-    "rubro": "Panificacion",
-    "subrubro": "Panificacion",
-    "stock": 9
+    "precio": 3187.668,
+    "rubro": "PANIFICACION",
+    "subrubro": "PANIFICACION"
   },
   {
     "id": "1158",
     "nombre": "PAN DULCE DEUBEL CON CHIP CHOCOLATE x 400 grms",
     "marca": "Deubel",
-    "precio": 4575.6,
-    "rubro": "Panificacion",
-    "subrubro": "Panificacion",
-    "stock": 33
+    "precio": 3586.1265,
+    "rubro": "PANIFICACION",
+    "subrubro": "PANIFICACION"
   },
   {
     "id": "1195",
     "nombre": "PONT LEVEQUE ACETO CONCENTRADO X 250",
     "marca": "PONT LEVEQUE ",
-    "precio": 11300.0,
+    "precio": 8856.3751254,
     "rubro": "ACEITE",
-    "subrubro": "ACEITE",
-    "stock": 1
+    "subrubro": "ACEITE"
   },
   {
     "id": "1207",
     "nombre": "PRISIONERO CHENIN DULCE",
     "marca": "Prisionero",
-    "precio": 7000.0,
+    "precio": 5486.250407549999,
     "rubro": "VINO",
-    "subrubro": "CHENING DULCE",
-    "stock": 1
+    "subrubro": "CHENING DULCE"
   },
   {
     "id": "1212",
     "nombre": "RESERVADO CONCHA Y TORO  CABERNET",
     "marca": "Concha y Toro",
-    "precio": 4700.0,
+    "precio": 3683.6254388999996,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 1
+    "subrubro": "CABERNET"
   },
   {
     "id": "1213",
     "nombre": "RESERVADO CONCHA Y TORO MALBEC",
     "marca": "Concha y Toro",
-    "precio": 4778.96,
+    "precio": 3745.5099000000005,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "1233",
     "nombre": "RETO MALBEC",
     "marca": "Vicentin FW",
-    "precio": 9500.0,
+    "precio": 7445.625094049999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 9
+    "subrubro": "MALBEC"
   },
   {
     "id": "1236",
     "nombre": "RON HAVANNA  CLUB AÑEJO ESPECIAL",
     "marca": "HAVANNA",
-    "precio": 17800.0,
+    "precio": 13950.750595649999,
     "rubro": "RON",
-    "subrubro": "RON",
-    "stock": 1
+    "subrubro": "RON"
   },
   {
     "id": "1238",
     "nombre": "RON HAVANNA CLUB BLANCO 3 AÑOS X 750",
     "marca": "HAVANNA",
-    "precio": 17500.0,
+    "precio": 13715.6253762,
     "rubro": "RON",
-    "subrubro": "RON",
-    "stock": 1
+    "subrubro": "RON"
   },
   {
     "id": "1254",
     "nombre": "RUTINI CABERNET FRANC-MALBEC",
     "marca": "Rutini Wines",
-    "precio": 19942.4,
+    "precio": 15629.855999999998,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 11
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "1255",
     "nombre": "RUTINI CABERNET MALBEC",
     "marca": "Rutini Wines",
-    "precio": 19942.4,
+    "precio": 15629.855999999998,
     "rubro": "VINO",
-    "subrubro": "CABERNET MALBEC",
-    "stock": 13
+    "subrubro": "CABERNET MALBEC"
   },
   {
     "id": "1259",
     "nombre": "RUTINI MALBEC",
     "marca": "Rutini Wines",
-    "precio": 37260.8,
+    "precio": 29203.151999999995,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 22
+    "subrubro": "MALBEC"
   },
   {
     "id": "1266",
     "nombre": "SACACORCHO 2 TIEMPOS NEGRO",
     "marca": "Cristal Rock",
-    "precio": 2000.0,
+    "precio": 1567.4997492,
     "rubro": "ACCESORIOS VINO",
-    "subrubro": "ACCESORIOS VINO",
-    "stock": 1
+    "subrubro": "ACCESORIOS VINO"
   },
   {
     "id": "1289",
     "nombre": "SEPTIMA OBRA MALBEC",
     "marca": "Septima",
-    "precio": 14000.0,
+    "precio": 10972.499529749999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 31
+    "subrubro": "MALBEC"
   },
   {
     "id": "1290",
     "nombre": "SEPTIMA OBRA PINOT NOIR",
     "marca": "Septima",
-    "precio": 19827.6,
+    "precio": 15539.8815,
     "rubro": "VINO",
-    "subrubro": "PINOT NOIR",
-    "stock": 3
+    "subrubro": "PINOT NOIR"
   },
   {
     "id": "1306",
     "nombre": "SHERIDAN",
     "marca": "Sheridan",
-    "precio": 56795.3,
+    "precio": 44513.31574799999,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 12
+    "subrubro": "LICORES"
   },
   {
     "id": "1307",
     "nombre": "SIDRA 1888",
     "marca": "1888",
-    "precio": 8921.6,
+    "precio": 6992.304000000001,
     "rubro": "SIDRA",
-    "subrubro": "SIDRA",
-    "stock": 20
+    "subrubro": "SIDRA"
   },
   {
     "id": "1321",
     "nombre": "SIN REGLAS ASSAMBLAGE",
     "marca": "Mil Demonios",
-    "precio": 15744.0,
+    "precio": 12339.359999999999,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 6
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "1322",
     "nombre": "SIN REGLAS MALBEC",
     "marca": "Mil Demonios",
-    "precio": 15744.0,
+    "precio": 12339.359999999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 6
+    "subrubro": "MALBEC"
   },
   {
     "id": "1326",
     "nombre": "SMIRNOFF COMUN",
     "marca": "Smirnoff",
-    "precio": 10848.6,
+    "precio": 8502.59025,
     "rubro": "VODKA",
-    "subrubro": "VODKA",
-    "stock": 10
+    "subrubro": "VODKA"
   },
   {
     "id": "1328",
     "nombre": "SMIRNOFF RASPBERRY",
     "marca": "Smirnoff",
-    "precio": 11881.8,
+    "precio": 9312.36075,
     "rubro": "VODKA",
-    "subrubro": "VODKA",
-    "stock": 8
+    "subrubro": "VODKA"
   },
   {
     "id": "1336",
     "nombre": "SOMBRERO CABERNET FRANC",
     "marca": "Huentala",
-    "precio": 13120.0,
+    "precio": 10282.800000000001,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 2
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "1339",
     "nombre": "SOMBRERO SAVIGNON BLANC",
     "marca": "Huentala",
-    "precio": 11693.2,
+    "precio": 9164.545499999998,
     "rubro": "VINO",
-    "subrubro": "SAVIGNON BLANC",
-    "stock": 1
+    "subrubro": "SAVIGNON BLANC"
   },
   {
     "id": "1353",
     "nombre": "SOTTANO RESERVA MALBEC",
     "marca": "Sottano",
-    "precio": 15760.4,
+    "precio": 12352.213500000002,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 5
+    "subrubro": "MALBEC"
   },
   {
     "id": "1359",
     "nombre": "TAPIZ CLASICO MALBEC",
     "marca": "Tapiz",
-    "precio": 11086.4,
+    "precio": 8688.966,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 7
+    "subrubro": "MALBEC"
   },
   {
     "id": "1360",
     "nombre": "TAPIZ RESERVA MALBEC",
     "marca": "Tapiz",
-    "precio": 17843.2,
+    "precio": 13984.608000000002,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 4
+    "subrubro": "MALBEC"
   },
   {
     "id": "1373",
     "nombre": "TIA MARIA CREAM",
     "marca": "Tia Maria",
-    "precio": 18892.8,
+    "precio": 14807.232,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 4
+    "subrubro": "LICORES"
   },
   {
     "id": "1374",
     "nombre": "TIA MARIA ORIGINAL",
     "marca": "Tia Maria",
-    "precio": 13500.0,
+    "precio": 10580.62459245,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 2
+    "subrubro": "LICORES"
   },
   {
     "id": "1382",
     "nombre": "TIERRA DEL FUEGO RESERVA CABERNET",
     "marca": "TIERRA DEL FUEGO",
-    "precio": 12000.0,
+    "precio": 9404.99978055,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 3
+    "subrubro": "CABERNET"
   },
   {
     "id": "1383",
     "nombre": "TIERRA DEL FUEGO MALBEC",
     "marca": "TIERRA DEL FUEGO",
-    "precio": 7700.0,
+    "precio": 6034.8750627,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "1384",
     "nombre": "TIERRA DEL FUEGO RESERVA MALBEC",
     "marca": "TIERRA DEL FUEGO",
-    "precio": 12201.6,
+    "precio": 9563.003999999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "1409",
     "nombre": "TRES PLUMAS CAFE AL COÑAC",
     "marca": "Tres Plumas",
-    "precio": 9676.0,
+    "precio": 7583.5650000000005,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 3
+    "subrubro": "LICORES"
   },
   {
     "id": "1412",
     "nombre": "TRES PLUMAS CAFE AL WHISKY",
     "marca": "Tres Plumas",
-    "precio": 9676.0,
+    "precio": 7583.5650000000005,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 3
+    "subrubro": "LICORES"
   },
   {
     "id": "1415",
     "nombre": "TRES PLUMAS LICOR DE CHOCOLATE",
     "marca": "Tres Plumas",
-    "precio": 10168.0,
+    "precio": 7969.17,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 3
+    "subrubro": "LICORES"
   },
   {
     "id": "1423",
     "nombre": "TRIBU MALBEC",
     "marca": "Trivento",
-    "precio": 5592.4,
+    "precio": 4383.043500000001,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "1431",
     "nombre": "TRIVENTO GOLDEN  RESERVE MALBEC",
     "marca": "Trivento",
-    "precio": 20336.0,
+    "precio": 15938.34,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "1433",
     "nombre": "TRIVENTO GOLDEN RESERVE CHARDONNAY",
     "marca": "Trivento",
-    "precio": 20336.0,
+    "precio": 15938.34,
     "rubro": "VINO",
-    "subrubro": "CHARDONNAY",
-    "stock": 1
+    "subrubro": "CHARDONNAY"
   },
   {
     "id": "1441",
     "nombre": "TRUMPETER CHARDONNAY",
     "marca": "Rutini Wines",
-    "precio": 11571.84,
+    "precio": 9069.4296,
     "rubro": "VINO",
-    "subrubro": "CHARDONNAY",
-    "stock": 1
+    "subrubro": "CHARDONNAY"
   },
   {
     "id": "1452",
     "nombre": "TRUMPETER RESERVA ROSE",
     "marca": "Rutini Wines",
-    "precio": 14500.0,
+    "precio": 11364.374467049998,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 1
+    "subrubro": "ROSADO"
   },
   {
     "id": "1456",
     "nombre": "TRUMPETER SAUVIGNON BLANC",
     "marca": "Rutini Wines",
-    "precio": 9971.2,
+    "precio": 7814.927999999999,
     "rubro": "VINO",
-    "subrubro": "SAVIGNON BLANC",
-    "stock": 13
+    "subrubro": "SAVIGNON BLANC"
   },
   {
     "id": "1485",
     "nombre": "BACKBONE",
     "marca": "Vicentin FW",
-    "precio": 14540.24,
+    "precio": 11395.9131,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 4
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "1493",
     "nombre": "VICENTIN CANALLA",
     "marca": "Vicentin FW",
-    "precio": 14900.0,
+    "precio": 11677.8751881,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 2
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "1528",
     "nombre": "VIÑA POMAL CRIANZA",
     "marca": "VIÑA POMAL",
-    "precio": 25085.44,
+    "precio": 19660.7136,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 3
+    "subrubro": "MALBEC"
   },
   {
     "id": "1578",
     "nombre": "WHISKY J WALKER GREEN",
     "marca": "J WALKER",
-    "precio": 206123.4,
+    "precio": 161549.21475,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 1
+    "subrubro": "WHISKY"
   },
   {
     "id": "1581",
     "nombre": "WHISKY J&B ",
     "marca": "J&B",
-    "precio": 29900.0,
+    "precio": 23434.124592449996,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 5
+    "subrubro": "WHISKY"
   },
   {
     "id": "1583",
     "nombre": "WHISKY JACK DANIELS 700",
     "marca": "JACK DANIEL",
-    "precio": 62037.33,
+    "precio": 48621.75707400001,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 1
+    "subrubro": "WHISKY"
   },
   {
     "id": "1588",
     "nombre": "WHISKY JOHNNIE WALKER BLUE LABEL",
     "marca": "J WALKER",
-    "precio": 490675.295,
+    "precio": 496605.8979749999,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 2
+    "subrubro": "WHISKY"
   },
   {
     "id": "1589",
     "nombre": "WHISKY JOHNNIE WALKER GOLD LABEL RESERVE",
     "marca": "J WALKER",
-    "precio": 113000.0,
+    "precio": 88563.74996865,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 3
+    "subrubro": "WHISKY"
   },
   {
     "id": "1591",
     "nombre": "WHISKY JOHNNIE WALKER RED LABEL 750",
     "marca": "J WALKER",
-    "precio": 40587.88,
+    "precio": 31810.754398499994,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 13
+    "subrubro": "WHISKY"
   },
   {
     "id": "1596",
     "nombre": "WHISKY JIM BEAM WHITE LABEL",
     "marca": "Norton",
-    "precio": 44637.52,
+    "precio": 34984.656299999995,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 1
+    "subrubro": "WHISKY"
   },
   {
     "id": "1599",
     "nombre": "WHISKY JOHNNIE WALKER BLACK LABEL 750",
     "marca": "J WALKER",
-    "precio": 74061.81,
+    "precio": 58045.943274000005,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 12
+    "subrubro": "WHISKY"
   },
   {
     "id": "1602",
     "nombre": "WHISKY JOHNNIE WALKER RED LABEL 1LITRO",
     "marca": "J WALKER",
-    "precio": 46500.0,
+    "precio": 36444.37559565,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 3
+    "subrubro": "WHISKY"
   },
   {
     "id": "1610",
     "nombre": "WHISKY OLD PARR 12 AÑOS",
     "marca": "OLD PARR",
-    "precio": 60500.0,
+    "precio": 47416.8751254,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 2
+    "subrubro": "WHISKY"
   },
   {
     "id": "1622",
     "nombre": "WHISKY WHITE HORSE",
     "marca": "WHITE HORSE",
-    "precio": 18400.0,
+    "precio": 14420.9997492,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 2
+    "subrubro": "WHISKY"
   },
   {
     "id": "1632",
     "nombre": "ZORRO CABERNET",
     "marca": "Huentala",
-    "precio": 6927.36,
+    "precio": 5429.3184,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 1
+    "subrubro": "CABERNET"
   },
   {
     "id": "1642",
     "nombre": "TAPIZ CLASICO PINOT",
     "marca": "Tapiz",
-    "precio": 12595.2,
+    "precio": 9871.488,
     "rubro": "VINO",
-    "subrubro": "PINOT NOIR",
-    "stock": 6
+    "subrubro": "PINOT NOIR"
   },
   {
     "id": "1658",
     "nombre": "ESCABECHE DUO SILVESTRE CIERVO",
     "marca": "DUO SILVESTRE",
-    "precio": 12710.0,
+    "precio": 9961.462500000001,
     "rubro": "ESCABECHE",
-    "subrubro": "ESCABECHE",
-    "stock": 2
+    "subrubro": "ESCABECHE"
   },
   {
     "id": "1660",
     "nombre": "ESCABECHE DUO SILVESTRE CORDERO",
     "marca": "DUO SILVESTRE",
-    "precio": 12710.0,
+    "precio": 9961.462500000001,
     "rubro": "ESCABECHE",
-    "subrubro": "ESCABECHE",
-    "stock": 2
+    "subrubro": "ESCABECHE"
   },
   {
     "id": "1662",
     "nombre": "ESCABECHE DUO SILVESTRE CONEJO",
     "marca": "DUO SILVESTRE",
-    "precio": 12710.0,
+    "precio": 9961.462500000001,
     "rubro": "ESCABECHE",
-    "subrubro": "ESCABECHE",
-    "stock": 2
+    "subrubro": "ESCABECHE"
   },
   {
     "id": "1664",
     "nombre": "ESCABECHE DUO SILVESTRE JABALI",
     "marca": "DUO SILVESTRE",
-    "precio": 12710.0,
+    "precio": 9961.462500000001,
     "rubro": "ESCABECHE",
-    "subrubro": "ESCABECHE",
-    "stock": 4
+    "subrubro": "ESCABECHE"
   },
   {
     "id": "1676",
     "nombre": "TRES PLUMAS LICOR DE DULCE DE LECHE",
     "marca": "Tres Plumas",
-    "precio": 10168.0,
+    "precio": 7969.17,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 3
+    "subrubro": "LICORES"
   },
   {
     "id": "1677",
     "nombre": "BAILEYS CREAM",
     "marca": "Baileys",
-    "precio": 40985.58,
+    "precio": 32122.4517735,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 6
+    "subrubro": "LICORES"
   },
   {
     "id": "1700",
     "nombre": "CONO SUR  RESERVA ESPECIAL PINOT NOIR",
     "marca": "Trivento",
-    "precio": 23091.2,
+    "precio": 18097.727999999996,
     "rubro": "VINO",
-    "subrubro": "PINOT NOIR",
-    "stock": 20
+    "subrubro": "PINOT NOIR"
   },
   {
     "id": "1766",
     "nombre": "SEPTIMA TIERRA MALBEC DE AGRELO 1050 MSNM",
     "marca": "Septima",
-    "precio": 16500.0,
+    "precio": 12931.875501599998,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "1775",
     "nombre": "SOCAVONES WHITE BLEND",
     "marca": "Terra Camiare",
-    "precio": 14743.6,
+    "precio": 11555.296499999999,
     "rubro": "VINO",
-    "subrubro": "BLEND BLANCO",
-    "stock": 4
+    "subrubro": "BLEND BLANCO"
   },
   {
     "id": "1813",
     "nombre": "NORTON DOC MALBEC NEW",
     "marca": "Norton",
-    "precio": 9659.6,
+    "precio": 7570.711499999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 4
+    "subrubro": "MALBEC"
   },
   {
     "id": "1830",
     "nombre": "FINCA LA ANITA SYRAH",
     "marca": "FINCA LA ANITA",
-    "precio": 20000.0,
+    "precio": 15675.000062699999,
     "rubro": "VINO",
-    "subrubro": "SYRAH",
-    "stock": 3
+    "subrubro": "SYRAH"
   },
   {
     "id": "1867",
     "nombre": "MIL DEMONIOS SEMILLON",
     "marca": "Mil Demonios",
-    "precio": 21100.0,
+    "precio": 16537.125438899995,
     "rubro": "VINO",
-    "subrubro": "SEMILLON",
-    "stock": 3
+    "subrubro": "SEMILLON"
   },
   {
     "id": "1868",
     "nombre": "MIL DEMONIOS ROSE",
     "marca": "Mil Demonios",
-    "precio": 21454.48,
+    "precio": 16814.9487,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 6
+    "subrubro": "ROSADO"
   },
   {
     "id": "1945",
     "nombre": "FILENI CABERNET",
     "marca": "FILENI",
-    "precio": 14500.0,
+    "precio": 11364.374467049998,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 1
+    "subrubro": "CABERNET"
   },
   {
     "id": "1950",
     "nombre": "LA ELEGIDA RESERVA MALBEC",
     "marca": "LDG",
-    "precio": 3410.0,
+    "precio": 2672.5871238,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "1956",
     "nombre": "WHISKY CUTTY SARK ",
     "marca": " CUTTY SARK",
-    "precio": 45900.0,
+    "precio": 35974.12515675,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 1
+    "subrubro": "WHISKY"
   },
   {
     "id": "1957",
     "nombre": "TRIVENTO ARGENTINA WHITE MALBEC",
     "marca": "Trivento",
-    "precio": 9659.6,
+    "precio": 7570.711499999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 13
+    "subrubro": "MALBEC"
   },
   {
     "id": "1969",
     "nombre": "SCHWEPPERS TONICA LATA 310",
     "marca": "Coca",
-    "precio": 1500.0,
+    "precio": 1175.6248119,
     "rubro": "GASEOSA",
-    "subrubro": "GASEOSA",
-    "stock": 5
+    "subrubro": "GASEOSA"
   },
   {
     "id": "1973",
     "nombre": "CASILLERO DEL DIABLO MALBEC",
     "marca": "Trivento",
-    "precio": 8567.372,
+    "precio": 6714.677397449998,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "1975",
     "nombre": "CASILLERO DEL DIABLO CHARDONNAY",
     "marca": "Trivento",
-    "precio": 9000.0,
+    "precio": 7053.750156750001,
     "rubro": "VINO",
-    "subrubro": "CHARDONNAY",
-    "stock": 1
+    "subrubro": "CHARDONNAY"
   },
   {
     "id": "1994",
     "nombre": "SCHWEPPERS TONICA 1500",
     "marca": "Coca",
-    "precio": 3100.0,
+    "precio": 2429.6251254,
     "rubro": "GASEOSA",
-    "subrubro": "GASEOSA",
-    "stock": 5
+    "subrubro": "GASEOSA"
   },
   {
     "id": "1997",
     "nombre": "CRISTAL WINE VASO WHISKY ",
     "marca": "CRISTAL WINE",
-    "precio": 4817.66,
+    "precio": 3775.8441599999996,
     "rubro": "CRISTAL",
-    "subrubro": "CRISTAL",
-    "stock": 10
+    "subrubro": "CRISTAL"
   },
   {
     "id": "2009",
     "nombre": "VODKA VARSOVIA MANZANA VERDE",
     "marca": "MOSQUITA MUERTA",
-    "precio": 99999.0,
+    "precio": 78374.21625,
     "rubro": "VODKA",
-    "subrubro": "VODKA",
-    "stock": 1
+    "subrubro": "VODKA"
   },
   {
     "id": "2010",
     "nombre": "VODKA VARSOVIA FRAMBUESA",
     "marca": "MOSQUITA MUERTA",
-    "precio": 8905.2,
+    "precio": 6979.450499999999,
     "rubro": "VODKA",
-    "subrubro": "VODKA",
-    "stock": 1
+    "subrubro": "VODKA"
   },
   {
     "id": "2011",
     "nombre": "VODKA VARSOVIA SANDIA",
     "marca": "MOSQUITA MUERTA",
-    "precio": 8905.2,
+    "precio": 6979.450499999999,
     "rubro": "VODKA",
-    "subrubro": "VODKA",
-    "stock": 1
+    "subrubro": "VODKA"
   },
   {
     "id": "2018",
     "nombre": "MIMI MALBEC MERLOT",
     "marca": "ARAUJO",
-    "precio": 12913.36,
+    "precio": 10120.8459,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 1
+    "subrubro": "BLEND"
   },
   {
     "id": "2054",
     "nombre": "CRUZAT CUVEE EXTRA BRUT",
     "marca": "CRUZAT",
-    "precio": 16000.0,
+    "precio": 12540.000564299999,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 5
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "2063",
     "nombre": "TRIVENTO ARGENTINA RESERVA CARBERNET",
     "marca": "Trivento",
-    "precio": 9500.0,
+    "precio": 7445.625094049999,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 3
+    "subrubro": "CABERNET"
   },
   {
     "id": "2080",
     "nombre": "CAÑA ARGENTINA 1 DE AGOSTO ",
     "marca": "DELLEPIANE",
-    "precio": 4001.6,
+    "precio": 3136.254,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 6
+    "subrubro": "LICORES"
   },
   {
     "id": "2110",
     "nombre": "ROMPE CORAZONES MALBEC GRAN RESERVA",
     "marca": "Niven Wines",
-    "precio": 42900.0,
+    "precio": 33622.87553295,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "2113",
     "nombre": "ROMPE CORAZONES TINTO PARAJE ALTAMIRA CAB FRANC- CABERNET",
     "marca": "Niven Wines",
-    "precio": 20946.08,
+    "precio": 16416.4902,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 2
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "2128",
     "nombre": "CUNNINGTON INDIAN TONIC 1500 ",
     "marca": "CUNNINGTON",
-    "precio": 1804.0,
+    "precio": 1413.8850000000002,
     "rubro": "GASEOSA",
-    "subrubro": "GASEOSA",
-    "stock": 2
+    "subrubro": "GASEOSA"
   },
   {
     "id": "2131",
     "nombre": "CERVEZA DON GRANADO IPA",
     "marca": "DON GRANADO",
-    "precio": 5772.8,
+    "precio": 4524.431999999999,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 10
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "2132",
     "nombre": "CERVEZA DON GRANADO NEGRA",
     "marca": "DON GRANADO",
-    "precio": 4959.36,
+    "precio": 3886.8984,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 17
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "2133",
     "nombre": "CERVEZA DON GRANADO RUBIA",
     "marca": "DON GRANADO",
-    "precio": 5248.0,
+    "precio": 4113.12,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 38
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "2182",
     "nombre": "COCA COLA 2250",
     "marca": "Coca",
-    "precio": 5067.6,
+    "precio": 3971.7314999999994,
     "rubro": "GASEOSA",
-    "subrubro": "GASEOSA",
-    "stock": 5
+    "subrubro": "GASEOSA"
   },
   {
     "id": "2184",
     "nombre": "CRISTAL WINE COPA GIN TONIC",
     "marca": "CRISTAL WINE",
-    "precio": 7084.8,
+    "precio": 5552.7119999999995,
     "rubro": "CRISTAL",
-    "subrubro": "CRISTAL",
-    "stock": 12
+    "subrubro": "CRISTAL"
   },
   {
     "id": "2185",
     "nombre": "CERVEZA DON GRANADO ROJA",
     "marca": "DON GRANADO",
-    "precio": 5248.0,
+    "precio": 4113.12,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 25
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "2193",
     "nombre": "PYRUS PERA BOTELLA 500 CC",
     "marca": "PYRUS",
-    "precio": 5000.0,
+    "precio": 3918.749373,
     "rubro": "SIDRA",
-    "subrubro": "SIDRA",
-    "stock": 4
+    "subrubro": "SIDRA"
   },
   {
     "id": "2194",
     "nombre": "PYRUS MANZANA BOTELLA 500 CC",
     "marca": "PYRUS",
-    "precio": 5248.0,
+    "precio": 4113.12,
     "rubro": "SIDRA",
-    "subrubro": "SIDRA",
-    "stock": 31
+    "subrubro": "SIDRA"
   },
   {
     "id": "2227",
     "nombre": "CERVEZA QUILMES LATA",
     "marca": "QUILMES",
-    "precio": 2500.0,
+    "precio": 1959.3746865,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 1
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "2233",
     "nombre": "CERVEZA CORONA",
     "marca": "QUILMES",
-    "precio": 3500.0,
+    "precio": 2743.1245611,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 18
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "2262",
     "nombre": "CRISTAL WINE DECANTER 950 CC",
     "marca": "CRISTAL WINE",
-    "precio": 10066.32,
+    "precio": 7889.4783,
     "rubro": "CRISTAL",
-    "subrubro": "CRISTAL",
-    "stock": 2
+    "subrubro": "CRISTAL"
   },
   {
     "id": "2264",
     "nombre": "ESPUMANTE CASILLERO DEL DIABLO EXTRA BRUT",
     "marca": "Trivento",
-    "precio": 12500.0,
+    "precio": 9796.874717850002,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 2
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "2265",
     "nombre": "FILENI CHARDONNAY",
     "marca": "FILENI",
-    "precio": 14500.0,
+    "precio": 11364.374467049998,
     "rubro": "VINO",
-    "subrubro": "CHARDONNAY",
-    "stock": 1
+    "subrubro": "CHARDONNAY"
   },
   {
     "id": "2307",
     "nombre": "AQUI ESTAMOS TODOS LOCOS TEMPRANILLO GRAN RESERVA",
     "marca": "Niven Wines",
-    "precio": 25928.4,
+    "precio": 20321.3835,
     "rubro": "VINO",
-    "subrubro": "TEMPRANILLO",
-    "stock": 4
+    "subrubro": "TEMPRANILLO"
   },
   {
     "id": "2334",
     "nombre": "ASI COMO SOY MALBEC",
     "marca": "BENDITO PECADO",
-    "precio": 8500.0,
+    "precio": 6661.875219449998,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "2335",
     "nombre": "AL OTRO LADO DEL RIO BLEND DE ORILLAS",
     "marca": "AL OTRO LADO DEL RIO",
-    "precio": 12398.4,
+    "precio": 9717.246,
     "rubro": "VINO",
-    "subrubro": "BLEND BLANCO",
-    "stock": 16
+    "subrubro": "BLEND BLANCO"
   },
   {
     "id": "2340",
     "nombre": "ESTUCHE TRIVENTO GOLDEN RESERVA MALBEC",
     "marca": "Trivento",
-    "precio": 27289.6,
+    "precio": 21388.224000000002,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 6
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "2374",
     "nombre": "CAELUM RESERVA BLEND BLANCO",
     "marca": "Caelum",
-    "precio": 16200.0,
+    "precio": 12696.750282150002,
     "rubro": "VINO",
-    "subrubro": "BLEND BLANCO",
-    "stock": 8
+    "subrubro": "BLEND BLANCO"
   },
   {
     "id": "2377",
     "nombre": "ESPECIERO BOTANICOS GOURMET/GIN FLOWER",
     "marca": "BOTANICAS GOURMET",
-    "precio": 5248.0,
+    "precio": 4113.12,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 8
+    "subrubro": "GIN"
   },
   {
     "id": "2396",
     "nombre": "CUNNINGTON POMELO 1500",
     "marca": "CUNNINGTON",
-    "precio": 2050.0,
+    "precio": 1606.6875,
     "rubro": "GASEOSA",
-    "subrubro": "GASEOSA",
-    "stock": 5
+    "subrubro": "GASEOSA"
   },
   {
     "id": "2433",
     "nombre": "INDOMABLE BLANC DE MALBEC",
     "marca": "INDOMABLE",
-    "precio": 10400.83,
+    "precio": 8151.6511395,
     "rubro": "VINO",
-    "subrubro": "BLEND BLANCO",
-    "stock": 19
+    "subrubro": "BLEND BLANCO"
   },
   {
     "id": "2466",
     "nombre": "TRIVENTO TERRUNYO MALBEC",
     "marca": "Trivento",
-    "precio": 45756.0,
+    "precio": 35861.265,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "2467",
     "nombre": "ARTESANO MALBEC ORGANICO",
     "marca": "ARTESANO",
-    "precio": 11500.0,
+    "precio": 9013.12484325,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 22
+    "subrubro": "MALBEC"
   },
   {
     "id": "2480",
     "nombre": "CAJA REBATIBLE WHISKY",
     "marca": "LDG",
-    "precio": 5500.0,
+    "precio": 4310.62559565,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 4
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "2508",
     "nombre": "SCALLA DULCE DE LECHE",
     "marca": "Scala",
-    "precio": 14200.0,
+    "precio": 11129.25053295,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 1
+    "subrubro": "LICORES"
   },
   {
     "id": "2558",
     "nombre": "SIETE FINCAS MALBEC ",
     "marca": "SIETE FINCAS",
-    "precio": 12500.0,
+    "precio": 9796.874717850002,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 23
+    "subrubro": "MALBEC"
   },
   {
     "id": "2562",
     "nombre": "SECRETO BLEND ",
     "marca": "SIETE FINCAS",
-    "precio": 21593.88,
+    "precio": 16924.20345,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 9
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "2563",
     "nombre": "SECRETO MERLOT",
     "marca": "SIETE FINCAS",
-    "precio": 20900.0,
+    "precio": 16380.374435700001,
     "rubro": "VINO",
-    "subrubro": "Merlot",
-    "stock": 5
+    "subrubro": "MERLOT"
   },
   {
     "id": "2598",
     "nombre": "MAURICIO LORCA GRAN MALBEC",
     "marca": "LORCA",
-    "precio": 32000.0,
+    "precio": 25079.999843249996,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 4
+    "subrubro": "MALBEC"
   },
   {
     "id": "2600",
     "nombre": "LORCA POETICO MALBEC",
     "marca": "LORCA",
-    "precio": 18302.4,
+    "precio": 14344.506,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 5
+    "subrubro": "MALBEC"
   },
   {
     "id": "2601",
     "nombre": "LORCA POETICO CABERNET FRANC",
     "marca": "LORCA",
-    "precio": 19827.6,
+    "precio": 15539.8815,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 1
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "2604",
     "nombre": "LORCA POETICO SYRAH",
     "marca": "LORCA",
-    "precio": 18302.4,
+    "precio": 14344.506,
     "rubro": "VINO",
-    "subrubro": "SYRAH",
-    "stock": 2
+    "subrubro": "SYRAH"
   },
   {
     "id": "2607",
     "nombre": "LORCA FANTASIA CABERNET FRANC",
     "marca": "LORCA",
-    "precio": 9400.0,
+    "precio": 7367.24959245,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 5
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "2617",
     "nombre": "LA QUEBRADA MOSCATO",
     "marca": "BODEGA BORBORE",
-    "precio": 4200.0,
+    "precio": 3291.7505016000005,
     "rubro": "VINO",
-    "subrubro": "Moscato",
-    "stock": 1
+    "subrubro": "MOSCATO"
   },
   {
     "id": "2642",
     "nombre": "CRIOLLA ARGENTINA GRANDE TINTO",
     "marca": "Niven Wines",
-    "precio": 8744.48,
+    "precio": 6853.486199999999,
     "rubro": "VINO",
-    "subrubro": "CRIOLLA",
-    "stock": 1
+    "subrubro": "CRIOLLA"
   },
   {
     "id": "2644",
     "nombre": "PALA CORAZON SAVIGNON BLANC",
     "marca": "Niven Wines",
-    "precio": 12710.0,
+    "precio": 9961.462500000001,
     "rubro": "VINO",
-    "subrubro": "SAVIGNON BLANC",
-    "stock": 1
+    "subrubro": "SAVIGNON BLANC"
   },
   {
     "id": "2646",
     "nombre": "CORAZON VALIENTE BONARDA JUJUY",
     "marca": "Niven Wines",
-    "precio": 18053.12,
+    "precio": 14149.1328,
     "rubro": "VINO",
-    "subrubro": "BONARDA",
-    "stock": 5
+    "subrubro": "BONARDA"
   },
   {
     "id": "2647",
     "nombre": "CORAZON VALIENTE BLANC DE BLANCAS JUJUY",
     "marca": "Niven Wines",
-    "precio": 17488.96,
+    "precio": 13706.972399999999,
     "rubro": "VINO",
-    "subrubro": "BLEND BLANCO",
-    "stock": 6
+    "subrubro": "BLEND BLANCO"
   },
   {
     "id": "2648",
     "nombre": "CORAZON VALIENTE NARANJO JUJUY",
     "marca": "Niven Wines",
-    "precio": 17794.0,
+    "precio": 13946.0475,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 4
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "2649",
     "nombre": "CORAZON VALIENTE TRAMINER",
     "marca": "Niven Wines",
-    "precio": 17488.96,
+    "precio": 13706.972399999999,
     "rubro": "VINO",
-    "subrubro": "TRAMINER",
-    "stock": 3
+    "subrubro": "TRAMINER"
   },
   {
     "id": "2653",
     "nombre": "SIETE FINCAS ROSADO ",
     "marca": "SIETE FINCAS",
-    "precio": 12500.0,
+    "precio": 9796.874717850002,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 1
+    "subrubro": "ROSADO"
   },
   {
     "id": "2655",
     "nombre": "LOIS ESPUMENTE DULCE NATURAL",
     "marca": "LORCA",
-    "precio": 17200.0,
+    "precio": 13480.50015675,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 2
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "2656",
     "nombre": "LOIS ESPUMANTE ROSADO",
     "marca": "LORCA",
-    "precio": 17200.0,
+    "precio": 13480.50015675,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 6
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "2657",
     "nombre": "LORCA FANTASIA EL MIRADOR CRIOLLA DULCE",
     "marca": "LORCA",
-    "precio": 9400.0,
+    "precio": 7367.24959245,
     "rubro": "VINO",
-    "subrubro": "CRIOLLA",
-    "stock": 1
+    "subrubro": "CRIOLLA"
   },
   {
     "id": "2658",
     "nombre": "LOIS ESPUMANTE BLANC DE BLANCS ",
     "marca": "LORCA",
-    "precio": 17200.0,
+    "precio": 13480.50015675,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 8
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "2665",
     "nombre": "CINCO SENTIDOS MALBEC RESERVA",
     "marca": "CINCO SENTIDOS",
-    "precio": 14694.4,
+    "precio": 11516.736,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 3
+    "subrubro": "MALBEC"
   },
   {
     "id": "2668",
     "nombre": "LATE HARVEST MALBEC X 500 CC Tardio Dulce de Malbec",
     "marca": "CINCO SENTIDOS",
-    "precio": 20992.0,
+    "precio": 16452.48,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 6
+    "subrubro": "MALBEC"
   },
   {
     "id": "2672",
     "nombre": "FERUS MALBEC",
     "marca": "FALASCO WINES",
-    "precio": 13379.12,
+    "precio": 10485.885299999998,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 61
+    "subrubro": "MALBEC"
   },
   {
     "id": "2674",
     "nombre": "HERMANDAD MALBEC",
     "marca": "FALASCO WINES",
-    "precio": 31000.0,
+    "precio": 24296.249968649998,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 6
+    "subrubro": "MALBEC"
   },
   {
     "id": "2675",
     "nombre": "FERUS BLANC DE BLANCS",
     "marca": "FALASCO WINES",
-    "precio": 13900.0,
+    "precio": 10894.1253135,
     "rubro": "VINO",
-    "subrubro": "BLEND BLANCO",
-    "stock": 8
+    "subrubro": "BLEND BLANCO"
   },
   {
     "id": "2676",
     "nombre": "ANTONIETA ESPUMANTE P. NOIR-CHARDON",
     "marca": "FALASCO WINES",
-    "precio": 25500.0,
+    "precio": 19985.624373000002,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 4
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "2685",
     "nombre": "FOSTER PINK MALBEC ROSADO",
     "marca": "FOSTER",
-    "precio": 9151.2,
+    "precio": 7172.253,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 4
+    "subrubro": "ROSADO"
   },
   {
     "id": "2687",
     "nombre": "IQUE MALBEC",
     "marca": "FOSTER",
-    "precio": 8700.0,
+    "precio": 6818.624937299999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "2689",
     "nombre": "ENRIQUE FOSTER SINGLE VINEYARD LOS BARRANCOS",
     "marca": "FOSTER",
-    "precio": 15800.0,
+    "precio": 12383.249561100001,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "2690",
     "nombre": "ENRIQUE FOSTER RESERVA MALBEC",
     "marca": "FOSTER",
-    "precio": 18000.0,
+    "precio": 14107.500313500002,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "2693",
     "nombre": "CINCO SENTIDOS EXTRA BRUT ",
     "marca": "CINCO SENTIDOS",
-    "precio": 17895.68,
+    "precio": 14025.7392,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 10
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "2694",
     "nombre": "CINCO SENTIDOS EXTRA BRUT ROSE",
     "marca": "CINCO SENTIDOS",
-    "precio": 17895.68,
+    "precio": 14025.7392,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 2
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "2696",
     "nombre": "WHISKY SIR EDWARDS X 2000 L ",
     "marca": "SIR EDWAR´S",
-    "precio": 82500.0,
+    "precio": 64659.37493729999,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 1
+    "subrubro": "WHISKY"
   },
   {
     "id": "2706",
     "nombre": "CONFIADO MALBEC ANFORA",
     "marca": "Septima",
-    "precio": 18810.8,
+    "precio": 14742.9645,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 7
+    "subrubro": "MALBEC"
   },
   {
     "id": "2715",
     "nombre": "ESPUMANTE MARIA HANDCRAFT EDICION LIMITADA",
     "marca": "Septima",
-    "precio": 15760.4,
+    "precio": 12352.213500000002,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 19
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "2723",
     "nombre": "CAJA REBATIBLE LO DE GRANADO CELEBRACION DE 3 BOTELLAS ",
     "marca": "LDG",
-    "precio": 5500.0,
+    "precio": 4310.62559565,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 1
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "2739",
     "nombre": "SIN REGLAS CABERNET",
     "marca": "Mil Demonios",
-    "precio": 15744.0,
+    "precio": 12339.359999999999,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 6
+    "subrubro": "CABERNET"
   },
   {
     "id": "2740",
     "nombre": "MIL DEMONIOS PINOT NOIR",
     "marca": "Mil Demonios",
-    "precio": 25190.4,
+    "precio": 19742.976,
     "rubro": "VINO",
-    "subrubro": "PINOT NOIR",
-    "stock": 3
+    "subrubro": "PINOT NOIR"
   },
   {
     "id": "2751",
     "nombre": "VIKINGO ",
     "marca": "Mil Demonios",
-    "precio": 44083.2,
+    "precio": 34550.208,
     "rubro": "VINO",
-    "subrubro": "PETIT VERDOT",
-    "stock": 4
+    "subrubro": "PETIT VERDOT"
   },
   {
     "id": "2752",
     "nombre": "LUCIFER ",
     "marca": "Mil Demonios",
-    "precio": 60876.8,
+    "precio": 47712.191999999995,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 4
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "2782",
     "nombre": "AQUI ESTAMOS TODOS LOCOS MATICHA ",
     "marca": "Niven Wines",
-    "precio": 12913.36,
+    "precio": 10120.8459,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 7
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "2787",
     "nombre": "ZAPAM ZUCUM MALBEC",
     "marca": "FOSTER",
-    "precio": 9400.0,
+    "precio": 7367.24959245,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 3
+    "subrubro": "MALBEC"
   },
   {
     "id": "2808",
     "nombre": "PIENSA REMINISCENCE I BLANC SEC 2019",
     "marca": "PIENSA WINES",
-    "precio": 42508.8,
+    "precio": 33316.272,
     "rubro": "VINO",
-    "subrubro": "BLEND BLANCO",
-    "stock": 6
+    "subrubro": "BLEND BLANCO"
   },
   {
     "id": "2809",
     "nombre": "PIENSA REMINISCENCE II ROSE 2020",
     "marca": "PIENSA WINES",
-    "precio": 40500.0,
+    "precio": 31741.875062699997,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 3
+    "subrubro": "ROSADO"
   },
   {
     "id": "2840",
     "nombre": "ENRIQUE FOSTER EDICION LIMITADA",
     "marca": "FOSTER",
-    "precio": 36500.0,
+    "precio": 28606.875564300004,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "2859",
     "nombre": "LICOR MARIPOSA",
     "marca": "DELLEPIANE",
-    "precio": 6000.0,
+    "precio": 4702.50053295,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 1
+    "subrubro": "LICORES"
   },
   {
     "id": "2860",
     "nombre": "PUNA MALBEC RESERVA",
     "marca": "PUNA",
-    "precio": 20467.2,
+    "precio": 16041.167999999998,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 4
+    "subrubro": "MALBEC"
   },
   {
     "id": "2863",
     "nombre": "HELIOS MALBEC Cachi etiqueta negra",
     "marca": "PUNA",
-    "precio": 13116.72,
+    "precio": 10280.229299999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "2865",
     "nombre": "FOLLETO EN PAPEL CRAFT 10X10",
     "marca": "LDG",
-    "precio": 5.99,
+    "precio": 4.691527499999999,
     "rubro": "LDG",
-    "subrubro": "LDG",
-    "stock": 100
+    "subrubro": "LDG"
   },
   {
     "id": "2872",
     "nombre": "MI TERRUÑO EXPRESION MALBEC",
     "marca": "MI TERRUÑO",
-    "precio": 8700.0,
+    "precio": 6818.624937299999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "2911",
     "nombre": "ESTUCHE ACONCAGUA BOTELLA + COPON",
     "marca": "ACONCAGUA",
-    "precio": 38400.0,
+    "precio": 30095.99981189999,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 1
+    "subrubro": "GIN"
   },
   {
     "id": "2923",
     "nombre": "CINCO SENTIDOS RESERVA CHARDONNAY",
     "marca": "CINCO SENTIDOS",
-    "precio": 12303.28,
+    "precio": 9642.6957,
     "rubro": "VINO",
-    "subrubro": "CHARDONNAY",
-    "stock": 1
+    "subrubro": "CHARDONNAY"
   },
   {
     "id": "2924",
     "nombre": "CINCO SENTIDOS GRAN RESERVA BLEND",
     "marca": "CINCO SENTIDOS",
-    "precio": 42502.24,
+    "precio": 33311.1306,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 3
+    "subrubro": "MALBEC"
   },
   {
     "id": "2936",
     "nombre": "AL OTRO LADO DEL RIO MALBEC",
     "marca": "AL OTRO LADO DEL RIO",
-    "precio": 12000.0,
+    "precio": 9404.99978055,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 3
+    "subrubro": "MALBEC"
   },
   {
     "id": "2956",
     "nombre": "LAUREANO GOMEZ MALBEC TETRIS",
     "marca": "LAUREANO GOMEZ",
-    "precio": 11664.6,
+    "precio": 9142.128996000001,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 3
+    "subrubro": "MALBEC"
   },
   {
     "id": "2976",
     "nombre": "CASA ARAUJO CASH MALBEC",
     "marca": "ARAUJO",
-    "precio": 10400.0,
+    "precio": 8150.999467049999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "2979",
     "nombre": "CASA ARAUJO CASK TEMPRANILLO",
     "marca": "ARAUJO",
-    "precio": 11500.0,
+    "precio": 9013.12484325,
     "rubro": "VINO",
-    "subrubro": "TEMPRANILLO",
-    "stock": 1
+    "subrubro": "TEMPRANILLO"
   },
   {
     "id": "2989",
     "nombre": "LORCA FANTASIA TORRONTES ",
     "marca": "LORCA",
-    "precio": 10676.4,
+    "precio": 8367.6285,
     "rubro": "VINO",
-    "subrubro": "TORRONTES",
-    "stock": 2
+    "subrubro": "TORRONTES"
   },
   {
     "id": "2990",
     "nombre": "MAURICIO LORCA INSPIRADO BLEND",
     "marca": "LORCA",
-    "precio": 65900.0,
+    "precio": 51649.12521945001,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 1
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "2991",
     "nombre": "OPALO CABERNET",
     "marca": "LORCA",
-    "precio": 13626.27,
+    "precio": 10679.587545,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 15
+    "subrubro": "CABERNET"
   },
   {
     "id": "2993",
     "nombre": "CASILLERO DEL DIABLO ROSE",
     "marca": "Trivento",
-    "precio": 9000.0,
+    "precio": 7053.750156750001,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 3
+    "subrubro": "ROSADO"
   },
   {
     "id": "3017",
     "nombre": "MARRASO MODERN MALBEC",
     "marca": "Septima",
-    "precio": 12900.0,
+    "precio": 10110.375438899999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "3034",
     "nombre": "AL OTRO LADO DEL RIO CHARDONNAY",
     "marca": "AL OTRO LADO DEL RIO",
-    "precio": 12000.0,
+    "precio": 9404.99978055,
     "rubro": "VINO",
-    "subrubro": "CHARDONNAY",
-    "stock": 6
+    "subrubro": "CHARDONNAY"
   },
   {
     "id": "3047",
     "nombre": "ESTUCHE ENCUENTRO BRUT NATURE X 4 BOTELLAS",
     "marca": "Rutini Wines",
-    "precio": 120500.0,
+    "precio": 94441.8753135,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 1
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "3080",
     "nombre": "CAVA CODORNIU ARS COLLECTA GRAND ROSE",
     "marca": "CODORNIU",
-    "precio": 43500.0,
-    "rubro": "Cava",
-    "subrubro": "Cava",
-    "stock": 4
+    "precio": 34093.1246865,
+    "rubro": "CAVA",
+    "subrubro": "CAVA"
   },
   {
     "id": "3082",
     "nombre": "CAVA CODORNIU GRAN PLUS ULTRA CHARDONNAY BRUT NATURE",
     "marca": "CODORNIU",
-    "precio": 34000.0,
-    "rubro": "Cava",
-    "subrubro": "Cava",
-    "stock": 1
+    "precio": 26647.49959245,
+    "rubro": "CAVA",
+    "subrubro": "CAVA"
   },
   {
     "id": "3086",
     "nombre": "DESCONFIADO VERMUT",
     "marca": "Septima",
-    "precio": 20467.2,
-    "rubro": "Vermut",
-    "subrubro": "Vermut",
-    "stock": 9
+    "precio": 16041.167999999998,
+    "rubro": "VERMUT",
+    "subrubro": "VERMUT"
   },
   {
     "id": "3100",
     "nombre": "CHACABUCO CHENIN DULCE LATA ALUMINIO",
     "marca": "CHACABUCO",
-    "precio": 8000.0,
+    "precio": 6270.000282149999,
     "rubro": "VINO",
-    "subrubro": "CHENING DULCE",
-    "stock": 3
+    "subrubro": "CHENING DULCE"
   },
   {
     "id": "3101",
     "nombre": "CHIRIGUA BLEND DE BLANCAS",
     "marca": "FILENI",
-    "precio": 14000.0,
+    "precio": 10972.499529749999,
     "rubro": "VINO",
-    "subrubro": "BLEND BLANCO",
-    "stock": 2
+    "subrubro": "BLEND BLANCO"
   },
   {
     "id": "3104",
     "nombre": "MANDALA ROSE",
     "marca": "MANDALA",
-    "precio": 7000.0,
+    "precio": 5486.250407549999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 3
+    "subrubro": "MALBEC"
   },
   {
     "id": "3105",
     "nombre": "MANDALA SWEET",
     "marca": "MANDALA",
-    "precio": 7000.0,
+    "precio": 5486.250407549999,
     "rubro": "VINO",
-    "subrubro": "CHENING DULCE",
-    "stock": 10
+    "subrubro": "CHENING DULCE"
   },
   {
     "id": "3128",
     "nombre": "DAMONJANG STEEL BOTTLE X 473",
     "marca": "READY TO DRINK",
-    "precio": 11540.68,
+    "precio": 9045.00795,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 2
+    "subrubro": "LICORES"
   },
   {
     "id": "3134",
     "nombre": "DRY GIN MIL DEMONIOS ",
     "marca": "Mil Demonios",
-    "precio": 20992.0,
+    "precio": 16452.48,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 7
+    "subrubro": "GIN"
   },
   {
     "id": "3137",
     "nombre": "SAMURAI",
     "marca": "Mil Demonios",
-    "precio": 41984.0,
+    "precio": 32904.96,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 4
+    "subrubro": "MALBEC"
   },
   {
     "id": "3148",
     "nombre": "COPON ACONCAGUA",
     "marca": "ACONCAGUA",
-    "precio": 12000.0,
+    "precio": 9404.99978055,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 5
+    "subrubro": "GIN"
   },
   {
     "id": "3149",
     "nombre": "TRIVENTO ARGENTINA MALBEC ROSE",
     "marca": "Trivento",
-    "precio": 9659.6,
+    "precio": 7570.711499999999,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 28
+    "subrubro": "ROSADO"
   },
   {
     "id": "3157",
     "nombre": "DESPEINADO BLEND ROSE",
     "marca": "CORRAL DE PALOS",
-    "precio": 5700.0,
+    "precio": 4467.375313500001,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 3
+    "subrubro": "ROSADO"
   },
   {
     "id": "3169",
     "nombre": "ARGENTO  ESTATE COLLECTION MALBEC",
     "marca": "ARGENTO",
-    "precio": 16777.2,
+    "precio": 13149.130500000001,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 12
+    "subrubro": "MALBEC"
   },
   {
     "id": "3170",
     "nombre": "ARGENTO SINGLE VINEYADS ORG. ALTAMIRA  MALBEC ",
     "marca": "ARGENTO",
-    "precio": 28000.0,
+    "precio": 21945.00034485,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 5
+    "subrubro": "MALBEC"
   },
   {
     "id": "3171",
     "nombre": "ARGENTO ESTATE ORGANICO MALBEC ",
     "marca": "ARGENTO",
-    "precio": 10676.4,
+    "precio": 8367.6285,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 5
+    "subrubro": "MALBEC"
   },
   {
     "id": "3185",
     "nombre": "GIN TANQUERAY SEVILLA",
     "marca": "Tanqueray",
-    "precio": 43394.4,
+    "precio": 34010.361,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 7
+    "subrubro": "GIN"
   },
   {
     "id": "3190",
     "nombre": "EL GORDO EN MOTONETA SERIE LIMITADA PINOT GRIGIO",
     "marca": "EL GORDO EN MOTONETA",
-    "precio": 11500.0,
+    "precio": 9013.12484325,
     "rubro": "VINO",
-    "subrubro": "PINOT GRIGIO",
-    "stock": 1
+    "subrubro": "PINOT GRIGIO"
   },
   {
     "id": "3212",
     "nombre": "HELIOS CAFAYATE BLEND",
     "marca": "PUNA",
-    "precio": 12710.0,
+    "precio": 9961.462500000001,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 3
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "3217",
     "nombre": "MULINI ACEITE DE OLIVA CLASICO ",
     "marca": "MULINI",
-    "precio": 19900.0,
+    "precio": 15596.624561100003,
     "rubro": "ACEITE",
-    "subrubro": "ACEITE",
-    "stock": 1
+    "subrubro": "ACEITE"
   },
   {
     "id": "3237",
     "nombre": "GIN LARIOS 37.5",
     "marca": "Norton",
-    "precio": 18810.8,
+    "precio": 14742.9645,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 1
+    "subrubro": "GIN"
   },
   {
     "id": "3239",
     "nombre": "NORTON RESERVA MALBEC",
     "marca": "Norton",
-    "precio": 9000.0,
+    "precio": 7053.750156750001,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "3247",
     "nombre": "ZORZAL TERRIOR UNICO  MALBEC",
     "marca": "ZORZAL",
-    "precio": 13948.2,
+    "precio": 10931.901749999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 7
+    "subrubro": "MALBEC"
   },
   {
     "id": "3250",
     "nombre": "ZORZAL GRAN TERROIR PINOT NOIR",
     "marca": "ZORZAL",
-    "precio": 19500.0,
+    "precio": 15283.1251254,
     "rubro": "VINO",
-    "subrubro": "PINOT NOIR",
-    "stock": 1
+    "subrubro": "PINOT NOIR"
   },
   {
     "id": "3251",
     "nombre": "ZORZAL  GRAN TERROIR MALBEC ",
     "marca": "ZORZAL",
-    "precio": 21180.6,
+    "precio": 16600.29525,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "3253",
     "nombre": "ZORZAL TERROIR UNICO PINOT NOIR ROSADO",
     "marca": "ZORZAL",
-    "precio": 13948.2,
+    "precio": 10931.901749999999,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 9
+    "subrubro": "ROSADO"
   },
   {
     "id": "3254",
     "nombre": "ZORZAL TERROIR UNICO PINOT NOIR",
     "marca": "ZORZAL",
-    "precio": 11373.58,
+    "precio": 8914.0436385,
     "rubro": "VINO",
-    "subrubro": "PINOT NOIR",
-    "stock": 1
+    "subrubro": "PINOT NOIR"
   },
   {
     "id": "3260",
     "nombre": "MANDALA MALBEC",
     "marca": "MANDALA",
-    "precio": 7000.0,
+    "precio": 5486.250407549999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "3264",
     "nombre": "CORTAGOTAS LO DE GRANADO",
     "marca": "LDG",
-    "precio": 350.0,
+    "precio": 274.31297025,
     "rubro": "LDG",
-    "subrubro": "LDG",
-    "stock": 27
+    "subrubro": "LDG"
   },
   {
     "id": "3271",
     "nombre": "CRIOLLA ARGENTINA CHICA RESERVA",
     "marca": "Niven Wines",
-    "precio": 16014.6,
+    "precio": 12551.442750000002,
     "rubro": "VINO",
-    "subrubro": "CRIOLLA",
-    "stock": 1
+    "subrubro": "CRIOLLA"
   },
   {
     "id": "3272",
     "nombre": "LORCA POETICO WHITE BLEND",
     "marca": "LORCA",
-    "precio": 18000.0,
+    "precio": 14107.500313500002,
     "rubro": "VINO",
-    "subrubro": "BLANC DE BLANCS",
-    "stock": 5
+    "subrubro": "BLANC DE BLANCS"
   },
   {
     "id": "3274",
     "nombre": "ARTESANO ORGANICO MALBEC - CABRNET FRANC",
     "marca": "ARTESANO",
-    "precio": 11500.0,
+    "precio": 9013.12484325,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 3
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "3275",
     "nombre": "ARGENTO SINGLE VINEYARDS CABERNET FRANC",
     "marca": "ARGENTO",
-    "precio": 28000.0,
+    "precio": 21945.00034485,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 6
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "3276",
     "nombre": "ARGENTO SINGLE VINEYARDS ORG. AGRELO MALBEC",
     "marca": "ARGENTO",
-    "precio": 28000.0,
+    "precio": 21945.00034485,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 10
+    "subrubro": "MALBEC"
   },
   {
     "id": "3280",
     "nombre": "SEPTIMA EMBLEMA CABERNET",
     "marca": "Septima",
-    "precio": 11500.0,
+    "precio": 9013.12484325,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 4
+    "subrubro": "CABERNET"
   },
   {
     "id": "3281",
     "nombre": "SEPTIMA TIERRA LAS COMPUERTAS",
     "marca": "Septima",
-    "precio": 17500.0,
+    "precio": 13715.6253762,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "3283",
     "nombre": "BUENA FAMA MALBEC RESERVA",
     "marca": "BUENA FAMA",
-    "precio": 19500.0,
+    "precio": 15283.1251254,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 10
+    "subrubro": "MALBEC"
   },
   {
     "id": "3284",
     "nombre": "BUENA FAMA BLEND RESERVA",
     "marca": "BUENA FAMA",
-    "precio": 19500.0,
+    "precio": 15283.1251254,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 3
+    "subrubro": "BLEND"
   },
   {
     "id": "3291",
     "nombre": "LA QUEBRADA MISTELA",
     "marca": "BODEGA BORBORE",
-    "precio": 4500.0,
+    "precio": 3526.8744356999996,
     "rubro": "VINO",
-    "subrubro": "Mistela",
-    "stock": 2
+    "subrubro": "MISTELA"
   },
   {
     "id": "3293",
     "nombre": "TRIVENTO ESTUCHE TRIPACK MALBEC COLLECTION",
     "marca": "Trivento",
-    "precio": 37575.68,
+    "precio": 29449.939200000004,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 5
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "3297",
     "nombre": "ARGENTO ESTATE COLLECTION MALBEC- CABERNET FRANC",
     "marca": "ARGENTO",
-    "precio": 16777.2,
+    "precio": 13149.130500000001,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 3
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "3302",
     "nombre": "SEPTIMA EMBLEMA MALBEC",
     "marca": "Septima",
-    "precio": 11500.0,
+    "precio": 9013.12484325,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 6
+    "subrubro": "MALBEC"
   },
   {
     "id": "3304",
     "nombre": "TALISMAN CABERNET",
     "marca": "Norton",
-    "precio": 3850.0,
+    "precio": 3017.43753135,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 13
+    "subrubro": "CABERNET"
   },
   {
     "id": "3312",
     "nombre": "SEPTIMA EMBLEMA SAVIGNON BLANC",
     "marca": "Septima",
-    "precio": 11500.0,
+    "precio": 9013.12484325,
     "rubro": "VINO",
-    "subrubro": "SAVIGNON BLANC",
-    "stock": 7
+    "subrubro": "SAVIGNON BLANC"
   },
   {
     "id": "3315",
     "nombre": "GIN TANQUERAY ROYALES",
     "marca": "Tanqueray",
-    "precio": 39900.0,
+    "precio": 31271.624623800002,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 1
+    "subrubro": "GIN"
   },
   {
     "id": "3325",
     "nombre": "LOS PASOS ROSADO DULCE",
     "marca": "Septima",
-    "precio": 6000.0,
+    "precio": 4702.50053295,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 2
+    "subrubro": "ROSADO"
   },
   {
     "id": "3334",
     "nombre": "COPON ACONCAGUA AZUL",
     "marca": "ACONCAGUA",
-    "precio": 15000.0,
+    "precio": 11756.24940435,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 6
+    "subrubro": "GIN"
   },
   {
     "id": "3337",
     "nombre": "VERMUT FEDERAL  TIPO TORINO ROSSO",
     "marca": "FEDERAL",
-    "precio": 16793.6,
-    "rubro": "Vermut",
-    "subrubro": "Vermut",
-    "stock": 3
+    "precio": 13161.983999999999,
+    "rubro": "VERMUT",
+    "subrubro": "VERMUT"
   },
   {
     "id": "3339",
     "nombre": "DOÑA PAULA UNIQUE MALBEC ORGANICO",
     "marca": "DOÑA PAULA",
-    "precio": 9900.0,
+    "precio": 7759.124529749999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "3340",
     "nombre": "DOÑA PAULA ESTATE MALBEC",
     "marca": "DOÑA PAULA",
-    "precio": 9971.2,
+    "precio": 7814.927999999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 3
+    "subrubro": "MALBEC"
   },
   {
     "id": "3343",
     "nombre": "LOS CARDOS MALBEC",
     "marca": "LOS CARDOS",
-    "precio": 6500.0,
+    "precio": 5094.37547025,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 5
+    "subrubro": "MALBEC"
   },
   {
     "id": "3344",
     "nombre": "LOS CARDOS RED BLEND",
     "marca": "LOS CARDOS",
-    "precio": 7347.2,
+    "precio": 5758.368,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 10
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "3346",
     "nombre": "LOS CARDOS DULCE ",
     "marca": "LOS CARDOS",
-    "precio": 6500.0,
+    "precio": 5094.37547025,
     "rubro": "VINO",
-    "subrubro": "COSECHA TARDIA",
-    "stock": 6
+    "subrubro": "COSECHA TARDIA"
   },
   {
     "id": "3347",
     "nombre": "DOÑA PAULA ROSE OF MALBEC",
     "marca": "DOÑA PAULA",
-    "precio": 7626.0,
+    "precio": 5976.8775000000005,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 9
+    "subrubro": "ROSADO"
   },
   {
     "id": "3348",
     "nombre": "MANI KING FRITO SALADO 100 GR",
     "marca": "King",
-    "precio": 1800.0,
+    "precio": 1410.7500313499997,
     "rubro": "MANI",
-    "subrubro": "MANI",
-    "stock": 16
+    "subrubro": "MANI"
   },
   {
     "id": "3364",
     "nombre": "ARGENTO ROSE ORGANICO",
     "marca": "ARGENTO",
-    "precio": 8500.0,
+    "precio": 6661.875219449998,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 6
+    "subrubro": "ROSADO"
   },
   {
     "id": "3366",
     "nombre": "MIL ROSAS ",
     "marca": "Norton",
-    "precio": 4860.0,
+    "precio": 3809.0254702499997,
     "rubro": "VINO",
-    "subrubro": "BLANC DE BLANCS",
-    "stock": 4
+    "subrubro": "BLANC DE BLANCS"
   },
   {
     "id": "3382",
     "nombre": "EDELMIRA  ROSADO",
     "marca": "EDELMIRA",
-    "precio": 9557.92,
+    "precio": 7491.019800000001,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 3
+    "subrubro": "ROSADO"
   },
   {
     "id": "3384",
     "nombre": "AL OTRO LADO DEL RIO ROSADO",
     "marca": "AL OTRO LADO DEL RIO",
-    "precio": 12000.0,
+    "precio": 9404.99978055,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 2
+    "subrubro": "ROSADO"
   },
   {
     "id": "3407",
     "nombre": "GIN LARIOS ROSE",
     "marca": "Norton",
-    "precio": 16777.2,
+    "precio": 13149.130500000001,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 3
+    "subrubro": "GIN"
   },
   {
     "id": "3418",
     "nombre": "CAJA REBATIBLE 1 BOT LO DE GRANADO ",
     "marca": "LDG",
-    "precio": 711.76,
+    "precio": 557.8419,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 89
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "3421",
     "nombre": "LATA AL OTRO LADO DEL RIO ",
     "marca": "LDG",
-    "precio": 8000.0,
+    "precio": 6270.000282149999,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 5
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "3422",
     "nombre": "LATA MANDALA SWEET",
     "marca": "MANDALA",
-    "precio": 3000.0,
+    "precio": 2351.2496238,
     "rubro": "DULCE",
-    "subrubro": "DULCE",
-    "stock": 4
+    "subrubro": "DULCE"
   },
   {
     "id": "3428",
     "nombre": "LUIGI BOSCA DE SANGRE CABERNET FRANC",
     "marca": "Luigi Bosca",
-    "precio": 26764.8,
+    "precio": 20976.912,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 9
+    "subrubro": "CABERNET"
   },
   {
     "id": "3439",
     "nombre": "DOÑA PAULA ESTATE BLACK EDITION BLEND ",
     "marca": "DOÑA PAULA",
-    "precio": 9971.2,
+    "precio": 7814.927999999999,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 5
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "3441",
     "nombre": " DOÑA PAULA SMOKEY ",
     "marca": "DOÑA PAULA",
-    "precio": 12070.4,
+    "precio": 9460.176,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 10
+    "subrubro": "MALBEC"
   },
   {
     "id": "3456",
     "nombre": "SMIRNOFF RUBY ORANGE",
     "marca": "Smirnoff",
-    "precio": 11881.8,
+    "precio": 9312.36075,
     "rubro": "VODKA",
-    "subrubro": "VODKA",
-    "stock": 5
+    "subrubro": "VODKA"
   },
   {
     "id": "3459",
     "nombre": "SAURUS ESTATE SAVIGNON BLANC",
     "marca": "SAURUS",
-    "precio": 11500.0,
+    "precio": 9013.12484325,
     "rubro": "VINO",
-    "subrubro": "SAVIGNON BLANC",
-    "stock": 1
+    "subrubro": "SAVIGNON BLANC"
   },
   {
     "id": "3461",
     "nombre": "SAURUS SELECT MALBEC",
     "marca": "SAURUS",
-    "precio": 18597.6,
+    "precio": 14575.869,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 8
+    "subrubro": "MALBEC"
   },
   {
     "id": "3467",
     "nombre": "LA MISION MALBEC",
     "marca": "CATENITA",
-    "precio": 10900.0,
+    "precio": 8542.874404350001,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "3470",
     "nombre": "LUIGI BOSCA SAUVIGNON BLANC",
     "marca": "Luigi Bosca",
-    "precio": 17000.0,
+    "precio": 13323.750438899997,
     "rubro": "VINO",
-    "subrubro": "SAVIGNON BLANC",
-    "stock": 5
+    "subrubro": "SAVIGNON BLANC"
   },
   {
     "id": "3475",
     "nombre": "DEMENCIAL MALBEC",
     "marca": "DIAGEO",
-    "precio": 16014.6,
+    "precio": 12551.442750000002,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 7
+    "subrubro": "MALBEC"
   },
   {
     "id": "3476",
     "nombre": "ALEGORIA GRAN RESERV MALBEC",
     "marca": "DIAGEO",
-    "precio": 13700.0,
+    "precio": 10737.375595649999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "3477",
     "nombre": "TRAPICHE GRAN MEDALLA MALBEC",
     "marca": "DIAGEO",
-    "precio": 47320.56,
+    "precio": 37087.4889,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 5
+    "subrubro": "MALBEC"
   },
   {
     "id": "3478",
     "nombre": "LUIGI BOSCA DE SANGRE MALBEC VALLE DE UCO",
     "marca": "Luigi Bosca",
-    "precio": 26764.8,
+    "precio": 20976.912,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 19
+    "subrubro": "MALBEC"
   },
   {
     "id": "3486",
     "nombre": "UGARTECHE CABERNET",
     "marca": "SAN HUBERTO",
-    "precio": 5541.56,
+    "precio": 4343.19765,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 2
+    "subrubro": "CABERNET"
   },
   {
     "id": "3496",
     "nombre": "TRAPICHE MEDALLA MALBEC",
     "marca": "DIAGEO",
-    "precio": 20147.4,
+    "precio": 15790.524749999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 9
+    "subrubro": "MALBEC"
   },
   {
     "id": "3512",
     "nombre": "SEPTIMA EMBLEMA CABERNET FRANC",
     "marca": "Septima",
-    "precio": 11500.0,
+    "precio": 9013.12484325,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 2
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "3516",
     "nombre": "COPA BORDEAUX MARRASO",
     "marca": "Septima",
-    "precio": 9500.0,
+    "precio": 7445.625094049999,
     "rubro": "CRISTAL",
-    "subrubro": "CRISTAL",
-    "stock": 1
+    "subrubro": "CRISTAL"
   },
   {
     "id": "4514",
     "nombre": "LUIGI BOSCA DE SANGRE CABERNET",
     "marca": "Luigi Bosca",
-    "precio": 28864.0,
+    "precio": 22622.160000000003,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 5
+    "subrubro": "CABERNET"
   },
   {
     "id": "4524",
     "nombre": "WHISKY BUCHANAN S DELUXE",
     "marca": "J WALKER",
-    "precio": 75892.64,
+    "precio": 59480.85660000001,
     "rubro": "WHISKY",
-    "subrubro": "WHISKY",
-    "stock": 1
+    "subrubro": "WHISKY"
   },
   {
     "id": "4536",
     "nombre": "TRIVENTO ESTABLISHED SEMILLON",
     "marca": "Trivento",
-    "precio": 29388.8,
+    "precio": 23033.472,
     "rubro": "VINO",
-    "subrubro": "SEMILLON",
-    "stock": 11
+    "subrubro": "SEMILLON"
   },
   {
     "id": "4537",
     "nombre": "TRIVENTO ESTABLISHED PETIT VERDOT",
     "marca": "Trivento",
-    "precio": 29388.8,
+    "precio": 23033.472,
     "rubro": "VINO",
-    "subrubro": "PETIT VERDOT",
-    "stock": 6
+    "subrubro": "PETIT VERDOT"
   },
   {
     "id": "4542",
     "nombre": "CAJA DE MADERA LUIGI BOSCA",
     "marca": "Luigi Bosca",
-    "precio": 20500.0,
+    "precio": 16066.875000000002,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 7
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "5550",
     "nombre": "VASO WHISKY BARROCCO",
     "marca": "ENCANTA",
-    "precio": 5084.0,
+    "precio": 3984.585,
     "rubro": "CRISTAL",
-    "subrubro": "CRISTAL",
-    "stock": 2
+    "subrubro": "CRISTAL"
   },
   {
     "id": "5552",
     "nombre": "CAJA DE BAMBU CON GOMA 4 ACCESORIOS  (SACARCORCHO, TERMOMETRO, PICO Y TAPON)",
     "marca": "ENCANTA",
-    "precio": 39000.0,
+    "precio": 30566.2502508,
     "rubro": "ACCESORIOS VINO",
-    "subrubro": "ACCESORIOS VINO",
-    "stock": 1
+    "subrubro": "ACCESORIOS VINO"
   },
   {
     "id": "5554",
     "nombre": "TRIVENTO GOLDEN ESTUCHE DE MADERA X 6 BOT",
     "marca": "Trivento",
-    "precio": 198784.4,
+    "precio": 155797.2735,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 2
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "5556",
     "nombre": "IQUE CABERNET",
     "marca": "FOSTER",
-    "precio": 8700.0,
+    "precio": 6818.624937299999,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 1
+    "subrubro": "CABERNET"
   },
   {
     "id": "5559",
     "nombre": "TRIVENTO STRATUS TINTO ",
     "marca": "Trivento",
-    "precio": 53900.0,
+    "precio": 42244.125438899995,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 1
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "5561",
     "nombre": "VIÑA PROVIDENCIA BLEND",
     "marca": "CHAÑARMUYO",
-    "precio": 26500.0,
+    "precio": 20769.375532949998,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 3
+    "subrubro": "BLEND"
   },
   {
     "id": "5570",
     "nombre": "CAÑA PIRAGUA",
     "marca": "Capel",
-    "precio": 8500.0,
+    "precio": 6661.875219449998,
     "rubro": "BEBIDAS BLANCAS",
-    "subrubro": "BRANDY",
-    "stock": 1
+    "subrubro": "BRANDY"
   },
   {
     "id": "5571",
     "nombre": "DOÑA PAULA 1050 CABERNET SAUVIGNON",
     "marca": "DOÑA PAULA",
-    "precio": 16000.0,
+    "precio": 12540.000564299999,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 4
+    "subrubro": "CABERNET"
   },
   {
     "id": "5572",
     "nombre": "DOÑA PAULA 1290 WHITE BLEND",
     "marca": "DOÑA PAULA",
-    "precio": 16000.0,
+    "precio": 12540.000564299999,
     "rubro": "VINO",
-    "subrubro": "BLANC DE BLANCS",
-    "stock": 6
+    "subrubro": "BLANC DE BLANCS"
   },
   {
     "id": "5573",
     "nombre": "DOÑA PAULA 1100 RED BLEND",
     "marca": "DOÑA PAULA",
-    "precio": 16000.0,
+    "precio": 12540.000564299999,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 1
+    "subrubro": "BLEND"
   },
   {
     "id": "5574",
     "nombre": "DOÑA PAULA 1350 CABERNET FRANC",
     "marca": "DOÑA PAULA",
-    "precio": 19942.4,
+    "precio": 15629.855999999998,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 6
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "5575",
     "nombre": "DOÑA PAULA 969 PETIT VERDOT-BONARDA",
     "marca": "DOÑA PAULA",
-    "precio": 19942.4,
+    "precio": 15629.855999999998,
     "rubro": "VINO",
-    "subrubro": "PETIT VERDOT",
-    "stock": 7
+    "subrubro": "PETIT VERDOT"
   },
   {
     "id": "5576",
     "nombre": "DOÑA PAULA SINGLE VINEYARD MALBEC",
     "marca": "DOÑA PAULA",
-    "precio": 16777.2,
+    "precio": 13149.130500000001,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "5580",
     "nombre": "SMIRNOFF TAMARINDO",
     "marca": "Smirnoff",
-    "precio": 11881.8,
+    "precio": 9312.36075,
     "rubro": "VODKA",
-    "subrubro": "VODKA",
-    "stock": 7
+    "subrubro": "VODKA"
   },
   {
     "id": "5596",
     "nombre": "GIN TONIC HERBAL LATA X 10 SAQUITOS",
     "marca": "HIERBAS DEL OASIS",
-    "precio": 13200.0,
+    "precio": 10345.499372999999,
     "rubro": "HIERBAS",
-    "subrubro": "HIERBAS",
-    "stock": 1
+    "subrubro": "HIERBAS"
   },
   {
     "id": "5604",
     "nombre": "DH ORIGEN TORRONTES",
     "marca": "Domingo",
-    "precio": 9049.52,
+    "precio": 7092.561299999999,
     "rubro": "VINO",
-    "subrubro": "TORRONTES",
-    "stock": 4
+    "subrubro": "TORRONTES"
   },
   {
     "id": "5606",
     "nombre": "CORONA  0.0",
     "marca": "QUILMES",
-    "precio": 3500.0,
+    "precio": 2743.1245611,
     "rubro": "CEREZAS",
-    "subrubro": "CEREZAS",
-    "stock": 3
+    "subrubro": "CEREZAS"
   },
   {
     "id": "5616",
     "nombre": "IQUE RESERVE MALBEC",
     "marca": "FOSTER",
-    "precio": 13726.8,
+    "precio": 10758.379500000001,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "5618",
     "nombre": "CALLEJON DEL CRIMEN RESERVA CABERNET SAUVIGNON",
     "marca": "CALLEJON DEL CRIMEN",
-    "precio": 12200.0,
+    "precio": 9561.749498399999,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 2
+    "subrubro": "CABERNET"
   },
   {
     "id": "5621",
     "nombre": "CALLEJON DEL CRIMEN RESERVA CABERNET FRANC",
     "marca": "CALLEJON DEL CRIMEN",
-    "precio": 12404.96,
+    "precio": 9722.3874,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 1
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "5623",
     "nombre": "CALLEJON DEL CRIMEN GRAN RESERVA PETIT VERDOT",
     "marca": "CALLEJON DEL CRIMEN",
-    "precio": 16900.0,
+    "precio": 13245.3749373,
     "rubro": "VINO",
-    "subrubro": "PETIT VERDOT",
-    "stock": 1
+    "subrubro": "PETIT VERDOT"
   },
   {
     "id": "5630",
     "nombre": "CALLEJON DEL CRIMEN EXTRA BRUT PINOT NOIR",
     "marca": "CALLEJON DEL CRIMEN",
-    "precio": 16900.0,
+    "precio": 13245.3749373,
     "rubro": "ESPUMANTE",
-    "subrubro": "CHAMPPAGNE",
-    "stock": 2
+    "subrubro": "CHAMPPAGNE"
   },
   {
     "id": "5631",
     "nombre": "COPA ESPUMANTE MARIA",
     "marca": "CODORNIU",
-    "precio": 7500.0,
+    "precio": 5878.12534485,
     "rubro": "CRISTAL",
-    "subrubro": "CRISTAL",
-    "stock": 2
+    "subrubro": "CRISTAL"
   },
   {
     "id": "5649",
     "nombre": "CHIRIGUA CABERNET SAUVIGNON",
     "marca": "FILENI",
-    "precio": 14235.2,
+    "precio": 11156.837999999998,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 1
+    "subrubro": "CABERNET"
   },
   {
     "id": "5677",
     "nombre": "PROSECO CARPENE MALVOLTI BRUT DOC",
     "marca": "GALA GOURMET",
-    "precio": 39400.0,
+    "precio": 30879.749686499996,
     "rubro": "ESPUMANTE",
-    "subrubro": "PROSECCO",
-    "stock": 1
+    "subrubro": "PROSECCO"
   },
   {
     "id": "5681",
     "nombre": "CAELUM CLASICO FIANO",
     "marca": "Caelum",
-    "precio": 12800.0,
+    "precio": 10031.9999373,
     "rubro": "VINO",
-    "subrubro": "FIANO",
-    "stock": 20
+    "subrubro": "FIANO"
   },
   {
     "id": "5693",
     "nombre": "ESTUCHE LUIGI BOSCA DE SANGRE MALBEC DOC",
     "marca": "Luigi Bosca",
-    "precio": 37113.2,
+    "precio": 29087.4705,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 5
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "5694",
     "nombre": "ESTUCHE LUIGI BOSCA DE SANGRE MALBEC-CABERNET",
     "marca": "Luigi Bosca",
-    "precio": 81852.4,
+    "precio": 64151.818499999994,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 4
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "5700",
     "nombre": "TRAPICHE TESORO MALBEC",
     "marca": "TRAPICHE",
-    "precio": 14981.4,
+    "precio": 11741.67225,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 5
+    "subrubro": "MALBEC"
   },
   {
     "id": "5714",
     "nombre": "CONFIADO MALBEC ACACIA",
     "marca": "CONFIADO",
-    "precio": 19942.4,
+    "precio": 15629.855999999998,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 7
+    "subrubro": "MALBEC"
   },
   {
     "id": "5716",
     "nombre": "CONFIADO VIOGNIER PINOT",
     "marca": "CONFIADO",
-    "precio": 18912.48,
+    "precio": 14822.656200000001,
     "rubro": "VINO",
-    "subrubro": "VIOGNIER",
-    "stock": 6
+    "subrubro": "VIOGNIER"
   },
   {
     "id": "5718",
     "nombre": "PYRUS PERA LATA",
     "marca": "PYRUS",
-    "precio": 3673.6,
+    "precio": 2879.184,
     "rubro": "SIDRA",
-    "subrubro": "SIDRA",
-    "stock": 11
+    "subrubro": "SIDRA"
   },
   {
     "id": "5719",
     "nombre": "PYRUS MANZANA LATA",
     "marca": "PYRUS",
-    "precio": 3673.6,
+    "precio": 2879.184,
     "rubro": "SIDRA",
-    "subrubro": "SIDRA",
-    "stock": 27
+    "subrubro": "SIDRA"
   },
   {
     "id": "5723",
     "nombre": "VIRUTA DE PAPEL PARA CAJAS ",
     "marca": "LDG",
-    "precio": 15391.4,
+    "precio": 12063.00975,
     "rubro": "LDG",
-    "subrubro": "LDG",
-    "stock": 4
+    "subrubro": "LDG"
   },
   {
     "id": "5727",
     "nombre": "NUEVA CAJA REBATIBLE 3 BOTELLAS LO DE GRANADO ",
     "marca": "LDG",
-    "precio": 1500.0,
+    "precio": 1175.6248119,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 59
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "5728",
     "nombre": "GIN QUEBRACHO LONDON DRY",
     "marca": "GIN QUEBRACHO",
-    "precio": 13116.72,
+    "precio": 10280.229299999999,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 2
+    "subrubro": "GIN"
   },
   {
     "id": "5729",
     "nombre": "GIN QUEBRACHO PINK",
     "marca": "GIN QUEBRACHO",
-    "precio": 14235.2,
+    "precio": 11156.837999999998,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 3
+    "subrubro": "GIN"
   },
   {
     "id": "5731",
     "nombre": "PAMPA BREWING IPA",
     "marca": "PAMPA BREWING",
-    "precio": 4575.6,
+    "precio": 3586.1265,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 1
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "5732",
     "nombre": "PAMPA BREWING DORADA PAMPEANA",
     "marca": "PAMPA BREWING",
-    "precio": 4067.2,
+    "precio": 3187.668,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 5
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "5735",
     "nombre": "PAMPA BREWING HONEY",
     "marca": "PAMPA BREWING",
-    "precio": 4067.2,
+    "precio": 3187.668,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 4
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "5736",
     "nombre": "RABIETA AMERICAN IPA LATA",
     "marca": "RABIETA",
-    "precio": 6100.8,
+    "precio": 4781.5019999999995,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 1
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "5737",
     "nombre": "RABIETA GOLDEN ALE LATA",
     "marca": "RABIETA",
-    "precio": 5592.4,
+    "precio": 4383.043500000001,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 6
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "5739",
     "nombre": "RABIETA RED HONEY LATA",
     "marca": "RABIETA",
-    "precio": 5592.4,
+    "precio": 4383.043500000001,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 3
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "5740",
     "nombre": "FINjAMOS DEMENCIA MALBEC",
     "marca": "Trivento",
-    "precio": 8134.4,
+    "precio": 6375.336,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 6
+    "subrubro": "MALBEC"
   },
   {
     "id": "5742",
     "nombre": "TRIVENTO ARGENTINA MALBEC X 375CC",
     "marca": "Trivento",
-    "precio": 6297.6,
+    "precio": 4935.744,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 6
+    "subrubro": "MALBEC"
   },
   {
     "id": "5765",
     "nombre": "VERMUT TRIPULANTE TORINO ",
     "marca": "TRIPULANTE",
-    "precio": 16065.44,
-    "rubro": "Vermut",
-    "subrubro": "Vermut",
-    "stock": 4
+    "precio": 12591.2886,
+    "rubro": "VERMUT",
+    "subrubro": "VERMUT"
   },
   {
     "id": "5766",
     "nombre": "VERMUT TRIPULANTE FRANCES",
     "marca": "TRIPULANTE",
-    "precio": 16065.44,
-    "rubro": "Vermut",
-    "subrubro": "Vermut",
-    "stock": 4
+    "precio": 12591.2886,
+    "rubro": "VERMUT",
+    "subrubro": "VERMUT"
   },
   {
     "id": "5767",
     "nombre": "VERMUT TRIPULANTE MALBEC",
     "marca": "TRIPULANTE",
-    "precio": 17500.0,
-    "rubro": "Vermut",
-    "subrubro": "Vermut",
-    "stock": 4
+    "precio": 13715.6253762,
+    "rubro": "VERMUT",
+    "subrubro": "VERMUT"
   },
   {
     "id": "5780",
     "nombre": "CHOCOLATES DRIMER DOLAR ",
     "marca": "CHOCOLATES DRIMER",
-    "precio": 12070.4,
+    "precio": 9460.176,
     "rubro": "CHOCOLATES",
-    "subrubro": "CHOCOLATES",
-    "stock": 9
+    "subrubro": "CHOCOLATES"
   },
   {
     "id": "5787",
     "nombre": "CHOCOLATES DRIMER CHUPETIN CORAZON ",
     "marca": "CHOCOLATES DRIMER",
-    "precio": 5772.8,
+    "precio": 4524.431999999999,
     "rubro": "CHOCOLATES",
-    "subrubro": "CHOCOLATES",
-    "stock": 19
+    "subrubro": "CHOCOLATES"
   },
   {
     "id": "5790",
     "nombre": "SACACORCHO AUTOMATICO A BATERIA USB",
     "marca": "ENCANTA",
-    "precio": 38638.4,
+    "precio": 30282.845999999998,
     "rubro": "ACCESORIOS VINO",
-    "subrubro": "ACCESORIOS VINO",
-    "stock": 1
+    "subrubro": "ACCESORIOS VINO"
   },
   {
     "id": "5793",
     "nombre": "SAURUS SELECT CABERNET-CAB FRANC",
     "marca": "SAURUS",
-    "precio": 18000.0,
+    "precio": 14107.500313500002,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 8
+    "subrubro": "BLEND"
   },
   {
     "id": "5802",
     "nombre": "Cepita del valle Naranja",
     "marca": "Coca",
-    "precio": 2380.0,
+    "precio": 2185.0950000000003,
     "rubro": "JUGO",
-    "subrubro": "JUGO",
-    "stock": 1
+    "subrubro": "JUGO"
   },
   {
     "id": "5808",
     "nombre": "ALFAJOR RASTA NEGRO",
     "marca": "RASTA",
-    "precio": 1456.32,
-    "rubro": "Confituras",
-    "subrubro": "ALFAJOR",
-    "stock": 4
+    "precio": 1141.3908,
+    "rubro": "CONFITURAS",
+    "subrubro": "ALFAJOR"
   },
   {
     "id": "5809",
     "nombre": "MOUTON CADET",
     "marca": "BARON PHILIPPE DE ROSTHSCHILD",
-    "precio": 44230.8,
+    "precio": 34665.8895,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 2
+    "subrubro": "BLEND"
   },
   {
     "id": "5810",
     "nombre": "MARIANA 2022 BLEND",
     "marca": "HERDADO DO ROCIM",
-    "precio": 28864.0,
+    "precio": 22622.160000000003,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 9
+    "subrubro": "BLEND"
   },
   {
     "id": "5817",
     "nombre": "NINA NARANJO",
     "marca": "NINA",
-    "precio": 10455.0,
+    "precio": 8194.10625,
     "rubro": "VINO",
-    "subrubro": "NARANJO",
-    "stock": 8
+    "subrubro": "NARANJO"
   },
   {
     "id": "5818",
     "nombre": "NINA NATURAL ROSADO",
     "marca": "NINA",
-    "precio": 13421.76,
+    "precio": 10519.304399999999,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 6
+    "subrubro": "ROSADO"
   },
   {
     "id": "5819",
     "nombre": "NINA NATURAL TINTO",
     "marca": "NINA",
-    "precio": 13421.76,
+    "precio": 10519.304399999999,
     "rubro": "VINO",
-    "subrubro": "TINTO",
-    "stock": 8
+    "subrubro": "TINTO"
   },
   {
     "id": "5821",
     "nombre": "GARZON ESTATE TANNAT DE CORTE",
     "marca": "GARZON",
-    "precio": 19500.0,
+    "precio": 15283.1251254,
     "rubro": "VINO",
-    "subrubro": "TANNAT",
-    "stock": 2
+    "subrubro": "TANNAT"
   },
   {
     "id": "5822",
     "nombre": "GARZON ESTATE PINOT ROSE DE CORTE",
     "marca": "GARZON",
-    "precio": 19500.0,
+    "precio": 15283.1251254,
     "rubro": "VINO",
-    "subrubro": "PINOT ROSE",
-    "stock": 5
+    "subrubro": "PINOT ROSE"
   },
   {
     "id": "5823",
     "nombre": "GARZON ESTATE SAUVIGNON BLANC DE CORTE",
     "marca": "GARZON",
-    "precio": 19500.0,
+    "precio": 15283.1251254,
     "rubro": "VINO",
-    "subrubro": "SAVIGNON BLANC",
-    "stock": 3
+    "subrubro": "SAVIGNON BLANC"
   },
   {
     "id": "5826",
     "nombre": "CAMINO EMPEDRADO AMANDI",
     "marca": "LORCA",
-    "precio": 54615.38,
+    "precio": 42804.802821,
     "rubro": "VINO",
-    "subrubro": "MENCIA",
-    "stock": 3
+    "subrubro": "MENCIA"
   },
   {
     "id": "5831",
     "nombre": "INDOMITO ESPIRITU PRIETO PICUDO BARRICA",
     "marca": "LORCA",
-    "precio": 22922.21,
+    "precio": 17965.285536,
     "rubro": "VINO",
-    "subrubro": "PRIETO PICUDO",
-    "stock": 1
+    "subrubro": "PRIETO PICUDO"
   },
   {
     "id": "5835",
     "nombre": "DOÑA PAULA SINGLE VINEYARD PINOT NOIR",
     "marca": "DOÑA PAULA",
-    "precio": 16777.2,
+    "precio": 13149.130500000001,
     "rubro": "VINO",
-    "subrubro": "PINOT NOIR",
-    "stock": 5
+    "subrubro": "PINOT NOIR"
   },
   {
     "id": "5836",
     "nombre": "ESTUCHE QUEBRACHO CON COPA",
     "marca": "GIN QUEBRACHO",
-    "precio": 31317.44,
+    "precio": 24545.043599999997,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 1
+    "subrubro": "GIN"
   },
   {
     "id": "5837",
     "nombre": "ESTUCHE ICONO (CAELUM)",
     "marca": "Estuche",
-    "precio": 15252.0,
+    "precio": 11953.755000000001,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 10
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "5838",
     "nombre": "TRIVENTO PRIVATE MALBEC",
     "marca": "Trivento",
-    "precio": 11020.8,
+    "precio": 8637.552,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 42
+    "subrubro": "MALBEC"
   },
   {
     "id": "5841",
     "nombre": "ANDELUNA ALTITUD MALBEC",
     "marca": "ANDELUNA",
-    "precio": 14743.6,
+    "precio": 11555.296499999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 6
+    "subrubro": "MALBEC"
   },
   {
     "id": "5842",
     "nombre": "ANDELUNA ALTITUD CABENET FRANC",
     "marca": "ANDELUNA",
-    "precio": 14743.6,
+    "precio": 11555.296499999999,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 6
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "5844",
     "nombre": "ANDELUNA ALTITUD MALBEC ORGANICO",
     "marca": "ANDELUNA",
-    "precio": 15500.0,
+    "precio": 12148.125627,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 77
+    "subrubro": "MALBEC"
   },
   {
     "id": "5845",
     "nombre": "ANDELUNA FRANC DEL CUARTEL",
     "marca": "ANDELUNA",
-    "precio": 17500.0,
+    "precio": 13715.6253762,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 3
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "5846",
     "nombre": "ANDELUNA RESERVA BLANC DE FRANC",
     "marca": "ANDELUNA",
-    "precio": 28500.0,
+    "precio": 22336.87528215,
     "rubro": "VINO",
-    "subrubro": "Blanc de Franc",
-    "stock": 4
+    "subrubro": "BLANC DE FRANC"
   },
   {
     "id": "5847",
     "nombre": "ANDELUNA 1300 MALBEC",
     "marca": "ANDELUNA",
-    "precio": 9500.0,
+    "precio": 7445.625094049999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "5851",
     "nombre": "CAVA ANNA CODORNIU ICE ROSE",
     "marca": "CODORNIU",
-    "precio": 30402.32,
+    "precio": 23827.818300000003,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 8
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "5852",
     "nombre": "CAVA ANNA CODORNIU ICE BLANC",
     "marca": "CODORNIU",
-    "precio": 30402.32,
+    "precio": 23827.818300000003,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 7
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "5853",
     "nombre": "EL VENENO DE DIOS MALBEC",
     "marca": "Niven Wines",
-    "precio": 58236.4,
+    "precio": 45642.7785,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "5854",
     "nombre": "EL VENENO DE DIOS CHARDONNAY",
     "marca": "Niven Wines",
-    "precio": 58236.4,
+    "precio": 45642.7785,
     "rubro": "VINO",
-    "subrubro": "CHARDONNAY",
-    "stock": 1
+    "subrubro": "CHARDONNAY"
   },
   {
     "id": "5856",
     "nombre": "CASILLERO DEL DIABLO manchester red blend ",
     "marca": "Trivento",
-    "precio": 12500.0,
+    "precio": 9796.874717850002,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 4
+    "subrubro": "BLEND"
   },
   {
     "id": "5857",
     "nombre": "ALDEBARAN MALBEC",
     "marca": "ALDEBARAN",
-    "precio": 11896.56,
+    "precio": 9323.928899999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 29
+    "subrubro": "MALBEC"
   },
   {
     "id": "5860",
     "nombre": "WAPISA PINOT",
     "marca": "WAPISA",
-    "precio": 21352.8,
+    "precio": 16735.257,
     "rubro": "VINO",
-    "subrubro": "PINOT NOIR",
-    "stock": 4
+    "subrubro": "PINOT NOIR"
   },
   {
     "id": "5861",
     "nombre": "FANTINI SANGIOVESE (ITALIA) ",
     "marca": "FANTINI WINES",
-    "precio": 28339.2,
+    "precio": 22210.847999999998,
     "rubro": "VINO",
-    "subrubro": "SANGIOVESE",
-    "stock": 4
+    "subrubro": "SANGIOVESE"
   },
   {
     "id": "5862",
     "nombre": "FANTINI MONTEPULCIANO D´ABRUZZO (ITALIA)",
     "marca": "FANTINI WINES",
-    "precio": 28864.0,
+    "precio": 22622.160000000003,
     "rubro": "VINO",
-    "subrubro": "MONTEPULCIANO D'ABRUZZO",
-    "stock": 1
+    "subrubro": "MONTEPULCIANO D'ABRUZZO"
   },
   {
     "id": "5864",
     "nombre": "CHANDON DELICE MINI 187",
     "marca": "Chandon",
-    "precio": 5465.25,
+    "precio": 4283.3903144999995,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 1
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "5865",
     "nombre": "LATITUD 33 MALBEC ROSE ",
     "marca": "LATITUD 33",
-    "precio": 7136.44,
+    "precio": 5593.1876715,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 1
+    "subrubro": "ROSADO"
   },
   {
     "id": "5866",
     "nombre": "LATITUD 33 MALBEC ",
     "marca": "LATITUD 33",
-    "precio": 7690.94,
+    "precio": 6027.777360000001,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "5868",
     "nombre": "TERRAZAS DE LOS ANDES RESERVA MALBEC",
     "marca": "TERRAZAS DE LOS ANDES ",
-    "precio": 20684.24,
+    "precio": 16211.271219000002,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 8
+    "subrubro": "MALBEC"
   },
   {
     "id": "5869",
     "nombre": "TERRAZAS DE LOS ANDES ORIGEN CHACAYANES MALBEC",
     "marca": "TERRAZAS DE LOS ANDES ",
-    "precio": 21831.68,
+    "precio": 17110.5792,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 6
+    "subrubro": "MALBEC"
   },
   {
     "id": "5870",
     "nombre": "ESTUCHE CHANDON EXTRA BRUT (2 BOT-2 COPAS)",
     "marca": "Chandon",
-    "precio": 58438.33,
+    "precio": 45801.043645499994,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 4
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "5872",
     "nombre": "EMBLEMA MALBEC 375",
     "marca": "Septima",
-    "precio": 6822.4,
+    "precio": 5347.0560000000005,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 8
+    "subrubro": "MALBEC"
   },
   {
     "id": "5875",
     "nombre": "SUNSET",
     "marca": "SUNSET ",
-    "precio": 16000.0,
-    "rubro": "Cata",
-    "subrubro": "Cata",
-    "stock": 44
+    "precio": 20565.600000000002,
+    "rubro": "CATA",
+    "subrubro": "CATA"
   },
   {
     "id": "5876",
     "nombre": "MANTECOL X 64 GR",
     "marca": "Mantecol",
-    "precio": 1521.36,
-    "rubro": "Mantecol",
-    "subrubro": "Mantecol",
-    "stock": 1
+    "precio": 1192.3677809999997,
+    "rubro": "MANTECOL",
+    "subrubro": "MANTECOL"
   },
   {
     "id": "5877",
     "nombre": "MARRASO MODERN BLEND ROSADO",
     "marca": "Septima",
-    "precio": 9351.28,
+    "precio": 7329.065699999999,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 24
+    "subrubro": "ROSADO"
   },
   {
     "id": "5881",
     "nombre": "LA LINDA SWEET SC",
     "marca": "Luigi Bosca",
-    "precio": 10066.32,
+    "precio": 7889.4783,
     "rubro": "VINO",
-    "subrubro": "DULCE",
-    "stock": 1
+    "subrubro": "DULCE"
   },
   {
     "id": "5882",
     "nombre": "LUIGI BOSCA DE SANGRE MALBEC DOC MAGNUM",
     "marca": "Luigi Bosca",
-    "precio": 43500.0,
+    "precio": 34093.1246865,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 1
+    "subrubro": "MALBEC"
   },
   {
     "id": "5883",
     "nombre": "CONSUMICION EVENTOS ",
     "marca": "CONSUMISION",
-    "precio": 5000.0,
-    "rubro": "Cata",
-    "subrubro": "Cata",
-    "stock": 45
+    "precio": 3918.749373,
+    "rubro": "CATA",
+    "subrubro": "CATA"
   },
   {
     "id": "5886",
     "nombre": "PIMIENTSA MIX EL CASTILLO ",
     "marca": "EL CASTILLO",
-    "precio": 20844.4,
+    "precio": 16336.7985,
     "rubro": "CONSERVAS",
-    "subrubro": "CONSERVAS",
-    "stock": 2
+    "subrubro": "CONSERVAS"
   },
   {
     "id": "5887",
     "nombre": "PASTA DE MANI KING CRUNCHY",
     "marca": "King",
-    "precio": 5000.0,
+    "precio": 3918.749373,
     "rubro": "CONSERVAS",
-    "subrubro": "CONSERVAS",
-    "stock": 2
+    "subrubro": "CONSERVAS"
   },
   {
     "id": "5888",
     "nombre": "CONEJO VERDE CHENIN DULCE NATURAL",
     "marca": "CONEJO VERDE",
-    "precio": 10012.2,
+    "precio": 7847.06175,
     "rubro": "DULCE",
-    "subrubro": "DULCE",
-    "stock": 6
+    "subrubro": "DULCE"
   },
   {
     "id": "5889",
     "nombre": "CHATEAU SUBSONICO ASTI ESPUMANTE",
     "marca": "CHATEAU SUBSONICO",
-    "precio": 12201.6,
+    "precio": 9563.003999999999,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 4
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "5890",
     "nombre": "CHATEAU SUBSONICO NARANJO ",
     "marca": "CHATEAU SUBSONICO",
-    "precio": 12201.6,
+    "precio": 9563.003999999999,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 4
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "5891",
     "nombre": "ESTUCHE FERUS MALBEC",
     "marca": "FALASCO WINES",
-    "precio": 35000.0,
+    "precio": 27431.24946705,
     "rubro": "ESTUCHES",
-    "subrubro": "ESTUCHES",
-    "stock": 2
+    "subrubro": "ESTUCHES"
   },
   {
     "id": "5892",
     "nombre": "CONEJO VERDE CHENIN DULCE ALUMINIO",
     "marca": "FALASCO WINES",
-    "precio": 7117.6,
+    "precio": 5578.418999999999,
     "rubro": "VINO",
-    "subrubro": "CHENING DULCE",
-    "stock": 1
+    "subrubro": "CHENING DULCE"
   },
   {
     "id": "5893",
     "nombre": "ESTUCHE FINJAMOS DEMENCIA X 2 BOTELLAS",
     "marca": "Trivento",
-    "precio": 20336.0,
+    "precio": 15938.34,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 2
+    "subrubro": "BLEND"
   },
   {
     "id": "5894",
     "nombre": "LAUREANO GOMEZ MERLOT RESERVA",
     "marca": "LAUREANO GOMEZ",
-    "precio": 29913.6,
+    "precio": 23444.784,
     "rubro": "VINO",
-    "subrubro": "Merlot",
-    "stock": 13
+    "subrubro": "MERLOT"
   },
   {
     "id": "5895",
     "nombre": "LAUREANO GOMEZ MALBEC TERROIR",
     "marca": "LAUREANO GOMEZ",
-    "precio": 17318.4,
+    "precio": 13573.295999999998,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 7
+    "subrubro": "MALBEC"
   },
   {
     "id": "5897",
     "nombre": "LAUREANO GOMEZ MALBEC RESERVA",
     "marca": "LAUREANO GOMEZ",
-    "precio": 28024.32,
+    "precio": 21964.0608,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 12
+    "subrubro": "MALBEC"
   },
   {
     "id": "5899",
     "nombre": "ANDELUNA ALTITUD PINOT NOIR",
     "marca": "ANDELUNA",
-    "precio": 14743.6,
+    "precio": 11555.296499999999,
     "rubro": "VINO",
-    "subrubro": "PINOT NOIR",
-    "stock": 3
+    "subrubro": "PINOT NOIR"
   },
   {
     "id": "5900",
     "nombre": "ANDELUNA MALBEC ROSE",
     "marca": "ANDELUNA",
-    "precio": 14743.6,
+    "precio": 11555.296499999999,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 18
+    "subrubro": "ROSADO"
   },
   {
     "id": "5901",
     "nombre": "DOÑA PAULA SINGLE VINEYARD RIESLING",
     "marca": "DOÑA PAULA",
-    "precio": 16777.2,
+    "precio": 13149.130500000001,
     "rubro": "VINO",
-    "subrubro": "RIESLING",
-    "stock": 2
+    "subrubro": "RIESLING"
   },
   {
     "id": "5902",
     "nombre": "ANDELUNA ALTITUD CHARDONNAY",
     "marca": "ANDELUNA",
-    "precio": 14743.6,
+    "precio": 11555.296499999999,
     "rubro": "VINO",
-    "subrubro": "CHARDONNAY",
-    "stock": 5
+    "subrubro": "CHARDONNAY"
   },
   {
     "id": "5914",
     "nombre": "GUINNESS HOP HOUSE LAGER",
     "marca": "GUINNESS",
-    "precio": 4649.4,
+    "precio": 3643.96725,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 14
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "5915",
     "nombre": "PAN DULCE DON ENRIQUE EXAGONAL",
     "marca": "Deubel",
-    "precio": 30504.0,
-    "rubro": "Panificacion",
-    "subrubro": "Panificacion",
-    "stock": 2
+    "precio": 23907.510000000002,
+    "rubro": "PANIFICACION",
+    "subrubro": "PANIFICACION"
   },
   {
     "id": "5916",
     "nombre": "Tortillas",
     "marca": "UENO",
-    "precio": 8265.6,
-    "rubro": "Comida",
-    "subrubro": "Tortillas",
-    "stock": 23
+    "precio": 6478.164000000001,
+    "rubro": "COMIDA",
+    "subrubro": "TORTILLAS"
   },
   {
     "id": "5921",
     "nombre": "GIN RESTINGA FLAVOURED",
     "marca": "RESTINGA",
-    "precio": 26945.2,
+    "precio": 21118.300499999998,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 4
+    "subrubro": "GIN"
   },
   {
     "id": "5926",
     "nombre": "BUDWEISER BOTELLA 355 CC",
     "marca": "BUDWEISER",
-    "precio": 2000.8,
+    "precio": 1568.127,
     "rubro": "CERVEZAS",
-    "subrubro": "CERVEZAS",
-    "stock": 34
+    "subrubro": "CERVEZAS"
   },
   {
     "id": "5930",
     "nombre": "RESTINGA VERMU 746",
     "marca": "RESTINGA",
-    "precio": 17318.4,
-    "rubro": "Vermut",
-    "subrubro": "Vermut",
-    "stock": 4
+    "precio": 13573.295999999998,
+    "rubro": "VERMUT",
+    "subrubro": "VERMUT"
   },
   {
     "id": "5931",
     "nombre": "RESTINGA ESTUCHE LONDON TAKE AWAY (BOTELLA + COPA)",
     "marca": "RESTINGA",
-    "precio": 40672.0,
+    "precio": 31876.68,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 5
+    "subrubro": "GIN"
   },
   {
     "id": "5932",
     "nombre": "RESTINGA ESTUCHE TRIPACK",
     "marca": "RESTINGA",
-    "precio": 37113.2,
+    "precio": 29087.4705,
     "rubro": "GIN",
-    "subrubro": "GIN",
-    "stock": 1
+    "subrubro": "GIN"
   },
   {
     "id": "5938",
     "nombre": "GANCIA 0.0",
     "marca": "Gancia",
-    "precio": 1994.24,
+    "precio": 1562.9855999999997,
     "rubro": "APERITIVO",
-    "subrubro": "APERITIVO",
-    "stock": 17
+    "subrubro": "APERITIVO"
   },
   {
     "id": "5939",
     "nombre": "SAN HUBERTO BLANCO CERO ALCOHOL",
     "marca": "SAN HUBERTO",
-    "precio": 5248.0,
+    "precio": 4113.12,
     "rubro": "VINO",
-    "subrubro": "BLEND BLANCO",
-    "stock": 10
+    "subrubro": "BLEND BLANCO"
   },
   {
     "id": "5944",
     "nombre": "CONEJO VERDE BAJO ALCOHOL MALBEC",
     "marca": "CONEJO VERDE",
-    "precio": 7749.0,
+    "precio": 6073.278749999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 3
+    "subrubro": "MALBEC"
   },
   {
     "id": "5945",
     "nombre": "CAVA CODORNIU ROSADO ZERO",
     "marca": "CODORNIU",
-    "precio": 22566.4,
+    "precio": 17686.415999999997,
     "rubro": "ESPUMANTE",
-    "subrubro": "ESPUMANTE",
-    "stock": 7
+    "subrubro": "ESPUMANTE"
   },
   {
     "id": "5947",
     "nombre": "SOTTANO MALBEC ROSE",
     "marca": "Sottano",
-    "precio": 9659.6,
+    "precio": 7570.711499999999,
     "rubro": "VINO",
-    "subrubro": "ROSADO",
-    "stock": 7
+    "subrubro": "ROSADO"
   },
   {
     "id": "5949",
     "nombre": "AMARUA RASPBERRY",
     "marca": "Amarula",
-    "precio": 38835.2,
+    "precio": 30437.088,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 1
+    "subrubro": "LICORES"
   },
   {
     "id": "5950",
     "nombre": "PENEDO BORGES PRISMA BLEND",
     "marca": "PENEDO BORGES",
-    "precio": 11645.98,
+    "precio": 9127.5402735,
     "rubro": "VINO",
-    "subrubro": "BLEND TINTO",
-    "stock": 10
+    "subrubro": "BLEND TINTO"
   },
   {
     "id": "5951",
     "nombre": "PENEDO BORGES PRISMA MALBEC",
     "marca": "PENEDO BORGES",
-    "precio": 18597.6,
+    "precio": 14575.869,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 6
+    "subrubro": "MALBEC"
   },
   {
     "id": "5952",
     "nombre": "PENEDO BORGES CEPAS MALBEC",
     "marca": "PENEDO BORGES",
-    "precio": 13948.2,
+    "precio": 10931.901749999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 5
+    "subrubro": "MALBEC"
   },
   {
     "id": "5953",
     "nombre": " AMARULA COFFEE",
     "marca": "Amarula",
-    "precio": 38835.2,
+    "precio": 30437.088,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 3
+    "subrubro": "LICORES"
   },
   {
     "id": "5954",
     "nombre": " GANCIA HIBISCUS",
     "marca": "Gancia",
-    "precio": 10656.38,
+    "precio": 8351.9343765,
     "rubro": "APERITIVO",
-    "subrubro": "APERITIVO",
-    "stock": 4
+    "subrubro": "APERITIVO"
   },
   {
     "id": "5955",
     "nombre": "ANDELUNA MALBEC BAJO ALCOHOL",
     "marca": "SAN HUBERTO",
-    "precio": 11365.2,
+    "precio": 8907.475499999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 6
+    "subrubro": "MALBEC"
   },
   {
     "id": "5962",
     "nombre": "ALTUS RESERVA MALBEC",
     "marca": "ALTUS",
-    "precio": 17461.08,
+    "precio": 13685.121449999999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 11
+    "subrubro": "MALBEC"
   },
   {
     "id": "5963",
     "nombre": "ALTUS GRAND VIN",
     "marca": "ALTUS",
-    "precio": 32029.2,
+    "precio": 25102.885500000004,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 7
+    "subrubro": "BLEND"
   },
   {
     "id": "5965",
     "nombre": "ZORZAL EGGO PINOT",
     "marca": "ZORZAL",
-    "precio": 24665.6,
+    "precio": 19331.663999999997,
     "rubro": "VINO",
-    "subrubro": "PINOT NOIR",
-    "stock": 1
+    "subrubro": "PINOT NOIR"
   },
   {
     "id": "5966",
     "nombre": "ZORZAL EGGO CABERNET FRANC",
     "marca": "ZORZAL",
-    "precio": 24665.6,
+    "precio": 19331.663999999997,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 1
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "5967",
     "nombre": "ZORZAL EGGO MALBEC",
     "marca": "ZORZAL",
-    "precio": 24665.6,
+    "precio": 19331.663999999997,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 8
+    "subrubro": "MALBEC"
   },
   {
     "id": "5969",
     "nombre": "LUIGI BOSCA DE SANGRE CORTE (BLEND)",
     "marca": "Luigi Bosca",
-    "precio": 24665.6,
+    "precio": 19331.663999999997,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 6
+    "subrubro": "BLEND"
   },
   {
     "id": "5970",
     "nombre": "HERMANDAD BRUT",
     "marca": "FALASCO WINES",
-    "precio": 32012.8,
+    "precio": 25090.032,
     "rubro": "ESPUMANTE",
-    "subrubro": "CHAMPPAGNE",
-    "stock": 16
+    "subrubro": "CHAMPPAGNE"
   },
   {
     "id": "5972",
     "nombre": "RUTINI CABERNET",
     "marca": "Rutini Wines",
-    "precio": 30438.4,
+    "precio": 23856.095999999998,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 12
+    "subrubro": "CABERNET"
   },
   {
     "id": "5974",
     "nombre": "RUTA 60 MALBEC",
     "marca": "Ruta 60",
-    "precio": 12136.0,
+    "precio": 9511.59,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 5
+    "subrubro": "MALBEC"
   },
   {
     "id": "5975",
     "nombre": "RUTA 60 SYRAH",
     "marca": "Ruta 60",
-    "precio": 12136.0,
+    "precio": 9511.59,
     "rubro": "VINO",
-    "subrubro": "SYRAH",
-    "stock": 10
+    "subrubro": "SYRAH"
   },
   {
     "id": "5976",
     "nombre": "TRES PLUMAS LICOR DE HUEVO",
     "marca": "Tres Plumas",
-    "precio": 10168.0,
+    "precio": 7969.17,
     "rubro": "LICOR",
-    "subrubro": "LICORES",
-    "stock": 4
+    "subrubro": "LICORES"
   },
   {
     "id": "5977",
     "nombre": "ABSENTE 53.7% GRADOS",
     "marca": "ABSENTA",
-    "precio": 131019.6,
+    "precio": 102686.6115,
     "rubro": "ABSENTA",
-    "subrubro": "ABSENTA",
-    "stock": 3
+    "subrubro": "ABSENTA"
   },
   {
     "id": "5980",
     "nombre": "DOÑA PAULA ESTATE MALBEC EDICION MUNDIAL",
     "marca": "DOÑA PAULA",
-    "precio": 10137.77,
+    "precio": 7945.480999499999,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 73
+    "subrubro": "MALBEC"
   },
   {
     "id": "5981",
     "nombre": "PETACA LISA ACERO 9OZ",
     "marca": "OTROS",
-    "precio": 17318.4,
-    "rubro": "Cocteleria",
-    "subrubro": "Cocteleria",
-    "stock": 4
+    "precio": 13573.295999999998,
+    "rubro": "COCTELERIA",
+    "subrubro": "COCTELERIA"
   },
   {
     "id": "5982",
     "nombre": "SET DE VINOS 3 ELEMENTOS SAVE WATER DRINK",
     "marca": "OTROS",
-    "precio": 20992.0,
+    "precio": 16452.48,
     "rubro": "ACCESORIOS VINO",
-    "subrubro": "ACCESORIOS VINO",
-    "stock": 5
+    "subrubro": "ACCESORIOS VINO"
   },
   {
     "id": "5984",
     "nombre": "TERRAZAS RESERVA CABERNET FRANC",
     "marca": "TERRAZAS DE LOS ANDES ",
-    "precio": 20684.24,
+    "precio": 16211.271219000002,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 3
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "5985",
     "nombre": "ESTUCHE CASILLERO DEL DIABLO MANCHESTER RED BLEND",
     "marca": "Trivento",
-    "precio": 21516.8,
+    "precio": 16863.792,
     "rubro": "VINO",
-    "subrubro": "Blend",
-    "stock": 5
+    "subrubro": "BLEND"
   },
   {
     "id": "5986",
     "nombre": "DOÑA PAULA PARCELA SELECTION MALBEC LOS INDIOS",
     "marca": "DOÑA PAULA",
-    "precio": 75046.4,
+    "precio": 58817.615999999995,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 3
+    "subrubro": "MALBEC"
   },
   {
     "id": "5987",
     "nombre": "DOÑA PAULA PARCELA SELECTION MALBEC ALUVIA",
     "marca": "DOÑA PAULA",
-    "precio": 75046.4,
+    "precio": 58817.615999999995,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 3
+    "subrubro": "MALBEC"
   },
   {
     "id": "5988",
     "nombre": "DOÑA PAULA SELECCION DE BODEGA MALBEC",
     "marca": "DOÑA PAULA",
-    "precio": 79244.8,
+    "precio": 62108.111999999994,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 2
+    "subrubro": "MALBEC"
   },
   {
     "id": "5989",
     "nombre": "CHATEAU SUBSONICO MALBEC SINGLE VINEYARD",
     "marca": "CHATEAU SUBSONICO",
-    "precio": 20467.2,
+    "precio": 16041.167999999998,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 7
+    "subrubro": "MALBEC"
   },
   {
     "id": "5990",
     "nombre": "LAUREANO GOMEZ MERLOT TERROIR",
     "marca": "LAUREANO GOMEZ",
-    "precio": 17318.4,
+    "precio": 13573.295999999998,
     "rubro": "VINO",
-    "subrubro": "Merlot",
-    "stock": 4
+    "subrubro": "MERLOT"
   },
   {
     "id": "5991",
     "nombre": "DRIMER TUBO ALMENDRAS CON CHOCOLATE",
     "marca": "CHOCOLATES DRIMER",
-    "precio": 6822.4,
+    "precio": 5347.0560000000005,
     "rubro": "CHOCOLATES",
-    "subrubro": "CHOCOLATES",
-    "stock": 6
+    "subrubro": "CHOCOLATES"
   },
   {
     "id": "5992",
     "nombre": "DRIMER TUBO AVELLANAS CON CHOCOLATE",
     "marca": "CHOCOLATES DRIMER",
-    "precio": 6822.4,
+    "precio": 5347.0560000000005,
     "rubro": "CHOCOLATES",
-    "subrubro": "CHOCOLATES",
-    "stock": 4
+    "subrubro": "CHOCOLATES"
   },
   {
     "id": "5993",
     "nombre": "DRIMER TUBO NARANJAS CON CHOCOLATE",
     "marca": "CHOCOLATES DRIMER",
-    "precio": 6822.4,
+    "precio": 5347.0560000000005,
     "rubro": "CHOCOLATES",
-    "subrubro": "CHOCOLATES",
-    "stock": 4
+    "subrubro": "CHOCOLATES"
   },
   {
     "id": "5994",
     "nombre": "ALTOMONTE DE SANGRE MALBEC",
     "marca": "Altomonte",
-    "precio": 10217.2,
+    "precio": 8007.7305,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 90
+    "subrubro": "MALBEC"
   },
   {
     "id": "5995",
     "nombre": "ALTOMONTE DE SANGRE CABERNET",
     "marca": "Altomonte",
-    "precio": 12385.28,
+    "precio": 9706.9632,
     "rubro": "VINO",
-    "subrubro": "CABERNET",
-    "stock": 12
+    "subrubro": "CABERNET"
   },
   {
     "id": "5996",
     "nombre": "ALTOMONTE DE SANGRE CABERNET FRANC",
     "marca": "Altomonte",
-    "precio": 12385.28,
+    "precio": 9706.9632,
     "rubro": "VINO",
-    "subrubro": "CABERNET FRANC",
-    "stock": 12
+    "subrubro": "CABERNET FRANC"
   },
   {
     "id": "5998",
     "nombre": "DOÑA PAULA SINGLE VINEYARDS MALBEC MAGNUN 1.5L",
     "marca": "DOÑA PAULA",
-    "precio": 37680.64,
+    "precio": 29532.201600000004,
     "rubro": "VINO",
-    "subrubro": "MALBEC",
-    "stock": 3
+    "subrubro": "MALBEC"
   }
 ]
