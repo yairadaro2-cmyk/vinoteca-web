@@ -4,686 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinoteca - Vinos Premium Entrega Martes y Jueves</title>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TH3X8ZL9');</script>
+    <!-- End Google Tag Manager -->
+    
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f7f4;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        /* Header */
-        header {
-            background: linear-gradient(135deg, #722f37 0%, #8b3a42 100%);
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            font-weight: 700;
-        }
-
-        header p {
-            font-size: 1.1rem;
-            opacity: 0.95;
-            margin-bottom: 1rem;
-        }
-
-        /* Promoción */
-        .promo-banner {
-            background: #d4af37;
-            color: #722f37;
-            padding: 1rem;
-            text-align: center;
-            font-weight: 600;
-            font-size: 1rem;
-            border-bottom: 3px solid #c9a82e;
-        }
-
-        .promo-banner strong {
-            display: block;
-            margin-bottom: 0.3rem;
-        }
-
-        .promo-details {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin-top: 0.5rem;
-            flex-wrap: wrap;
-            font-size: 0.95rem;
-        }
-
-        .promo-details span {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .icon {
-            font-size: 1.2rem;
-        }
-
-        /* Main container */
-        main {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        /* Filtros rápidos */
-        .filtros-rapidos {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin-bottom: 2rem;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-            border-top: 3px solid #d4af37;
-        }
-
-        .filtros-rapidos h3 {
-            margin-bottom: 1rem;
-            color: #722f37;
-            font-size: 1.1rem;
-            font-weight: 600;
-        }
-
-        .botones-rapidos {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 1rem;
-        }
-
-        .btn-filtro-rapido {
-            padding: 1rem;
-            border: 2px solid #e8e5e0;
-            background: white;
-            border-radius: 6px;
-            cursor: pointer;
-            transition: all 0.3s;
-            font-weight: 600;
-            color: #722f37;
-            text-align: center;
-            font-size: 0.95rem;
-        }
-
-        .btn-filtro-rapido:hover {
-            border-color: #d4af37;
-            background: #fafaf8;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(114, 47, 55, 0.1);
-        }
-
-        .btn-filtro-rapido.activo {
-            background: #722f37;
-            color: white;
-            border-color: #722f37;
-        }
-
-        .btn-filtro-rapido span {
-            display: block;
-            font-size: 1.5rem;
-            margin-bottom: 0.3rem;
-        }
-
-        /* Filtros */
-        .filtros-section {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin-bottom: 2rem;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-
-        .filtros-section h3 {
-            margin-bottom: 1rem;
-            color: #722f37;
-            font-size: 1.1rem;
-        }
-
-        .filtros-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-        }
-
-        input[type="text"],
-        input[type="number"],
-        select {
-            width: 100%;
-            padding: 0.8rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 1rem;
-            font-family: inherit;
-        }
-
-        input[type="text"]:focus,
-        input[type="number"]:focus,
-        select:focus {
-            outline: none;
-            border-color: #722f37;
-            box-shadow: 0 0 0 3px rgba(114, 47, 55, 0.1);
-        }
-
-        /* Productos */
-        .productos-section {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-            margin-bottom: 2rem;
-        }
-
-        .productos-section h2 {
-            color: #722f37;
-            margin-bottom: 1.5rem;
-            font-size: 1.5rem;
-        }
-
-        .productos-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .producto-card {
-            background: #fafaf8;
-            border: 1px solid #e8e5e0;
-            border-radius: 6px;
-            padding: 1.5rem;
-            transition: all 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-        }
-
-        .producto-card:hover {
-            box-shadow: 0 4px 12px rgba(114, 47, 55, 0.15);
-            transform: translateY(-2px);
-            border-color: #d4af37;
-        }
-
-        .producto-nombre {
-            font-weight: 600;
-            color: #722f37;
-            margin-bottom: 0.5rem;
-            font-size: 1rem;
-            line-height: 1.4;
-            min-height: 2.8rem;
-        }
-
-        .producto-marca {
-            font-size: 0.85rem;
-            color: #999;
-            margin-bottom: 0.5rem;
-        }
-
-        .producto-info {
-            display: flex;
-            gap: 0.5rem;
-            margin-bottom: 1rem;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
-        .producto-rubro {
-            display: inline-block;
-            background: #f0ebe5;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.75rem;
-            color: #722f37;
-            font-weight: 500;
-        }
-
-        .producto-subrubro {
-            display: inline-block;
-            background: #ede4d9;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.75rem;
-            color: #666;
-            font-weight: 500;
-        }
-
-        .producto-precio {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #d4af37;
-            margin-bottom: 0.3rem;
-        }
-
-        .producto-precio-nota {
-            font-size: 0.8rem;
-            color: #25D366;
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-
-        .producto-cantidad {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .producto-cantidad button {
-            width: 32px;
-            height: 32px;
-            border: 1px solid #ddd;
-            background: white;
-            cursor: pointer;
-            border-radius: 4px;
-            font-weight: bold;
-            color: #722f37;
-            transition: all 0.2s;
-        }
-
-        .producto-cantidad button:hover {
-            background: #f0ebe5;
-            border-color: #722f37;
-        }
-
-        .producto-cantidad input {
-            width: 50px;
-            text-align: center;
-            padding: 0.5rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 1rem;
-        }
-
-        .btn-agregar {
-            background: #722f37;
-            color: white;
-            border: none;
-            padding: 0.8rem 1.5rem;
-            border-radius: 4px;
-            font-size: 0.95rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s;
-            width: 100%;
-            margin-top: auto;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .btn-agregar:hover {
-            background: #8b3a42;
-            box-shadow: 0 2px 8px rgba(114, 47, 55, 0.2);
-        }
-
-        .btn-agregar:active {
-            transform: scale(0.98);
-        }
-
-        /* Efecto de agregado */
-        .agregar-animacion {
-            position: fixed;
-            pointer-events: none;
-            font-size: 2rem;
-            font-weight: bold;
-            z-index: 2000;
-            animation: floatUp 0.8s ease-out forwards;
-        }
-
-        @keyframes floatUp {
-            0% {
-                opacity: 1;
-                transform: translateY(0) scale(1);
-            }
-            100% {
-                opacity: 0;
-                transform: translateY(-80px) scale(1.2);
-            }
-        }
-
-        /* Carrito */
-        .carrito-container {
-            position: fixed;
-            right: 0;
-            top: 0;
-            height: 100vh;
-            width: 100%;
-            max-width: 400px;
-            background: white;
-            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
-            transform: translateX(100%);
-            transition: transform 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            z-index: 1000;
-            overflow: hidden;
-        }
-
-        .carrito-container.abierto {
-            transform: translateX(0);
-        }
-
-        .carrito-header {
-            background: #722f37;
-            color: white;
-            padding: 1.5rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .carrito-header h2 {
-            font-size: 1.3rem;
-        }
-
-        .btn-cerrar {
-            background: none;
-            border: none;
-            color: white;
-            font-size: 1.5rem;
-            cursor: pointer;
-            padding: 0;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .carrito-items {
-            flex: 1;
-            overflow-y: auto;
-            padding: 1rem;
-        }
-
-        .carrito-item {
-            background: #f8f7f4;
-            padding: 1rem;
-            border-radius: 4px;
-            margin-bottom: 1rem;
-            border-left: 3px solid #d4af37;
-        }
-
-        .carrito-item-nombre {
-            font-weight: 600;
-            color: #722f37;
-            margin-bottom: 0.5rem;
-            font-size: 0.95rem;
-        }
-
-        .carrito-item-precio {
-            color: #d4af37;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
-
-        .carrito-item-qty {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .carrito-item-qty button {
-            width: 28px;
-            height: 28px;
-            border: 1px solid #ddd;
-            background: white;
-            cursor: pointer;
-            border-radius: 3px;
-            font-weight: bold;
-            color: #722f37;
-            font-size: 0.9rem;
-        }
-
-        .carrito-item-qty input {
-            width: 40px;
-            text-align: center;
-            padding: 0.4rem;
-            border: 1px solid #ddd;
-            border-radius: 3px;
-            font-size: 0.9rem;
-        }
-
-        .btn-eliminar {
-            background: #f5e6e6;
-            color: #c41e3a;
-            border: none;
-            padding: 0.4rem 0.8rem;
-            border-radius: 3px;
-            font-size: 0.8rem;
-            cursor: pointer;
-            width: 100%;
-            margin-top: 0.5rem;
-        }
-
-        .btn-eliminar:hover {
-            background: #e8cccc;
-        }
-
-        .carrito-empty {
-            padding: 2rem 1rem;
-            text-align: center;
-            color: #999;
-        }
-
-        .carrito-footer {
-            padding: 1.5rem;
-            border-top: 1px solid #e8e5e0;
-            background: #fafaf8;
-        }
-
-        .metodo-pago {
-            background: #e8f4f8;
-            padding: 1rem;
-            border-radius: 4px;
-            margin-bottom: 1rem;
-            border: 1px solid #b3d9e8;
-        }
-
-        .metodo-pago h4 {
-            color: #0c5a6d;
-            font-size: 0.9rem;
-            margin-bottom: 0.7rem;
-            font-weight: 600;
-        }
-
-        .checkbox-container {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .checkbox-container input[type="checkbox"] {
-            width: 18px;
-            height: 18px;
-            cursor: pointer;
-        }
-
-        .checkbox-container label {
-            cursor: pointer;
-            font-size: 0.95rem;
-            color: #0c5a6d;
-            font-weight: 500;
-        }
-
-        .carrito-total {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: #722f37;
-        }
-
-        .carrito-total-monto {
-            color: #d4af37;
-            font-size: 1.5rem;
-        }
-
-        .info-envio {
-            background: #e8f4f8;
-            padding: 0.8rem;
-            border-radius: 4px;
-            font-size: 0.85rem;
-            color: #0c5a6d;
-            margin-bottom: 1rem;
-            line-height: 1.5;
-        }
-
-        .info-envio strong {
-            display: block;
-            margin-bottom: 0.3rem;
-        }
-
-        .btn-whatsapp {
-            background: #25D366;
-            color: white;
-            border: none;
-            padding: 1rem;
-            border-radius: 4px;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.5rem;
-            transition: all 0.2s;
-        }
-
-        .btn-whatsapp:hover {
-            background: #20BA5A;
-            box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3);
-        }
-
-        .btn-whatsapp:active {
-            transform: scale(0.98);
-        }
-
-        /* Botón flotante carrito */
-        .btn-carrito-flotante {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            background: #d4af37;
-            color: #722f37;
-            border: none;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            font-size: 1.8rem;
-            cursor: pointer;
-            box-shadow: 0 4px 12px rgba(114, 47, 55, 0.2);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            z-index: 999;
-            transition: all 0.3s;
-        }
-
-        .btn-carrito-flotante:hover {
-            transform: scale(1.1);
-            box-shadow: 0 6px 16px rgba(114, 47, 55, 0.3);
-        }
-
-        .carrito-badge {
-            position: absolute;
-            top: -8px;
-            right: -8px;
-            background: #c41e3a;
-            color: white;
-            width: 28px;
-            height: 28px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.8rem;
-            font-weight: 700;
-            animation: pulse 0.3s ease-out;
-        }
-
-        @keyframes pulse {
-            0% {
-                transform: scale(0.8);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
-
-        .overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.3);
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.3s;
-            z-index: 999;
-        }
-
-        .overlay.visible {
-            opacity: 1;
-            pointer-events: auto;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 1.8rem;
-            }
-
-            .productos-grid {
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-                gap: 1rem;
-            }
-
-            .producto-card {
-                padding: 1rem;
-            }
-
-            .promo-details {
-                gap: 1rem;
-                font-size: 0.85rem;
-            }
-
-            .btn-carrito-flotante {
-                width: 50px;
-                height: 50px;
-                font-size: 1.4rem;
-                bottom: 1rem;
-                right: 1rem;
-            }
-
-            .botones-rapidos {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        .sin-resultados {
-            text-align: center;
-            padding: 2rem;
-            color: #999;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f8f7f4; color: #333; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #722f37 0%, #8b3a42 100%); color: white; padding: 2rem 1rem; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; font-weight: 700; }
+        header p { font-size: 1.1rem; opacity: 0.95; margin-bottom: 1rem; }
+        .promo-banner { background: #d4af37; color: #722f37; padding: 1rem; text-align: center; font-weight: 600; font-size: 1rem; border-bottom: 3px solid #c9a82e; }
+        .promo-banner strong { display: block; margin-bottom: 0.3rem; }
+        .promo-details { display: flex; justify-content: center; gap: 2rem; margin-top: 0.5rem; flex-wrap: wrap; font-size: 0.95rem; }
+        .promo-details span { display: flex; align-items: center; gap: 0.5rem; }
+        main { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+        .filtros-rapidos { background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border-top: 3px solid #d4af37; }
+        .filtros-rapidos h3 { margin-bottom: 1rem; color: #722f37; font-size: 1.1rem; font-weight: 600; }
+        .botones-rapidos { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; }
+        .btn-filtro-rapido { padding: 1rem; border: 2px solid #e8e5e0; background: white; border-radius: 6px; cursor: pointer; transition: all 0.3s; font-weight: 600; color: #722f37; text-align: center; font-size: 0.95rem; }
+        .btn-filtro-rapido:hover { border-color: #d4af37; background: #fafaf8; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(114, 47, 55, 0.1); }
+        .btn-filtro-rapido.activo { background: #722f37; color: white; border-color: #722f37; }
+        .btn-filtro-rapido span { display: block; font-size: 1.5rem; margin-bottom: 0.3rem; }
+        .filtros-section { background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        .filtros-section h3 { margin-bottom: 1rem; color: #722f37; font-size: 1.1rem; }
+        .filtros-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        input[type="text"], input[type="number"], select { width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem; font-family: inherit; }
+        input[type="text"]:focus, input[type="number"]:focus, select:focus { outline: none; border-color: #722f37; box-shadow: 0 0 0 3px rgba(114, 47, 55, 0.1); }
+        .productos-section { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); margin-bottom: 2rem; }
+        .productos-section h2 { color: #722f37; margin-bottom: 1.5rem; font-size: 1.5rem; }
+        .productos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.5rem; }
+        .producto-card { background: #fafaf8; border: 1px solid #e8e5e0; border-radius: 6px; padding: 1.5rem; transition: all 0.3s ease; display: flex; flex-direction: column; position: relative; }
+        .producto-card:hover { box-shadow: 0 4px 12px rgba(114, 47, 55, 0.15); transform: translateY(-2px); border-color: #d4af37; }
+        .producto-nombre { font-weight: 600; color: #722f37; margin-bottom: 0.5rem; font-size: 1rem; line-height: 1.4; min-height: 2.8rem; }
+        .producto-marca { font-size: 0.85rem; color: #999; margin-bottom: 0.5rem; }
+        .producto-info { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; align-items: center; }
+        .producto-rubro { display: inline-block; background: #f0ebe5; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.75rem; color: #722f37; font-weight: 500; }
+        .producto-subrubro { display: inline-block; background: #ede4d9; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.75rem; color: #666; font-weight: 500; }
+        .producto-precio { font-size: 1.5rem; font-weight: 700; color: #d4af37; margin-bottom: 0.3rem; }
+        .producto-precio-nota { font-size: 0.8rem; color: #25D366; font-weight: 600; margin-bottom: 1rem; }
+        .producto-cantidad { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem; }
+        .producto-cantidad button { width: 32px; height: 32px; border: 1px solid #ddd; background: white; cursor: pointer; border-radius: 4px; font-weight: bold; color: #722f37; transition: all 0.2s; }
+        .producto-cantidad button:hover { background: #f0ebe5; border-color: #722f37; }
+        .producto-cantidad input { width: 50px; text-align: center; padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem; }
+        .btn-agregar { background: #722f37; color: white; border: none; padding: 0.8rem 1.5rem; border-radius: 4px; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s; width: 100%; margin-top: auto; position: relative; overflow: hidden; }
+        .btn-agregar:hover { background: #8b3a42; box-shadow: 0 2px 8px rgba(114, 47, 55, 0.2); }
+        .btn-agregar:active { transform: scale(0.98); }
+        .agregar-animacion { position: fixed; pointer-events: none; font-size: 2rem; font-weight: bold; z-index: 2000; animation: floatUp 0.8s ease-out forwards; }
+        @keyframes floatUp { 0% { opacity: 1; transform: translateY(0) scale(1); } 100% { opacity: 0; transform: translateY(-80px) scale(1.2); } }
+        .carrito-container { position: fixed; right: 0; top: 0; height: 100vh; width: 100%; max-width: 400px; background: white; box-shadow: -2px 0 10px rgba(0,0,0,0.1); transform: translateX(100%); transition: transform 0.3s ease; display: flex; flex-direction: column; z-index: 1000; overflow: hidden; }
+        .carrito-container.abierto { transform: translateX(0); }
+        .carrito-header { background: #722f37; color: white; padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; }
+        .carrito-header h2 { font-size: 1.3rem; }
+        .btn-cerrar { background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; padding: 0; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; }
+        .carrito-items { flex: 1; overflow-y: auto; padding: 1rem; }
+        .carrito-item { background: #f8f7f4; padding: 1rem; border-radius: 4px; margin-bottom: 1rem; border-left: 3px solid #d4af37; }
+        .carrito-item-nombre { font-weight: 600; color: #722f37; margin-bottom: 0.5rem; font-size: 0.95rem; }
+        .carrito-item-precio { color: #d4af37; font-weight: 600; margin-bottom: 0.5rem; }
+        .carrito-item-qty { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+        .carrito-item-qty button { width: 28px; height: 28px; border: 1px solid #ddd; background: white; cursor: pointer; border-radius: 3px; font-weight: bold; color: #722f37; font-size: 0.9rem; }
+        .carrito-item-qty input { width: 40px; text-align: center; padding: 0.4rem; border: 1px solid #ddd; border-radius: 3px; font-size: 0.9rem; }
+        .btn-eliminar { background: #f5e6e6; color: #c41e3a; border: none; padding: 0.4rem 0.8rem; border-radius: 3px; font-size: 0.8rem; cursor: pointer; width: 100%; margin-top: 0.5rem; }
+        .btn-eliminar:hover { background: #e8cccc; }
+        .carrito-empty { padding: 2rem 1rem; text-align: center; color: #999; }
+        .carrito-footer { padding: 1.5rem; border-top: 1px solid #e8e5e0; background: #fafaf8; }
+        .metodo-pago { background: #e8f4f8; padding: 1rem; border-radius: 4px; margin-bottom: 1rem; border: 1px solid #b3d9e8; }
+        .metodo-pago h4 { color: #0c5a6d; font-size: 0.9rem; margin-bottom: 0.7rem; font-weight: 600; }
+        .checkbox-container { display: flex; align-items: center; gap: 0.5rem; }
+        .checkbox-container input[type="checkbox"] { width: 18px; height: 18px; cursor: pointer; }
+        .checkbox-container label { cursor: pointer; font-size: 0.95rem; color: #0c5a6d; font-weight: 500; }
+        .carrito-total { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; font-size: 1.2rem; font-weight: 700; color: #722f37; }
+        .carrito-total-monto { color: #d4af37; font-size: 1.5rem; }
+        .info-envio { background: #e8f4f8; padding: 0.8rem; border-radius: 4px; font-size: 0.85rem; color: #0c5a6d; margin-bottom: 1rem; line-height: 1.5; }
+        .info-envio strong { display: block; margin-bottom: 0.3rem; }
+        .btn-whatsapp { background: #25D366; color: white; border: none; padding: 1rem; border-radius: 4px; font-size: 1rem; font-weight: 600; cursor: pointer; width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5rem; transition: all 0.2s; }
+        .btn-whatsapp:hover { background: #20BA5A; box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3); }
+        .btn-whatsapp:active { transform: scale(0.98); }
+        .btn-carrito-flotante { position: fixed; bottom: 2rem; right: 2rem; background: #d4af37; color: #722f37; border: none; width: 60px; height: 60px; border-radius: 50%; font-size: 1.8rem; cursor: pointer; box-shadow: 0 4px 12px rgba(114, 47, 55, 0.2); display: flex; align-items: center; justify-content: center; font-weight: bold; z-index: 999; transition: all 0.3s; }
+        .btn-carrito-flotante:hover { transform: scale(1.1); box-shadow: 0 6px 16px rgba(114, 47, 55, 0.3); }
+        .carrito-badge { position: absolute; top: -8px; right: -8px; background: #c41e3a; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 700; animation: pulse 0.3s ease-out; }
+        @keyframes pulse { 0% { transform: scale(0.8); } 100% { transform: scale(1); } }
+        .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.3); opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 999; }
+        .overlay.visible { opacity: 1; pointer-events: auto; }
+        @media (max-width: 768px) { header h1 { font-size: 1.8rem; } .productos-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1rem; } .producto-card { padding: 1rem; } .promo-details { gap: 1rem; font-size: 0.85rem; } .btn-carrito-flotante { width: 50px; height: 50px; font-size: 1.4rem; bottom: 1rem; right: 1rem; } .botones-rapidos { grid-template-columns: repeat(2, 1fr); } }
+        .sin-resultados { text-align: center; padding: 2rem; color: #999; }
     </style>
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH3X8ZL9"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
     <header>
         <h1>🍷 Vinoteca Premium</h1>
         <p>Selecciona tus vinos favoritos y realiza tu pedido</p>
@@ -692,10 +109,8 @@
     <div class="promo-banner">
         <strong>✨ PROMOCIÓN ESPECIAL ✨</strong>
         <div class="promo-details">
-            <span class="icon">📦</span>
-            <span><strong>Envío sin cargo</strong> en compras mayores a $100.000</span>
-            <span class="icon">📅</span>
-            <span>Entrega <strong>Martes y Jueves</strong></span>
+            <span>📦 <strong>Envío sin cargo</strong> en compras mayores a $100.000</span>
+            <span>📅 Entrega <strong>Martes y Jueves</strong></span>
         </div>
     </div>
 
@@ -704,20 +119,16 @@
             <h3>⭐ Filtros Rápidos</h3>
             <div class="botones-rapidos">
                 <button class="btn-filtro-rapido" onclick="filtrarPorRubro('VINO')">
-                    <span>🍷</span>
-                    Todos los Vinos
+                    <span>🍷</span> Todos los Vinos
                 </button>
                 <button class="btn-filtro-rapido" onclick="filtrarPorRubro('ESPUMANTE')">
-                    <span>✨</span>
-                    Espumantes
+                    <span>✨</span> Espumantes
                 </button>
                 <button class="btn-filtro-rapido" onclick="filtrarPorRubro('WHISKY')">
-                    <span>🥃</span>
-                    Whisky
+                    <span>🥃</span> Whisky
                 </button>
                 <button class="btn-filtro-rapido" onclick="filtrarPorRubro(null)">
-                    <span>📦</span>
-                    Ver Todo
+                    <span>📦</span> Ver Todo
                 </button>
             </div>
         </div>
@@ -726,12 +137,8 @@
             <h3>🔍 Búsqueda Avanzada</h3>
             <div class="filtros-grid">
                 <input type="text" id="buscar" placeholder="Busca por nombre o marca...">
-                <select id="filtroRubro">
-                    <option value="">Todos los tipos</option>
-                </select>
-                <select id="filtroSubrubro">
-                    <option value="">Todas las variedades</option>
-                </select>
+                <select id="filtroRubro"><option value="">Todos los tipos</option></select>
+                <select id="filtroSubrubro"><option value="">Todas las variedades</option></select>
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
                     <input type="number" id="precioMin" placeholder="Precio mín..." min="0">
                     <input type="number" id="precioMax" placeholder="Precio máx..." min="0">
@@ -747,26 +154,20 @@
         </div>
     </main>
 
-    <!-- Overlay -->
     <div class="overlay" id="overlay"></div>
 
-    <!-- Carrito flotante -->
     <button class="btn-carrito-flotante" id="btnCarrito">
-        🛒
-        <div class="carrito-badge" id="badge">0</div>
+        🛒 <div class="carrito-badge" id="badge">0</div>
     </button>
 
-    <!-- Panel Carrito -->
     <div class="carrito-container" id="carritoPanel">
         <div class="carrito-header">
             <h2>🛒 Carrito</h2>
             <button class="btn-cerrar" id="btnCerrarCarrito">✕</button>
         </div>
-
         <div class="carrito-items" id="carritoItems">
             <div class="carrito-empty">Tu carrito está vacío</div>
         </div>
-
         <div class="carrito-footer">
             <div class="metodo-pago">
                 <h4>Método de Pago</h4>
@@ -775,60 +176,50 @@
                     <label for="pagarOtrosMedios">Pagar con otros medios de pago (+5%)</label>
                 </div>
             </div>
-
             <div class="info-envio" id="infoEnvio" style="display: none;">
-                <strong>📦 Costo de envío:</strong>
-                <span id="costoEnvio">$0</span>
+                <strong>📦 Costo de envío:</strong> <span id="costoEnvio">$0</span>
             </div>
-
             <div class="carrito-total">
                 <span>Total:</span>
                 <span class="carrito-total-monto" id="totalCarrito">$0</span>
             </div>
-
             <button class="btn-whatsapp" id="btnWhatsapp" disabled>
-                <span>💬</span>
-                Enviar pedido por WhatsApp
+                <span>💬</span> Enviar pedido por WhatsApp
             </button>
         </div>
     </div>
 
     <script>
-        // Datos
-        let productos = [{"id": "99", "nombre": "ALTO LAS HORMIGAS MALBEC CLASICO ORGANICO", "marca": "Alto las Hormigas", "precio": 9659.6, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "106", "nombre": "AMARETTO DISARONNO", "marca": "Disarono", "precio": 47200.0, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "107", "nombre": "AMARGO OBRERO", "marca": "AMARGO OBRERO", "precio": 5641.6, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "108", "nombre": "AMARULLA X 750", "marca": "Amarula", "precio": 38727.88, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "131", "nombre": "ANIS CHIN CHON", "marca": "Chinchon", "precio": 55000.0, "rubro": "ANIS", "subrubro": "Anis"}, {"id": "135", "nombre": "AQUI ESTAMOS TODOS LOCOS GARNACHA ", "marca": "Niven Wines", "precio": 12710.0, "rubro": "VINO", "subrubro": "Garnacha"}, {"id": "136", "nombre": "AQUI ESTAMOS TODOS LOCOS SAUVIGNON BLANC", "marca": "Niven Wines", "precio": 9761.28, "rubro": "VINO", "subrubro": "SAVIGNON BLANC"}, {"id": "166", "nombre": "BAILEYS SALTED CARAMEL", "marca": "Baileys", "precio": 39360.0, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "198", "nombre": "BITTER ANGOSTURA", "marca": "Bitter", "precio": 56500.0, "rubro": "APERITIVO", "subrubro": "BITTER"}, {"id": "220", "nombre": "BOMBAY X 750 ", "marca": "Bombay", "precio": 41062.32, "rubro": "GIN", "subrubro": "GIN"}, {"id": "232", "nombre": "BROKER\u00b4S GIN 40%", "marca": "Broker\u00b4S", "precio": 45500.0, "rubro": "GIN", "subrubro": "GIN"}, {"id": "241", "nombre": "CAELUM  CLASICO  MALBEC", "marca": "Bodega Caelum", "precio": 12800.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "244", "nombre": "CAELUM  ECLAT RESERVA (DORADO)", "marca": "Bodega Caelum", "precio": 32500.0, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "248", "nombre": "CAELUM CLASICO CHARDONAY", "marca": "Bodega Caelum", "precio": 12800.0, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "249", "nombre": "CAELUM CLASICO ROSADO", "marca": "Bodega Caelum", "precio": 12800.0, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "250", "nombre": "CAELUM ECLAT EXTRA BRUT", "marca": "Bodega Caelum", "precio": 22878.0, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "252", "nombre": "CAELUM FIANO GRAN RESERVA", "marca": "Bodega Caelum", "precio": 28500.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "254", "nombre": "CAELUM GRAN  RESERVA CABERNET", "marca": "Bodega Caelum", "precio": 32400.0, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "256", "nombre": "CAELUM GRAN RESERVA BLEND (ICONO)", "marca": "Bodega Caelum", "precio": 58500.0, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "257", "nombre": "CAELUM GRAN RESERVA MALBEC MAGNUN", "marca": "Bodega Caelum", "precio": 84600.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "258", "nombre": "CAELUM GRAN RESERVA PINOT", "marca": "Bodega Caelum", "precio": 32400.0, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "272", "nombre": "CAJA NAVIDAD CARTON VACIA", "marca": "LDG ESTUCHES", "precio": 1220.16, "rubro": "CAJA NAVIDE\u00d1AS", "subrubro": "CAJA NAVIDE\u00d1A"}, {"id": "276", "nombre": "CAMPARI x 750cc", "marca": "Campari", "precio": 12500.0, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "373", "nombre": "CERVEZA GUINNESS EXTRA STOUT", "marca": "GUINNESS", "precio": 4649.4, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "419", "nombre": "CHACABUCO CABERNET", "marca": "CHACABUCO", "precio": 5800.0, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "423", "nombre": "CHAMPAGNE VEUVE CLICQUOT", "marca": "Champagne Clicquot", "precio": 208669.73, "rubro": "ESPUMANTE", "subrubro": "CHAMPPAGNE"}, {"id": "427", "nombre": "CHANDON EXTRA BRUT 187", "marca": "Chandon", "precio": 6532.66, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "432", "nombre": "CHOCOLART  ARANDANOS CON CHOCOLATE", "marca": "Chocolart", "precio": 4880.64, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "435", "nombre": "CHOCOLART ALMENDRAS CON CHOCOLATE CON LECHE", "marca": "Chocolart", "precio": 4575.6, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "436", "nombre": "CHOCOLART ALMENDRAS CON CHOCOLATE AMARGO", "marca": "Chocolart", "precio": 4600.0, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "437", "nombre": "CHOCOLART AVELLANAS CON CHOCOLATE", "marca": "Chocolart", "precio": 4880.64, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "443", "nombre": "CHOCOLART NARANJA COBERTURA SEMIAMARGA", "marca": "Chocolart", "precio": 4880.64, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "466", "nombre": "CINZANO BIANCO  AMERICANO", "marca": "Cinzano", "precio": 6990.0, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "468", "nombre": "CINZANO ROSSO", "marca": "Cinzano", "precio": 11125.76, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "482", "nombre": "COCA COLA LATA 310 ", "marca": "Coca", "precio": 1400.0, "rubro": "GASEOSA", "subrubro": "GASEOSA"}, {"id": "496", "nombre": "CONO SUR RESERVA ESPECIAL CARMENERE", "marca": "Trivento", "precio": 23091.2, "rubro": "VINO", "subrubro": "CARMENERE"}, {"id": "511", "nombre": "CRISTAL WINE COPA BRUNELLO", "marca": "CRISTAL WINE", "precio": 5667.84, "rubro": "CRISTAL", "subrubro": "CRISTAL"}, {"id": "557", "nombre": "CYNAR 70 PREMIUM", "marca": "Cynar", "precio": 15760.4, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "661", "nombre": "661", "marca": "661", "precio": 661.0, "rubro": "661", "subrubro": "661"}, {"id": "663", "nombre": "ESPUMANTE BARON B BRUT NATURE", "marca": "Baron B", "precio": 46500.0, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "664", "nombre": "ESPUMANTE BARON B BRUT ROSE", "marca": "Baron B", "precio": 43900.0, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "665", "nombre": "ESPUMANTE BARON B EXTRA BRUT", "marca": "Baron B", "precio": 43559.81, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "678", "nombre": "ESPUMANTE ENCUENTRO PINOT NOIR  BRUT NAT", "marca": "Rutini Wines", "precio": 34112.0, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "680", "nombre": "ESPUMANTE LUIGI BOSCA BRUT NATURE", "marca": "Luigi Bosca", "precio": 26945.2, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "681", "nombre": "ESPUMANTE LUIGI BOSCA  EXTRA BRUT", "marca": "Luigi Bosca", "precio": 25928.4, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "682", "nombre": "ESPUMANTE MARIA BRUT NATURE", "marca": "Septima", "precio": 14235.2, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "684", "nombre": "ESPUMANTE MARIA CODORNIU EXTRA BRUT", "marca": "Septima", "precio": 14000.0, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "688", "nombre": "ESPUMANTE RUTINI EXTRA BRUT", "marca": "Rutini Wines", "precio": 30500.0, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "694", "nombre": "ESPUMANTE SOTTANO  EXTRA BRUT", "marca": "Sottano", "precio": 14300.0, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "702", "nombre": "ESPUMANTE TRUMPETER EXTRA BRUT", "marca": "Rutini Wines", "precio": 13726.8, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "743", "nombre": "ESTRELLA UNICA MALBEC", "marca": "Estrella de Los Andes", "precio": 21047.76, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "746", "nombre": "ESTUCHE  LO DE GRANADO 2 BOTELLAS", "marca": "LDG", "precio": 6000.0, "rubro": "MERCHANDISING", "subrubro": "Merchandising"}, {"id": "786", "nombre": "LUIGI BOSCA DE SANGRE MALBEC DOC", "marca": "Luigi Bosca", "precio": 38310.4, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "801", "nombre": "ESTUCHE RUTINI CABERNET MALBEC X 2 BOTEL", "marca": "Rutini Wines", "precio": 52480.0, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "802", "nombre": "ESTUCHE RUTINI CABERNET MALBEC X1 BOT", "marca": "Rutini Wines", "precio": 32012.8, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "807", "nombre": "ESTUCHE TRUMPETER MALBEC 2 BOT.", "marca": "Rutini Wines", "precio": 28864.0, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "837", "nombre": "GANCIA AMERICANO", "marca": "Gancia", "precio": 8900.0, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "841", "nombre": "GARRAPI\u00d1ADA KING", "marca": "King", "precio": 965.96, "rubro": "MANI", "subrubro": "MANI"}, {"id": "854", "nombre": "GIN GORDON \u00b4S", "marca": "GORDON \u00b4S", "precio": 18081.0, "rubro": "GIN", "subrubro": "GIN"}, {"id": "865", "nombre": "GIN TANQUERAY INGLES", "marca": "Tanqueray", "precio": 40811.4, "rubro": "GIN", "subrubro": "GIN"}, {"id": "881", "nombre": "GRAN SOMBRERO CABERNET FRANC", "marca": "Huentala", "precio": 20992.0, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "882", "nombre": "GRAN SOMBRERO MALBEC", "marca": "Huentala", "precio": 20992.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "902", "nombre": "HESPERIDINA", "marca": "Hesperidina", "precio": 14617.88, "rubro": "HESPERIDINA", "subrubro": "HESPERIDINA"}, {"id": "925", "nombre": "INDAMA CHARDONNAY-VIOGNIER", "marca": "Terra Camiare", "precio": 8236.08, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "936", "nombre": "JEREZ EL ABUELO", "marca": "El Abuelo", "precio": 3500.0, "rubro": "LICOR", "subrubro": "Jerez"}, {"id": "973", "nombre": "LA LINDA CHARDONNAY", "marca": "Luigi Bosca", "precio": 10391.04, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "975", "nombre": "LA LINDA EXTRA BRUT", "marca": "Luigi Bosca", "precio": 13900.0, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "976", "nombre": "LA LINDA MALBEC", "marca": "Luigi Bosca", "precio": 10391.04, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1020", "nombre": "LICOR CUSENIER FRUTILLA", "marca": "CUSENIER", "precio": 3900.0, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1049", "nombre": "LOS PASOS MALBEC", "marca": "Septima", "precio": 6000.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1061", "nombre": "LUIGI BOSCA CABERNET", "marca": "Luigi Bosca", "precio": 17843.2, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "1064", "nombre": "LUIGI BOSCA DE SANGRE BLEND ", "marca": "Luigi Bosca", "precio": 23500.0, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "1070", "nombre": "LUIGI BOSCA MALBEC", "marca": "Luigi Bosca", "precio": 17843.2, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1074", "nombre": "LUIGI BOSCA PINOT", "marca": "Luigi Bosca", "precio": 20467.2, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "1089", "nombre": "MALIBU", "marca": "PERNORD RICARD", "precio": 18500.0, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1095", "nombre": "MANI KING CON CHOCOLATE", "marca": "King", "precio": 2706.0, "rubro": "MANI", "subrubro": "MANI"}, {"id": "1096", "nombre": "MANI KING  SABOR JAMON", "marca": "King", "precio": 2200.0, "rubro": "MANI", "subrubro": "MANI"}, {"id": "1099", "nombre": "MANI KING SABOR PIZZA", "marca": "King", "precio": 2200.0, "rubro": "MANI", "subrubro": "MANI"}, {"id": "1100", "nombre": "MANI KING SABOR QUESO", "marca": "King", "precio": 2200.0, "rubro": "MANI", "subrubro": "MANI"}, {"id": "1102", "nombre": "MANI KING TOSTADO SIN SAL X 100", "marca": "King", "precio": 1859.76, "rubro": "MANI", "subrubro": "MANI"}, {"id": "1112", "nombre": "MARTES 13 ", "marca": "Domingo", "precio": 14850.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1114", "nombre": "MARTINI BIANCO", "marca": "Martini", "precio": 12070.4, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "1115", "nombre": "MARTINI DRY X 950 CC", "marca": "Martini", "precio": 10500.0, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "1116", "nombre": "MARTINI ROSSO", "marca": "Martini", "precio": 12070.4, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "1121", "nombre": "MIL DEMONIOS ASSAMBLAGE", "marca": "Mil Demonios", "precio": 25190.4, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "1122", "nombre": "MIL DEMONIOS BRUT NATURE", "marca": "Mil Demonios", "precio": 27300.0, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "1123", "nombre": "MIL DEMONIOS MALBEC", "marca": "Mil Demonios", "precio": 25190.4, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1126", "nombre": "MOSCATO EL ABUELO", "marca": "El Abuelo", "precio": 5500.0, "rubro": "VINO", "subrubro": "Moscato"}, {"id": "1146", "nombre": "PALA CORAZON EXTRAVIADO", "marca": "Niven Wines", "precio": 15760.4, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1153", "nombre": "CORAZON VALIENTE C SAU / MERLOT R NEGRO", "marca": "Niven Wines", "precio": 17488.96, "rubro": "VINO", "subrubro": "Blend"}, {"id": "1156", "nombre": "PAN DULCE CON CHIP EN CAJA", "marca": "Deubel", "precio": 6100.8, "rubro": "PANIFICACION", "subrubro": "Panificacion"}, {"id": "1157", "nombre": "PAN DULCE DEUBEL CON FRUTAS X 400GR", "marca": "Deubel", "precio": 4067.2, "rubro": "PANIFICACION", "subrubro": "Panificacion"}, {"id": "1158", "nombre": "PAN DULCE DEUBEL CON CHIP CHOCOLATE x 400 grms", "marca": "Deubel", "precio": 4575.6, "rubro": "PANIFICACION", "subrubro": "Panificacion"}, {"id": "1195", "nombre": "PONT LEVEQUE ACETO CONCENTRADO X 250", "marca": "PONT LEVEQUE ", "precio": 11300.0, "rubro": "ACEITE", "subrubro": "ACEITE"}, {"id": "1207", "nombre": "PRISIONERO CHENIN DULCE", "marca": "Prisionero", "precio": 7000.0, "rubro": "VINO", "subrubro": "CHENING DULCE"}, {"id": "1212", "nombre": "RESERVADO CONCHA Y TORO  CABERNET", "marca": "Concha y Toro", "precio": 4700.0, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "1213", "nombre": "RESERVADO CONCHA Y TORO MALBEC", "marca": "Concha y Toro", "precio": 4778.96, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1233", "nombre": "RETO MALBEC", "marca": "Vicentin FW", "precio": 9500.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1236", "nombre": "RON HAVANNA  CLUB A\u00d1EJO ESPECIAL", "marca": "HAVANNA", "precio": 17800.0, "rubro": "RON", "subrubro": "RON"}, {"id": "1238", "nombre": "RON HAVANNA CLUB BLANCO 3 A\u00d1OS X 750", "marca": "HAVANNA", "precio": 17500.0, "rubro": "RON", "subrubro": "RON"}, {"id": "1254", "nombre": "RUTINI CABERNET FRANC-MALBEC", "marca": "Rutini Wines", "precio": 19942.4, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "1255", "nombre": "RUTINI CABERNET MALBEC", "marca": "Rutini Wines", "precio": 19942.4, "rubro": "VINO", "subrubro": "CABERNET MALBEC"}, {"id": "1259", "nombre": "RUTINI MALBEC", "marca": "Rutini Wines", "precio": 37260.8, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1266", "nombre": "SACACORCHO 2 TIEMPOS NEGRO", "marca": "Cristal Rock", "precio": 2000.0, "rubro": "ACCESORIOS VINO", "subrubro": "ACCESORIOS VINO"}, {"id": "1289", "nombre": "SEPTIMA OBRA MALBEC", "marca": "Septima", "precio": 14000.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1290", "nombre": "SEPTIMA OBRA PINOT NOIR", "marca": "Septima", "precio": 19827.6, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "1306", "nombre": "SHERIDAN", "marca": "Sheridan", "precio": 56795.3, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1307", "nombre": "SIDRA 1888", "marca": "1888", "precio": 8921.6, "rubro": "SIDRA", "subrubro": "SIDRA"}, {"id": "1321", "nombre": "SIN REGLAS ASSAMBLAGE", "marca": "Mil Demonios", "precio": 15744.0, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "1322", "nombre": "SIN REGLAS MALBEC", "marca": "Mil Demonios", "precio": 15744.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1326", "nombre": "SMIRNOFF COMUN", "marca": "Smirnoff", "precio": 10848.6, "rubro": "VODKA", "subrubro": "VODKA"}, {"id": "1328", "nombre": "SMIRNOFF RASPBERRY", "marca": "Smirnoff", "precio": 11881.8, "rubro": "VODKA", "subrubro": "VODKA"}, {"id": "1336", "nombre": "SOMBRERO CABERNET FRANC", "marca": "Huentala", "precio": 13120.0, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "1339", "nombre": "SOMBRERO SAVIGNON BLANC", "marca": "Huentala", "precio": 11693.2, "rubro": "VINO", "subrubro": "SAVIGNON BLANC"}, {"id": "1353", "nombre": "SOTTANO RESERVA MALBEC", "marca": "Sottano", "precio": 15760.4, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1359", "nombre": "TAPIZ CLASICO MALBEC", "marca": "Tapiz", "precio": 11086.4, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1360", "nombre": "TAPIZ RESERVA MALBEC", "marca": "Tapiz", "precio": 17843.2, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1373", "nombre": "TIA MARIA CREAM", "marca": "Tia Maria", "precio": 18892.8, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1374", "nombre": "TIA MARIA ORIGINAL", "marca": "Tia Maria", "precio": 13500.0, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1382", "nombre": "TIERRA DEL FUEGO RESERVA CABERNET", "marca": "TIERRA DEL FUEGO", "precio": 12000.0, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "1383", "nombre": "TIERRA DEL FUEGO MALBEC", "marca": "TIERRA DEL FUEGO", "precio": 7700.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1384", "nombre": "TIERRA DEL FUEGO RESERVA MALBEC", "marca": "TIERRA DEL FUEGO", "precio": 12201.6, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1409", "nombre": "TRES PLUMAS CAFE AL CO\u00d1AC", "marca": "Tres Plumas", "precio": 9676.0, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1412", "nombre": "TRES PLUMAS CAFE AL WHISKY", "marca": "Tres Plumas", "precio": 9676.0, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1415", "nombre": "TRES PLUMAS LICOR DE CHOCOLATE", "marca": "Tres Plumas", "precio": 10168.0, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1423", "nombre": "TRIBU MALBEC", "marca": "Trivento", "precio": 5592.4, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1431", "nombre": "TRIVENTO GOLDEN  RESERVE MALBEC", "marca": "Trivento", "precio": 20336.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1433", "nombre": "TRIVENTO GOLDEN RESERVE CHARDONNAY", "marca": "Trivento", "precio": 20336.0, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "1441", "nombre": "TRUMPETER CHARDONNAY", "marca": "Rutini Wines", "precio": 11571.84, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "1452", "nombre": "TRUMPETER RESERVA ROSE", "marca": "Rutini Wines", "precio": 14500.0, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "1456", "nombre": "TRUMPETER SAUVIGNON BLANC", "marca": "Rutini Wines", "precio": 9971.2, "rubro": "VINO", "subrubro": "SAVIGNON BLANC"}, {"id": "1485", "nombre": "BACKBONE", "marca": "Vicentin FW", "precio": 14540.24, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "1493", "nombre": "VICENTIN CANALLA", "marca": "Vicentin FW", "precio": 14900.0, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "1528", "nombre": "VI\u00d1A POMAL CRIANZA", "marca": "VI\u00d1A POMAL", "precio": 25085.44, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1578", "nombre": "WHISKY J WALKER GREEN", "marca": "J WALKER", "precio": 206123.4, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1581", "nombre": "WHISKY J&B ", "marca": "J&B", "precio": 29900.0, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1583", "nombre": "WHISKY JACK DANIELS 700", "marca": "JACK DANIEL", "precio": 62037.33, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1588", "nombre": "WHISKY JOHNNIE WALKER BLUE LABEL", "marca": "J WALKER", "precio": 490675.295, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1589", "nombre": "WHISKY JOHNNIE WALKER GOLD LABEL RESERVE", "marca": "J WALKER", "precio": 113000.0, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1591", "nombre": "WHISKY JOHNNIE WALKER RED LABEL 750", "marca": "J WALKER", "precio": 40587.88, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1596", "nombre": "WHISKY JIM BEAM WHITE LABEL", "marca": "Norton", "precio": 44637.52, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1599", "nombre": "WHISKY JOHNNIE WALKER BLACK LABEL 750", "marca": "J WALKER", "precio": 74061.81, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1602", "nombre": "WHISKY JOHNNIE WALKER RED LABEL 1LITRO", "marca": "J WALKER", "precio": 46500.0, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1610", "nombre": "WHISKY OLD PARR 12 A\u00d1OS", "marca": "OLD PARR", "precio": 60500.0, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1622", "nombre": "WHISKY WHITE HORSE", "marca": "WHITE HORSE", "precio": 18400.0, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1632", "nombre": "ZORRO CABERNET", "marca": "Huentala", "precio": 6927.36, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "1642", "nombre": "TAPIZ CLASICO PINOT", "marca": "Tapiz", "precio": 12595.2, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "1658", "nombre": "ESCABECHE DUO SILVESTRE CIERVO", "marca": "DUO SILVESTRE", "precio": 12710.0, "rubro": "ESCABECHE", "subrubro": "ESCABECHE"}, {"id": "1660", "nombre": "ESCABECHE DUO SILVESTRE CORDERO", "marca": "DUO SILVESTRE", "precio": 12710.0, "rubro": "ESCABECHE", "subrubro": "ESCABECHE"}, {"id": "1662", "nombre": "ESCABECHE DUO SILVESTRE CONEJO", "marca": "DUO SILVESTRE", "precio": 12710.0, "rubro": "ESCABECHE", "subrubro": "ESCABECHE"}, {"id": "1664", "nombre": "ESCABECHE DUO SILVESTRE JABALI", "marca": "DUO SILVESTRE", "precio": 12710.0, "rubro": "ESCABECHE", "subrubro": "ESCABECHE"}, {"id": "1676", "nombre": "TRES PLUMAS LICOR DE DULCE DE LECHE", "marca": "Tres Plumas", "precio": 10168.0, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1677", "nombre": "BAILEYS CREAM", "marca": "Baileys", "precio": 40985.58, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1700", "nombre": "CONO SUR  RESERVA ESPECIAL PINOT NOIR", "marca": "Trivento", "precio": 23091.2, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "1766", "nombre": "SEPTIMA TIERRA MALBEC DE AGRELO 1050 MSNM", "marca": "Septima", "precio": 16500.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1775", "nombre": "SOCAVONES WHITE BLEND", "marca": "Terra Camiare", "precio": 14743.6, "rubro": "VINO", "subrubro": "BLEND BLANCO"}, {"id": "1813", "nombre": "NORTON DOC MALBEC NEW", "marca": "Norton", "precio": 9659.6, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1830", "nombre": "FINCA LA ANITA SYRAH", "marca": "FINCA LA ANITA", "precio": 20000.0, "rubro": "VINO", "subrubro": "SYRAH"}, {"id": "1867", "nombre": "MIL DEMONIOS SEMILLON", "marca": "Mil Demonios", "precio": 21100.0, "rubro": "VINO", "subrubro": "SEMILLON"}, {"id": "1868", "nombre": "MIL DEMONIOS ROSE", "marca": "Mil Demonios", "precio": 21454.48, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "1945", "nombre": "FILENI CABERNET", "marca": "FILENI", "precio": 14500.0, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "1950", "nombre": "LA ELEGIDA RESERVA MALBEC", "marca": "LDG", "precio": 3410.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1956", "nombre": "WHISKY CUTTY SARK ", "marca": " CUTTY SARK", "precio": 45900.0, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1957", "nombre": "TRIVENTO ARGENTINA WHITE MALBEC", "marca": "Trivento", "precio": 9659.6, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1969", "nombre": "SCHWEPPERS TONICA LATA 310", "marca": "Coca", "precio": 1500.0, "rubro": "GASEOSA", "subrubro": "GASEOSA"}, {"id": "1973", "nombre": "CASILLERO DEL DIABLO MALBEC", "marca": "Trivento", "precio": 8567.372, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1975", "nombre": "CASILLERO DEL DIABLO CHARDONNAY", "marca": "Trivento", "precio": 9000.0, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "1994", "nombre": "SCHWEPPERS TONICA 1500", "marca": "Coca", "precio": 3100.0, "rubro": "GASEOSA", "subrubro": "GASEOSA"}, {"id": "1997", "nombre": "CRISTAL WINE VASO WHISKY ", "marca": "CRISTAL WINE", "precio": 4817.66, "rubro": "CRISTAL", "subrubro": "CRISTAL"}, {"id": "2009", "nombre": "VODKA VARSOVIA MANZANA VERDE", "marca": "MOSQUITA MUERTA", "precio": 99999.0, "rubro": "VODKA", "subrubro": "VODKA"}, {"id": "2010", "nombre": "VODKA VARSOVIA FRAMBUESA", "marca": "MOSQUITA MUERTA", "precio": 8905.2, "rubro": "VODKA", "subrubro": "VODKA"}, {"id": "2011", "nombre": "VODKA VARSOVIA SANDIA", "marca": "MOSQUITA MUERTA", "precio": 8905.2, "rubro": "VODKA", "subrubro": "VODKA"}, {"id": "2018", "nombre": "MIMI MALBEC MERLOT", "marca": "ARAUJO", "precio": 12913.36, "rubro": "VINO", "subrubro": "Blend"}, {"id": "2054", "nombre": "CRUZAT CUVEE EXTRA BRUT", "marca": "CRUZAT", "precio": 16000.0, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "2063", "nombre": "TRIVENTO ARGENTINA RESERVA CARBERNET", "marca": "Trivento", "precio": 9500.0, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "2080", "nombre": "CA\u00d1A ARGENTINA 1 DE AGOSTO ", "marca": "DELLEPIANE", "precio": 4001.6, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "2110", "nombre": "ROMPE CORAZONES MALBEC GRAN RESERVA", "marca": "Niven Wines", "precio": 42900.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2113", "nombre": "ROMPE CORAZONES TINTO PARAJE ALTAMIRA CAB FRANC- CABERNET", "marca": "Niven Wines", "precio": 20946.08, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "2128", "nombre": "CUNNINGTON INDIAN TONIC 1500 ", "marca": "CUNNINGTON", "precio": 1804.0, "rubro": "GASEOSA", "subrubro": "GASEOSA"}, {"id": "2131", "nombre": "CERVEZA DON GRANADO IPA", "marca": "DON GRANADO", "precio": 5772.8, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "2132", "nombre": "CERVEZA DON GRANADO NEGRA", "marca": "DON GRANADO", "precio": 4959.36, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "2133", "nombre": "CERVEZA DON GRANADO RUBIA", "marca": "DON GRANADO", "precio": 5248.0, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "2182", "nombre": "COCA COLA 2250", "marca": "Coca", "precio": 5067.6, "rubro": "GASEOSA", "subrubro": "GASEOSA"}, {"id": "2184", "nombre": "CRISTAL WINE COPA GIN TONIC", "marca": "CRISTAL WINE", "precio": 7084.8, "rubro": "CRISTAL", "subrubro": "CRISTAL"}, {"id": "2185", "nombre": "CERVEZA DON GRANADO ROJA", "marca": "DON GRANADO", "precio": 5248.0, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "2193", "nombre": "PYRUS PERA BOTELLA 500 CC", "marca": "PYRUS", "precio": 5000.0, "rubro": "SIDRA", "subrubro": "SIDRA"}, {"id": "2194", "nombre": "PYRUS MANZANA BOTELLA 500 CC", "marca": "PYRUS", "precio": 5248.0, "rubro": "SIDRA", "subrubro": "SIDRA"}, {"id": "2227", "nombre": "CERVEZA QUILMES LATA", "marca": "QUILMES", "precio": 2500.0, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "2233", "nombre": "CERVEZA CORONA", "marca": "QUILMES", "precio": 3500.0, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "2262", "nombre": "CRISTAL WINE DECANTER 950 CC", "marca": "CRISTAL WINE", "precio": 10066.32, "rubro": "CRISTAL", "subrubro": "CRISTAL"}, {"id": "2264", "nombre": "ESPUMANTE CASILLERO DEL DIABLO EXTRA BRUT", "marca": "Trivento", "precio": 12500.0, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "2265", "nombre": "FILENI CHARDONNAY", "marca": "FILENI", "precio": 14500.0, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "2307", "nombre": "AQUI ESTAMOS TODOS LOCOS TEMPRANILLO GRAN RESERVA", "marca": "Niven Wines", "precio": 25928.4, "rubro": "VINO", "subrubro": "TEMPRANILLO"}, {"id": "2334", "nombre": "ASI COMO SOY MALBEC", "marca": "BENDITO PECADO", "precio": 8500.0, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2335", "nombre": "AL OTRO LADO DEL RIO BLEND DE ORILLAS", "marca": "AL OTRO LADO DEL RIO", "precio": 12398.4, "rubro": "VINO", "subrubro": "BLEND BLANCO"}, {"id": "2340", "nombre": "ESTUCHE TRIVENTO GOLDEN RESERVA MALBEC", "marca": "Trivento", "precio": 27289.6, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "2374", "nombre": "CAELUM RESERVA BLEND BLANCO", "marca": "Caelum", "precio": 16200.0, "rubro": "VINO", "subrubro": "BLEND BLANCO"}, {"id": "2377", "nombre": "ESPECIERO BOTANICOS GOURMET/GIN FLOWER", "marca": "BOTANICAS GOURMET", "precio": 5248.0, "rubro": "GIN", "subrubro": "GIN"}, {"id": "2396", "nombre": "CUNNINGTON POMELO 1500", "marca": "CUNNINGTON", "precio": 2050.0, "rubro": "GASEOSA", "subrubro": "GASEOSA"}, {"id": "2433", "nombre": "INDOMABLE BLANC DE MALBEC", "marca": "INDOMABLE", "precio": 10400.83, "rubro": "VINO", "subrubro": "BLEND BLANCO"}];
+        let productos = [{"id": "99", "nombre": "ALTO LAS HORMIGAS MALBEC CLASICO ORGANICO", "marca": "Alto las Hormigas", "precio": 7570.711499999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "106", "nombre": "AMARETTO DISARONNO", "marca": "Disarono", "precio": 36993.0002508, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "107", "nombre": "AMARGO OBRERO", "marca": "AMARGO OBRERO", "precio": 4421.603999999999, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "108", "nombre": "AMARULLA X 750", "marca": "Amarula", "precio": 30352.974696, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "131", "nombre": "ANIS CHIN CHON", "marca": "Chinchon", "precio": 43106.24952975, "rubro": "ANIS", "subrubro": "ANIS"}, {"id": "135", "nombre": "AQUI ESTAMOS TODOS LOCOS GARNACHA ", "marca": "Niven Wines", "precio": 9961.462500000001, "rubro": "VINO", "subrubro": "GARNACHA"}, {"id": "136", "nombre": "AQUI ESTAMOS TODOS LOCOS SAUVIGNON BLANC", "marca": "Niven Wines", "precio": 7650.403199999999, "rubro": "VINO", "subrubro": "SAVIGNON BLANC"}, {"id": "166", "nombre": "BAILEYS SALTED CARAMEL", "marca": "Baileys", "precio": 30848.399999999998, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "198", "nombre": "BITTER ANGOSTURA", "marca": "Bitter", "precio": 44281.875627, "rubro": "APERITIVO", "subrubro": "BITTER"}, {"id": "220", "nombre": "BOMBAY X 750 ", "marca": "Bombay", "precio": 32182.593300000004, "rubro": "GIN", "subrubro": "GIN"}, {"id": "232", "nombre": "BROKER\u00b4S GIN 40%", "marca": "Broker\u00b4S", "precio": 35660.6244357, "rubro": "GIN", "subrubro": "GIN"}, {"id": "241", "nombre": "CAELUM  CLASICO  MALBEC", "marca": "Bodega Caelum", "precio": 10031.9999373, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "244", "nombre": "CAELUM  ECLAT RESERVA (DORADO)", "marca": "Bodega Caelum", "precio": 25471.87478055, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "248", "nombre": "CAELUM CLASICO CHARDONAY", "marca": "Bodega Caelum", "precio": 10031.9999373, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "249", "nombre": "CAELUM CLASICO ROSADO", "marca": "Bodega Caelum", "precio": 10031.9999373, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "250", "nombre": "CAELUM ECLAT EXTRA BRUT", "marca": "Bodega Caelum", "precio": 17930.6325, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "252", "nombre": "CAELUM FIANO GRAN RESERVA", "marca": "Bodega Caelum", "precio": 22336.87528215, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "254", "nombre": "CAELUM GRAN  RESERVA CABERNET", "marca": "Bodega Caelum", "precio": 25393.500564300004, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "256", "nombre": "CAELUM GRAN RESERVA BLEND (ICONO)", "marca": "Bodega Caelum", "precio": 45849.375376200005, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "257", "nombre": "CAELUM GRAN RESERVA MALBEC MAGNUN", "marca": "Bodega Caelum", "precio": 66305.25018809999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "258", "nombre": "CAELUM GRAN RESERVA PINOT", "marca": "Bodega Caelum", "precio": 25393.500564300004, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "272", "nombre": "CAJA NAVIDAD CARTON VACIA", "marca": "LDG ESTUCHES", "precio": 956.3003999999999, "rubro": "CAJA NAVIDE\u00d1AS", "subrubro": "CAJA NAVIDE\u00d1A"}, {"id": "276", "nombre": "CAMPARI x 750cc", "marca": "Campari", "precio": 9796.874717850002, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "373", "nombre": "CERVEZA GUINNESS EXTRA STOUT", "marca": "GUINNESS", "precio": 3643.96725, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "419", "nombre": "CHACABUCO CABERNET", "marca": "CHACABUCO", "precio": 4545.74952975, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "423", "nombre": "CHAMPAGNE VEUVE CLICQUOT", "marca": "Champagne Clicquot", "precio": 163544.900574, "rubro": "ESPUMANTE", "subrubro": "CHAMPPAGNE"}, {"id": "427", "nombre": "CHANDON EXTRA BRUT 187", "marca": "Chandon", "precio": 5119.9732155, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "432", "nombre": "CHOCOLART  ARANDANOS CON CHOCOLATE", "marca": "Chocolart", "precio": 3825.2015999999994, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "435", "nombre": "CHOCOLART ALMENDRAS CON CHOCOLATE CON LECHE", "marca": "Chocolart", "precio": 3586.1265, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "436", "nombre": "CHOCOLART ALMENDRAS CON CHOCOLATE AMARGO", "marca": "Chocolart", "precio": 3605.2499373, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "437", "nombre": "CHOCOLART AVELLANAS CON CHOCOLATE", "marca": "Chocolart", "precio": 3825.2015999999994, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "443", "nombre": "CHOCOLART NARANJA COBERTURA SEMIAMARGA", "marca": "Chocolart", "precio": 3825.2015999999994, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "466", "nombre": "CINZANO BIANCO  AMERICANO", "marca": "Cinzano", "precio": 5478.412343249999, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "468", "nombre": "CINZANO ROSSO", "marca": "Cinzano", "precio": 8719.8144, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "482", "nombre": "COCA COLA LATA 310 ", "marca": "Coca", "precio": 1097.25059565, "rubro": "GASEOSA", "subrubro": "GASEOSA"}, {"id": "496", "nombre": "CONO SUR RESERVA ESPECIAL CARMENERE", "marca": "Trivento", "precio": 18097.727999999996, "rubro": "VINO", "subrubro": "CARMENERE"}, {"id": "511", "nombre": "CRISTAL WINE COPA BRUNELLO", "marca": "CRISTAL WINE", "precio": 4442.169599999999, "rubro": "CRISTAL", "subrubro": "CRISTAL"}, {"id": "557", "nombre": "CYNAR 70 PREMIUM", "marca": "Cynar", "precio": 12352.213500000002, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "661", "nombre": "661", "marca": "661", "precio": 849.6163499999999, "rubro": "661", "subrubro": "661"}, {"id": "663", "nombre": "ESPUMANTE BARON B BRUT NATURE", "marca": "Baron B", "precio": 36444.37559565, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "664", "nombre": "ESPUMANTE BARON B BRUT ROSE", "marca": "Baron B", "precio": 34406.625407550004, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "665", "nombre": "ESPUMANTE BARON B EXTRA BRUT", "marca": "Baron B", "precio": 34140.001401, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "678", "nombre": "ESPUMANTE ENCUENTRO PINOT NOIR  BRUT NAT", "marca": "Rutini Wines", "precio": 26735.28, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "680", "nombre": "ESPUMANTE LUIGI BOSCA BRUT NATURE", "marca": "Luigi Bosca", "precio": 21118.300499999998, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "681", "nombre": "ESPUMANTE LUIGI BOSCA  EXTRA BRUT", "marca": "Luigi Bosca", "precio": 20321.3835, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "682", "nombre": "ESPUMANTE MARIA BRUT NATURE", "marca": "Septima", "precio": 11156.837999999998, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "684", "nombre": "ESPUMANTE MARIA CODORNIU EXTRA BRUT", "marca": "Septima", "precio": 10972.499529749999, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "688", "nombre": "ESPUMANTE RUTINI EXTRA BRUT", "marca": "Rutini Wines", "precio": 23904.37503135, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "694", "nombre": "ESPUMANTE SOTTANO  EXTRA BRUT", "marca": "Sottano", "precio": 11207.6247492, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "702", "nombre": "ESPUMANTE TRUMPETER EXTRA BRUT", "marca": "Rutini Wines", "precio": 10758.379500000001, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "743", "nombre": "ESTRELLA UNICA MALBEC", "marca": "Estrella de Los Andes", "precio": 16496.1819, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "746", "nombre": "ESTUCHE  LO DE GRANADO 2 BOTELLAS", "marca": "LDG", "precio": 4702.50053295, "rubro": "MERCHANDISING", "subrubro": "MERCHANDISING"}, {"id": "786", "nombre": "LUIGI BOSCA DE SANGRE MALBEC DOC", "marca": "Luigi Bosca", "precio": 30025.775999999994, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "801", "nombre": "ESTUCHE RUTINI CABERNET MALBEC X 2 BOTEL", "marca": "Rutini Wines", "precio": 41131.200000000004, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "802", "nombre": "ESTUCHE RUTINI CABERNET MALBEC X1 BOT", "marca": "Rutini Wines", "precio": 25090.032, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "807", "nombre": "ESTUCHE TRUMPETER MALBEC 2 BOT.", "marca": "Rutini Wines", "precio": 22622.160000000003, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "837", "nombre": "GANCIA AMERICANO", "marca": "Gancia", "precio": 6975.37465515, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "841", "nombre": "GARRAPI\u00d1ADA KING", "marca": "King", "precio": 757.07115, "rubro": "MANI", "subrubro": "MANI"}, {"id": "854", "nombre": "GIN GORDON \u00b4S", "marca": "GORDON \u00b4S", "precio": 14170.98375, "rubro": "GIN", "subrubro": "GIN"}, {"id": "865", "nombre": "GIN TANQUERAY INGLES", "marca": "Tanqueray", "precio": 31985.934749999997, "rubro": "GIN", "subrubro": "GIN"}, {"id": "881", "nombre": "GRAN SOMBRERO CABERNET FRANC", "marca": "Huentala", "precio": 16452.48, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "882", "nombre": "GRAN SOMBRERO MALBEC", "marca": "Huentala", "precio": 16452.48, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "902", "nombre": "HESPERIDINA", "marca": "Hesperidina", "precio": 11456.761569, "rubro": "HESPERIDINA", "subrubro": "HESPERIDINA"}, {"id": "925", "nombre": "INDAMA CHARDONNAY-VIOGNIER", "marca": "Terra Camiare", "precio": 6455.0277, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "936", "nombre": "JEREZ EL ABUELO", "marca": "El Abuelo", "precio": 2743.1245611, "rubro": "LICOR", "subrubro": "JEREZ"}, {"id": "973", "nombre": "LA LINDA CHARDONNAY", "marca": "Luigi Bosca", "precio": 8143.9776, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "975", "nombre": "LA LINDA EXTRA BRUT", "marca": "Luigi Bosca", "precio": 10894.1253135, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "976", "nombre": "LA LINDA MALBEC", "marca": "Luigi Bosca", "precio": 8143.9776, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1020", "nombre": "LICOR CUSENIER FRUTILLA", "marca": "CUSENIER", "precio": 3056.6252821499993, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1049", "nombre": "LOS PASOS MALBEC", "marca": "Septima", "precio": 4702.50053295, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1061", "nombre": "LUIGI BOSCA CABERNET", "marca": "Luigi Bosca", "precio": 13984.608000000002, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "1064", "nombre": "LUIGI BOSCA DE SANGRE BLEND ", "marca": "Luigi Bosca", "precio": 18418.1246238, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "1070", "nombre": "LUIGI BOSCA MALBEC", "marca": "Luigi Bosca", "precio": 13984.608000000002, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1074", "nombre": "LUIGI BOSCA PINOT", "marca": "Luigi Bosca", "precio": 16041.167999999998, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "1089", "nombre": "MALIBU", "marca": "PERNORD RICARD", "precio": 14499.375250799998, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1095", "nombre": "MANI KING CON CHOCOLATE", "marca": "King", "precio": 2120.8275000000003, "rubro": "MANI", "subrubro": "MANI"}, {"id": "1096", "nombre": "MANI KING  SABOR JAMON", "marca": "King", "precio": 1724.24946705, "rubro": "MANI", "subrubro": "MANI"}, {"id": "1099", "nombre": "MANI KING SABOR PIZZA", "marca": "King", "precio": 1724.24946705, "rubro": "MANI", "subrubro": "MANI"}, {"id": "1100", "nombre": "MANI KING SABOR QUESO", "marca": "King", "precio": 1724.24946705, "rubro": "MANI", "subrubro": "MANI"}, {"id": "1102", "nombre": "MANI KING TOSTADO SIN SAL X 100", "marca": "King", "precio": 1457.5869, "rubro": "MANI", "subrubro": "MANI"}, {"id": "1112", "nombre": "MARTES 13 ", "marca": "Domingo", "precio": 11638.687437300001, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1114", "nombre": "MARTINI BIANCO", "marca": "Martini", "precio": 9460.176, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "1115", "nombre": "MARTINI DRY X 950 CC", "marca": "Martini", "precio": 8229.37496865, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "1116", "nombre": "MARTINI ROSSO", "marca": "Martini", "precio": 9460.176, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "1121", "nombre": "MIL DEMONIOS ASSAMBLAGE", "marca": "Mil Demonios", "precio": 19742.976, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "1122", "nombre": "MIL DEMONIOS BRUT NATURE", "marca": "Mil Demonios", "precio": 21396.374404349997, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "1123", "nombre": "MIL DEMONIOS MALBEC", "marca": "Mil Demonios", "precio": 19742.976, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1126", "nombre": "MOSCATO EL ABUELO", "marca": "El Abuelo", "precio": 4310.62559565, "rubro": "VINO", "subrubro": "MOSCATO"}, {"id": "1146", "nombre": "PALA CORAZON EXTRAVIADO", "marca": "Niven Wines", "precio": 12352.213500000002, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1153", "nombre": "CORAZON VALIENTE C SAU / MERLOT R NEGRO", "marca": "Niven Wines", "precio": 13706.972399999999, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "1156", "nombre": "PAN DULCE CON CHIP EN CAJA", "marca": "Deubel", "precio": 4781.5019999999995, "rubro": "PANIFICACION", "subrubro": "PANIFICACION"}, {"id": "1157", "nombre": "PAN DULCE DEUBEL CON FRUTAS X 400GR", "marca": "Deubel", "precio": 3187.668, "rubro": "PANIFICACION", "subrubro": "PANIFICACION"}, {"id": "1158", "nombre": "PAN DULCE DEUBEL CON CHIP CHOCOLATE x 400 grms", "marca": "Deubel", "precio": 3586.1265, "rubro": "PANIFICACION", "subrubro": "PANIFICACION"}, {"id": "1195", "nombre": "PONT LEVEQUE ACETO CONCENTRADO X 250", "marca": "PONT LEVEQUE ", "precio": 8856.3751254, "rubro": "ACEITE", "subrubro": "ACEITE"}, {"id": "1207", "nombre": "PRISIONERO CHENIN DULCE", "marca": "Prisionero", "precio": 5486.250407549999, "rubro": "VINO", "subrubro": "CHENING DULCE"}, {"id": "1212", "nombre": "RESERVADO CONCHA Y TORO  CABERNET", "marca": "Concha y Toro", "precio": 3683.6254388999996, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "1213", "nombre": "RESERVADO CONCHA Y TORO MALBEC", "marca": "Concha y Toro", "precio": 3745.5099000000005, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1233", "nombre": "RETO MALBEC", "marca": "Vicentin FW", "precio": 7445.625094049999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1236", "nombre": "RON HAVANNA  CLUB A\u00d1EJO ESPECIAL", "marca": "HAVANNA", "precio": 13950.750595649999, "rubro": "RON", "subrubro": "RON"}, {"id": "1238", "nombre": "RON HAVANNA CLUB BLANCO 3 A\u00d1OS X 750", "marca": "HAVANNA", "precio": 13715.6253762, "rubro": "RON", "subrubro": "RON"}, {"id": "1254", "nombre": "RUTINI CABERNET FRANC-MALBEC", "marca": "Rutini Wines", "precio": 15629.855999999998, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "1255", "nombre": "RUTINI CABERNET MALBEC", "marca": "Rutini Wines", "precio": 15629.855999999998, "rubro": "VINO", "subrubro": "CABERNET MALBEC"}, {"id": "1259", "nombre": "RUTINI MALBEC", "marca": "Rutini Wines", "precio": 29203.151999999995, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1266", "nombre": "SACACORCHO 2 TIEMPOS NEGRO", "marca": "Cristal Rock", "precio": 1567.4997492, "rubro": "ACCESORIOS VINO", "subrubro": "ACCESORIOS VINO"}, {"id": "1289", "nombre": "SEPTIMA OBRA MALBEC", "marca": "Septima", "precio": 10972.499529749999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1290", "nombre": "SEPTIMA OBRA PINOT NOIR", "marca": "Septima", "precio": 15539.8815, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "1306", "nombre": "SHERIDAN", "marca": "Sheridan", "precio": 44513.31574799999, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1307", "nombre": "SIDRA 1888", "marca": "1888", "precio": 6992.304000000001, "rubro": "SIDRA", "subrubro": "SIDRA"}, {"id": "1321", "nombre": "SIN REGLAS ASSAMBLAGE", "marca": "Mil Demonios", "precio": 12339.359999999999, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "1322", "nombre": "SIN REGLAS MALBEC", "marca": "Mil Demonios", "precio": 12339.359999999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1326", "nombre": "SMIRNOFF COMUN", "marca": "Smirnoff", "precio": 8502.59025, "rubro": "VODKA", "subrubro": "VODKA"}, {"id": "1328", "nombre": "SMIRNOFF RASPBERRY", "marca": "Smirnoff", "precio": 9312.36075, "rubro": "VODKA", "subrubro": "VODKA"}, {"id": "1336", "nombre": "SOMBRERO CABERNET FRANC", "marca": "Huentala", "precio": 10282.800000000001, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "1339", "nombre": "SOMBRERO SAVIGNON BLANC", "marca": "Huentala", "precio": 9164.545499999998, "rubro": "VINO", "subrubro": "SAVIGNON BLANC"}, {"id": "1353", "nombre": "SOTTANO RESERVA MALBEC", "marca": "Sottano", "precio": 12352.213500000002, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1359", "nombre": "TAPIZ CLASICO MALBEC", "marca": "Tapiz", "precio": 8688.966, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1360", "nombre": "TAPIZ RESERVA MALBEC", "marca": "Tapiz", "precio": 13984.608000000002, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1373", "nombre": "TIA MARIA CREAM", "marca": "Tia Maria", "precio": 14807.232, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1374", "nombre": "TIA MARIA ORIGINAL", "marca": "Tia Maria", "precio": 10580.62459245, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1382", "nombre": "TIERRA DEL FUEGO RESERVA CABERNET", "marca": "TIERRA DEL FUEGO", "precio": 9404.99978055, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "1383", "nombre": "TIERRA DEL FUEGO MALBEC", "marca": "TIERRA DEL FUEGO", "precio": 6034.8750627, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1384", "nombre": "TIERRA DEL FUEGO RESERVA MALBEC", "marca": "TIERRA DEL FUEGO", "precio": 9563.003999999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1409", "nombre": "TRES PLUMAS CAFE AL CO\u00d1AC", "marca": "Tres Plumas", "precio": 7583.5650000000005, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1412", "nombre": "TRES PLUMAS CAFE AL WHISKY", "marca": "Tres Plumas", "precio": 7583.5650000000005, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1415", "nombre": "TRES PLUMAS LICOR DE CHOCOLATE", "marca": "Tres Plumas", "precio": 7969.17, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1423", "nombre": "TRIBU MALBEC", "marca": "Trivento", "precio": 4383.043500000001, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1431", "nombre": "TRIVENTO GOLDEN  RESERVE MALBEC", "marca": "Trivento", "precio": 15938.34, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1433", "nombre": "TRIVENTO GOLDEN RESERVE CHARDONNAY", "marca": "Trivento", "precio": 15938.34, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "1441", "nombre": "TRUMPETER CHARDONNAY", "marca": "Rutini Wines", "precio": 9069.4296, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "1452", "nombre": "TRUMPETER RESERVA ROSE", "marca": "Rutini Wines", "precio": 11364.374467049998, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "1456", "nombre": "TRUMPETER SAUVIGNON BLANC", "marca": "Rutini Wines", "precio": 7814.927999999999, "rubro": "VINO", "subrubro": "SAVIGNON BLANC"}, {"id": "1485", "nombre": "BACKBONE", "marca": "Vicentin FW", "precio": 11395.9131, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "1493", "nombre": "VICENTIN CANALLA", "marca": "Vicentin FW", "precio": 11677.8751881, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "1528", "nombre": "VI\u00d1A POMAL CRIANZA", "marca": "VI\u00d1A POMAL", "precio": 19660.7136, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1578", "nombre": "WHISKY J WALKER GREEN", "marca": "J WALKER", "precio": 161549.21475, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1581", "nombre": "WHISKY J&B ", "marca": "J&B", "precio": 23434.124592449996, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1583", "nombre": "WHISKY JACK DANIELS 700", "marca": "JACK DANIEL", "precio": 48621.75707400001, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1588", "nombre": "WHISKY JOHNNIE WALKER BLUE LABEL", "marca": "J WALKER", "precio": 496605.8979749999, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1589", "nombre": "WHISKY JOHNNIE WALKER GOLD LABEL RESERVE", "marca": "J WALKER", "precio": 88563.74996865, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1591", "nombre": "WHISKY JOHNNIE WALKER RED LABEL 750", "marca": "J WALKER", "precio": 31810.754398499994, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1596", "nombre": "WHISKY JIM BEAM WHITE LABEL", "marca": "Norton", "precio": 34984.656299999995, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1599", "nombre": "WHISKY JOHNNIE WALKER BLACK LABEL 750", "marca": "J WALKER", "precio": 58045.943274000005, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1602", "nombre": "WHISKY JOHNNIE WALKER RED LABEL 1LITRO", "marca": "J WALKER", "precio": 36444.37559565, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1610", "nombre": "WHISKY OLD PARR 12 A\u00d1OS", "marca": "OLD PARR", "precio": 47416.8751254, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1622", "nombre": "WHISKY WHITE HORSE", "marca": "WHITE HORSE", "precio": 14420.9997492, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1632", "nombre": "ZORRO CABERNET", "marca": "Huentala", "precio": 5429.3184, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "1642", "nombre": "TAPIZ CLASICO PINOT", "marca": "Tapiz", "precio": 9871.488, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "1658", "nombre": "ESCABECHE DUO SILVESTRE CIERVO", "marca": "DUO SILVESTRE", "precio": 9961.462500000001, "rubro": "ESCABECHE", "subrubro": "ESCABECHE"}, {"id": "1660", "nombre": "ESCABECHE DUO SILVESTRE CORDERO", "marca": "DUO SILVESTRE", "precio": 9961.462500000001, "rubro": "ESCABECHE", "subrubro": "ESCABECHE"}, {"id": "1662", "nombre": "ESCABECHE DUO SILVESTRE CONEJO", "marca": "DUO SILVESTRE", "precio": 9961.462500000001, "rubro": "ESCABECHE", "subrubro": "ESCABECHE"}, {"id": "1664", "nombre": "ESCABECHE DUO SILVESTRE JABALI", "marca": "DUO SILVESTRE", "precio": 9961.462500000001, "rubro": "ESCABECHE", "subrubro": "ESCABECHE"}, {"id": "1676", "nombre": "TRES PLUMAS LICOR DE DULCE DE LECHE", "marca": "Tres Plumas", "precio": 7969.17, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1677", "nombre": "BAILEYS CREAM", "marca": "Baileys", "precio": 32122.4517735, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "1700", "nombre": "CONO SUR  RESERVA ESPECIAL PINOT NOIR", "marca": "Trivento", "precio": 18097.727999999996, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "1766", "nombre": "SEPTIMA TIERRA MALBEC DE AGRELO 1050 MSNM", "marca": "Septima", "precio": 12931.875501599998, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1775", "nombre": "SOCAVONES WHITE BLEND", "marca": "Terra Camiare", "precio": 11555.296499999999, "rubro": "VINO", "subrubro": "BLEND BLANCO"}, {"id": "1813", "nombre": "NORTON DOC MALBEC NEW", "marca": "Norton", "precio": 7570.711499999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1830", "nombre": "FINCA LA ANITA SYRAH", "marca": "FINCA LA ANITA", "precio": 15675.000062699999, "rubro": "VINO", "subrubro": "SYRAH"}, {"id": "1867", "nombre": "MIL DEMONIOS SEMILLON", "marca": "Mil Demonios", "precio": 16537.125438899995, "rubro": "VINO", "subrubro": "SEMILLON"}, {"id": "1868", "nombre": "MIL DEMONIOS ROSE", "marca": "Mil Demonios", "precio": 16814.9487, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "1945", "nombre": "FILENI CABERNET", "marca": "FILENI", "precio": 11364.374467049998, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "1950", "nombre": "LA ELEGIDA RESERVA MALBEC", "marca": "LDG", "precio": 2672.5871238, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1956", "nombre": "WHISKY CUTTY SARK ", "marca": " CUTTY SARK", "precio": 35974.12515675, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "1957", "nombre": "TRIVENTO ARGENTINA WHITE MALBEC", "marca": "Trivento", "precio": 7570.711499999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1969", "nombre": "SCHWEPPERS TONICA LATA 310", "marca": "Coca", "precio": 1175.6248119, "rubro": "GASEOSA", "subrubro": "GASEOSA"}, {"id": "1973", "nombre": "CASILLERO DEL DIABLO MALBEC", "marca": "Trivento", "precio": 6714.677397449998, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "1975", "nombre": "CASILLERO DEL DIABLO CHARDONNAY", "marca": "Trivento", "precio": 7053.750156750001, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "1994", "nombre": "SCHWEPPERS TONICA 1500", "marca": "Coca", "precio": 2429.6251254, "rubro": "GASEOSA", "subrubro": "GASEOSA"}, {"id": "1997", "nombre": "CRISTAL WINE VASO WHISKY ", "marca": "CRISTAL WINE", "precio": 3775.8441599999996, "rubro": "CRISTAL", "subrubro": "CRISTAL"}, {"id": "2009", "nombre": "VODKA VARSOVIA MANZANA VERDE", "marca": "MOSQUITA MUERTA", "precio": 78374.21625, "rubro": "VODKA", "subrubro": "VODKA"}, {"id": "2010", "nombre": "VODKA VARSOVIA FRAMBUESA", "marca": "MOSQUITA MUERTA", "precio": 6979.450499999999, "rubro": "VODKA", "subrubro": "VODKA"}, {"id": "2011", "nombre": "VODKA VARSOVIA SANDIA", "marca": "MOSQUITA MUERTA", "precio": 6979.450499999999, "rubro": "VODKA", "subrubro": "VODKA"}, {"id": "2018", "nombre": "MIMI MALBEC MERLOT", "marca": "ARAUJO", "precio": 10120.8459, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "2054", "nombre": "CRUZAT CUVEE EXTRA BRUT", "marca": "CRUZAT", "precio": 12540.000564299999, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "2063", "nombre": "TRIVENTO ARGENTINA RESERVA CARBERNET", "marca": "Trivento", "precio": 7445.625094049999, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "2080", "nombre": "CA\u00d1A ARGENTINA 1 DE AGOSTO ", "marca": "DELLEPIANE", "precio": 3136.254, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "2110", "nombre": "ROMPE CORAZONES MALBEC GRAN RESERVA", "marca": "Niven Wines", "precio": 33622.87553295, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2113", "nombre": "ROMPE CORAZONES TINTO PARAJE ALTAMIRA CAB FRANC- CABERNET", "marca": "Niven Wines", "precio": 16416.4902, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "2128", "nombre": "CUNNINGTON INDIAN TONIC 1500 ", "marca": "CUNNINGTON", "precio": 1413.8850000000002, "rubro": "GASEOSA", "subrubro": "GASEOSA"}, {"id": "2131", "nombre": "CERVEZA DON GRANADO IPA", "marca": "DON GRANADO", "precio": 4524.431999999999, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "2132", "nombre": "CERVEZA DON GRANADO NEGRA", "marca": "DON GRANADO", "precio": 3886.8984, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "2133", "nombre": "CERVEZA DON GRANADO RUBIA", "marca": "DON GRANADO", "precio": 4113.12, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "2182", "nombre": "COCA COLA 2250", "marca": "Coca", "precio": 3971.7314999999994, "rubro": "GASEOSA", "subrubro": "GASEOSA"}, {"id": "2184", "nombre": "CRISTAL WINE COPA GIN TONIC", "marca": "CRISTAL WINE", "precio": 5552.7119999999995, "rubro": "CRISTAL", "subrubro": "CRISTAL"}, {"id": "2185", "nombre": "CERVEZA DON GRANADO ROJA", "marca": "DON GRANADO", "precio": 4113.12, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "2193", "nombre": "PYRUS PERA BOTELLA 500 CC", "marca": "PYRUS", "precio": 3918.749373, "rubro": "SIDRA", "subrubro": "SIDRA"}, {"id": "2194", "nombre": "PYRUS MANZANA BOTELLA 500 CC", "marca": "PYRUS", "precio": 4113.12, "rubro": "SIDRA", "subrubro": "SIDRA"}, {"id": "2227", "nombre": "CERVEZA QUILMES LATA", "marca": "QUILMES", "precio": 1959.3746865, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "2233", "nombre": "CERVEZA CORONA", "marca": "QUILMES", "precio": 2743.1245611, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "2262", "nombre": "CRISTAL WINE DECANTER 950 CC", "marca": "CRISTAL WINE", "precio": 7889.4783, "rubro": "CRISTAL", "subrubro": "CRISTAL"}, {"id": "2264", "nombre": "ESPUMANTE CASILLERO DEL DIABLO EXTRA BRUT", "marca": "Trivento", "precio": 9796.874717850002, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "2265", "nombre": "FILENI CHARDONNAY", "marca": "FILENI", "precio": 11364.374467049998, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "2307", "nombre": "AQUI ESTAMOS TODOS LOCOS TEMPRANILLO GRAN RESERVA", "marca": "Niven Wines", "precio": 20321.3835, "rubro": "VINO", "subrubro": "TEMPRANILLO"}, {"id": "2334", "nombre": "ASI COMO SOY MALBEC", "marca": "BENDITO PECADO", "precio": 6661.875219449998, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2335", "nombre": "AL OTRO LADO DEL RIO BLEND DE ORILLAS", "marca": "AL OTRO LADO DEL RIO", "precio": 9717.246, "rubro": "VINO", "subrubro": "BLEND BLANCO"}, {"id": "2340", "nombre": "ESTUCHE TRIVENTO GOLDEN RESERVA MALBEC", "marca": "Trivento", "precio": 21388.224000000002, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "2374", "nombre": "CAELUM RESERVA BLEND BLANCO", "marca": "Caelum", "precio": 12696.750282150002, "rubro": "VINO", "subrubro": "BLEND BLANCO"}, {"id": "2377", "nombre": "ESPECIERO BOTANICOS GOURMET/GIN FLOWER", "marca": "BOTANICAS GOURMET", "precio": 4113.12, "rubro": "GIN", "subrubro": "GIN"}, {"id": "2396", "nombre": "CUNNINGTON POMELO 1500", "marca": "CUNNINGTON", "precio": 1606.6875, "rubro": "GASEOSA", "subrubro": "GASEOSA"}, {"id": "2433", "nombre": "INDOMABLE BLANC DE MALBEC", "marca": "INDOMABLE", "precio": 8151.6511395, "rubro": "VINO", "subrubro": "BLEND BLANCO"}, {"id": "2466", "nombre": "TRIVENTO TERRUNYO MALBEC", "marca": "Trivento", "precio": 35861.265, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2467", "nombre": "ARTESANO MALBEC ORGANICO", "marca": "ARTESANO", "precio": 9013.12484325, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2480", "nombre": "CAJA REBATIBLE WHISKY", "marca": "LDG", "precio": 4310.62559565, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "2508", "nombre": "SCALLA DULCE DE LECHE", "marca": "Scala", "precio": 11129.25053295, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "2558", "nombre": "SIETE FINCAS MALBEC ", "marca": "SIETE FINCAS", "precio": 9796.874717850002, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2562", "nombre": "SECRETO BLEND ", "marca": "SIETE FINCAS", "precio": 16924.20345, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "2563", "nombre": "SECRETO MERLOT", "marca": "SIETE FINCAS", "precio": 16380.374435700001, "rubro": "VINO", "subrubro": "MERLOT"}, {"id": "2598", "nombre": "MAURICIO LORCA GRAN MALBEC", "marca": "LORCA", "precio": 25079.999843249996, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2600", "nombre": "LORCA POETICO MALBEC", "marca": "LORCA", "precio": 14344.506, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2601", "nombre": "LORCA POETICO CABERNET FRANC", "marca": "LORCA", "precio": 15539.8815, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "2604", "nombre": "LORCA POETICO SYRAH", "marca": "LORCA", "precio": 14344.506, "rubro": "VINO", "subrubro": "SYRAH"}, {"id": "2607", "nombre": "LORCA FANTASIA CABERNET FRANC", "marca": "LORCA", "precio": 7367.24959245, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "2617", "nombre": "LA QUEBRADA MOSCATO", "marca": "BODEGA BORBORE", "precio": 3291.7505016000005, "rubro": "VINO", "subrubro": "MOSCATO"}, {"id": "2642", "nombre": "CRIOLLA ARGENTINA GRANDE TINTO", "marca": "Niven Wines", "precio": 6853.486199999999, "rubro": "VINO", "subrubro": "CRIOLLA"}, {"id": "2644", "nombre": "PALA CORAZON SAVIGNON BLANC", "marca": "Niven Wines", "precio": 9961.462500000001, "rubro": "VINO", "subrubro": "SAVIGNON BLANC"}, {"id": "2646", "nombre": "CORAZON VALIENTE BONARDA JUJUY", "marca": "Niven Wines", "precio": 14149.1328, "rubro": "VINO", "subrubro": "BONARDA"}, {"id": "2647", "nombre": "CORAZON VALIENTE BLANC DE BLANCAS JUJUY", "marca": "Niven Wines", "precio": 13706.972399999999, "rubro": "VINO", "subrubro": "BLEND BLANCO"}, {"id": "2648", "nombre": "CORAZON VALIENTE NARANJO JUJUY", "marca": "Niven Wines", "precio": 13946.0475, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "2649", "nombre": "CORAZON VALIENTE TRAMINER", "marca": "Niven Wines", "precio": 13706.972399999999, "rubro": "VINO", "subrubro": "TRAMINER"}, {"id": "2653", "nombre": "SIETE FINCAS ROSADO ", "marca": "SIETE FINCAS", "precio": 9796.874717850002, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "2655", "nombre": "LOIS ESPUMENTE DULCE NATURAL", "marca": "LORCA", "precio": 13480.50015675, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "2656", "nombre": "LOIS ESPUMANTE ROSADO", "marca": "LORCA", "precio": 13480.50015675, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "2657", "nombre": "LORCA FANTASIA EL MIRADOR CRIOLLA DULCE", "marca": "LORCA", "precio": 7367.24959245, "rubro": "VINO", "subrubro": "CRIOLLA"}, {"id": "2658", "nombre": "LOIS ESPUMANTE BLANC DE BLANCS ", "marca": "LORCA", "precio": 13480.50015675, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "2665", "nombre": "CINCO SENTIDOS MALBEC RESERVA", "marca": "CINCO SENTIDOS", "precio": 11516.736, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2668", "nombre": "LATE HARVEST MALBEC X 500 CC Tardio Dulce de Malbec", "marca": "CINCO SENTIDOS", "precio": 16452.48, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2672", "nombre": "FERUS MALBEC", "marca": "FALASCO WINES", "precio": 10485.885299999998, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2674", "nombre": "HERMANDAD MALBEC", "marca": "FALASCO WINES", "precio": 24296.249968649998, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2675", "nombre": "FERUS BLANC DE BLANCS", "marca": "FALASCO WINES", "precio": 10894.1253135, "rubro": "VINO", "subrubro": "BLEND BLANCO"}, {"id": "2676", "nombre": "ANTONIETA ESPUMANTE P. NOIR-CHARDON", "marca": "FALASCO WINES", "precio": 19985.624373000002, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "2685", "nombre": "FOSTER PINK MALBEC ROSADO", "marca": "FOSTER", "precio": 7172.253, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "2687", "nombre": "IQUE MALBEC", "marca": "FOSTER", "precio": 6818.624937299999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2689", "nombre": "ENRIQUE FOSTER SINGLE VINEYARD LOS BARRANCOS", "marca": "FOSTER", "precio": 12383.249561100001, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2690", "nombre": "ENRIQUE FOSTER RESERVA MALBEC", "marca": "FOSTER", "precio": 14107.500313500002, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2693", "nombre": "CINCO SENTIDOS EXTRA BRUT ", "marca": "CINCO SENTIDOS", "precio": 14025.7392, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "2694", "nombre": "CINCO SENTIDOS EXTRA BRUT ROSE", "marca": "CINCO SENTIDOS", "precio": 14025.7392, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "2696", "nombre": "WHISKY SIR EDWARDS X 2000 L ", "marca": "SIR EDWAR\u00b4S", "precio": 64659.37493729999, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "2706", "nombre": "CONFIADO MALBEC ANFORA", "marca": "Septima", "precio": 14742.9645, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2715", "nombre": "ESPUMANTE MARIA HANDCRAFT EDICION LIMITADA", "marca": "Septima", "precio": 12352.213500000002, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "2723", "nombre": "CAJA REBATIBLE LO DE GRANADO CELEBRACION DE 3 BOTELLAS ", "marca": "LDG", "precio": 4310.62559565, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "2739", "nombre": "SIN REGLAS CABERNET", "marca": "Mil Demonios", "precio": 12339.359999999999, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "2740", "nombre": "MIL DEMONIOS PINOT NOIR", "marca": "Mil Demonios", "precio": 19742.976, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "2751", "nombre": "VIKINGO ", "marca": "Mil Demonios", "precio": 34550.208, "rubro": "VINO", "subrubro": "PETIT VERDOT"}, {"id": "2752", "nombre": "LUCIFER ", "marca": "Mil Demonios", "precio": 47712.191999999995, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "2782", "nombre": "AQUI ESTAMOS TODOS LOCOS MATICHA ", "marca": "Niven Wines", "precio": 10120.8459, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "2787", "nombre": "ZAPAM ZUCUM MALBEC", "marca": "FOSTER", "precio": 7367.24959245, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2808", "nombre": "PIENSA REMINISCENCE I BLANC SEC 2019", "marca": "PIENSA WINES", "precio": 33316.272, "rubro": "VINO", "subrubro": "BLEND BLANCO"}, {"id": "2809", "nombre": "PIENSA REMINISCENCE II ROSE 2020", "marca": "PIENSA WINES", "precio": 31741.875062699997, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "2840", "nombre": "ENRIQUE FOSTER EDICION LIMITADA", "marca": "FOSTER", "precio": 28606.875564300004, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2859", "nombre": "LICOR MARIPOSA", "marca": "DELLEPIANE", "precio": 4702.50053295, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "2860", "nombre": "PUNA MALBEC RESERVA", "marca": "PUNA", "precio": 16041.167999999998, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2863", "nombre": "HELIOS MALBEC Cachi etiqueta negra", "marca": "PUNA", "precio": 10280.229299999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2865", "nombre": "FOLLETO EN PAPEL CRAFT 10X10", "marca": "LDG", "precio": 4.691527499999999, "rubro": "LDG", "subrubro": "LDG"}, {"id": "2872", "nombre": "MI TERRU\u00d1O EXPRESION MALBEC", "marca": "MI TERRU\u00d1O", "precio": 6818.624937299999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2911", "nombre": "ESTUCHE ACONCAGUA BOTELLA + COPON", "marca": "ACONCAGUA", "precio": 30095.99981189999, "rubro": "GIN", "subrubro": "GIN"}, {"id": "2923", "nombre": "CINCO SENTIDOS RESERVA CHARDONNAY", "marca": "CINCO SENTIDOS", "precio": 9642.6957, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "2924", "nombre": "CINCO SENTIDOS GRAN RESERVA BLEND", "marca": "CINCO SENTIDOS", "precio": 33311.1306, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2936", "nombre": "AL OTRO LADO DEL RIO MALBEC", "marca": "AL OTRO LADO DEL RIO", "precio": 9404.99978055, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2956", "nombre": "LAUREANO GOMEZ MALBEC TETRIS", "marca": "LAUREANO GOMEZ", "precio": 9142.128996000001, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2976", "nombre": "CASA ARAUJO CASH MALBEC", "marca": "ARAUJO", "precio": 8150.999467049999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "2979", "nombre": "CASA ARAUJO CASK TEMPRANILLO", "marca": "ARAUJO", "precio": 9013.12484325, "rubro": "VINO", "subrubro": "TEMPRANILLO"}, {"id": "2989", "nombre": "LORCA FANTASIA TORRONTES ", "marca": "LORCA", "precio": 8367.6285, "rubro": "VINO", "subrubro": "TORRONTES"}, {"id": "2990", "nombre": "MAURICIO LORCA INSPIRADO BLEND", "marca": "LORCA", "precio": 51649.12521945001, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "2991", "nombre": "OPALO CABERNET", "marca": "LORCA", "precio": 10679.587545, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "2993", "nombre": "CASILLERO DEL DIABLO ROSE", "marca": "Trivento", "precio": 7053.750156750001, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "3017", "nombre": "MARRASO MODERN MALBEC", "marca": "Septima", "precio": 10110.375438899999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3034", "nombre": "AL OTRO LADO DEL RIO CHARDONNAY", "marca": "AL OTRO LADO DEL RIO", "precio": 9404.99978055, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "3047", "nombre": "ESTUCHE ENCUENTRO BRUT NATURE X 4 BOTELLAS", "marca": "Rutini Wines", "precio": 94441.8753135, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "3080", "nombre": "CAVA CODORNIU ARS COLLECTA GRAND ROSE", "marca": "CODORNIU", "precio": 34093.1246865, "rubro": "CAVA", "subrubro": "CAVA"}, {"id": "3082", "nombre": "CAVA CODORNIU GRAN PLUS ULTRA CHARDONNAY BRUT NATURE", "marca": "CODORNIU", "precio": 26647.49959245, "rubro": "CAVA", "subrubro": "CAVA"}, {"id": "3086", "nombre": "DESCONFIADO VERMUT", "marca": "Septima", "precio": 16041.167999999998, "rubro": "VERMUT", "subrubro": "VERMUT"}, {"id": "3100", "nombre": "CHACABUCO CHENIN DULCE LATA ALUMINIO", "marca": "CHACABUCO", "precio": 6270.000282149999, "rubro": "VINO", "subrubro": "CHENING DULCE"}, {"id": "3101", "nombre": "CHIRIGUA BLEND DE BLANCAS", "marca": "FILENI", "precio": 10972.499529749999, "rubro": "VINO", "subrubro": "BLEND BLANCO"}, {"id": "3104", "nombre": "MANDALA ROSE", "marca": "MANDALA", "precio": 5486.250407549999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3105", "nombre": "MANDALA SWEET", "marca": "MANDALA", "precio": 5486.250407549999, "rubro": "VINO", "subrubro": "CHENING DULCE"}, {"id": "3128", "nombre": "DAMONJANG STEEL BOTTLE X 473", "marca": "READY TO DRINK", "precio": 9045.00795, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "3134", "nombre": "DRY GIN MIL DEMONIOS ", "marca": "Mil Demonios", "precio": 16452.48, "rubro": "GIN", "subrubro": "GIN"}, {"id": "3137", "nombre": "SAMURAI", "marca": "Mil Demonios", "precio": 32904.96, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3148", "nombre": "COPON ACONCAGUA", "marca": "ACONCAGUA", "precio": 9404.99978055, "rubro": "GIN", "subrubro": "GIN"}, {"id": "3149", "nombre": "TRIVENTO ARGENTINA MALBEC ROSE", "marca": "Trivento", "precio": 7570.711499999999, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "3157", "nombre": "DESPEINADO BLEND ROSE", "marca": "CORRAL DE PALOS", "precio": 4467.375313500001, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "3169", "nombre": "ARGENTO  ESTATE COLLECTION MALBEC", "marca": "ARGENTO", "precio": 13149.130500000001, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3170", "nombre": "ARGENTO SINGLE VINEYADS ORG. ALTAMIRA  MALBEC ", "marca": "ARGENTO", "precio": 21945.00034485, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3171", "nombre": "ARGENTO ESTATE ORGANICO MALBEC ", "marca": "ARGENTO", "precio": 8367.6285, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3185", "nombre": "GIN TANQUERAY SEVILLA", "marca": "Tanqueray", "precio": 34010.361, "rubro": "GIN", "subrubro": "GIN"}, {"id": "3190", "nombre": "EL GORDO EN MOTONETA SERIE LIMITADA PINOT GRIGIO", "marca": "EL GORDO EN MOTONETA", "precio": 9013.12484325, "rubro": "VINO", "subrubro": "PINOT GRIGIO"}, {"id": "3212", "nombre": "HELIOS CAFAYATE BLEND", "marca": "PUNA", "precio": 9961.462500000001, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "3217", "nombre": "MULINI ACEITE DE OLIVA CLASICO ", "marca": "MULINI", "precio": 15596.624561100003, "rubro": "ACEITE", "subrubro": "ACEITE"}, {"id": "3237", "nombre": "GIN LARIOS 37.5", "marca": "Norton", "precio": 14742.9645, "rubro": "GIN", "subrubro": "GIN"}, {"id": "3239", "nombre": "NORTON RESERVA MALBEC", "marca": "Norton", "precio": 7053.750156750001, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3247", "nombre": "ZORZAL TERRIOR UNICO  MALBEC", "marca": "ZORZAL", "precio": 10931.901749999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3250", "nombre": "ZORZAL GRAN TERROIR PINOT NOIR", "marca": "ZORZAL", "precio": 15283.1251254, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "3251", "nombre": "ZORZAL  GRAN TERROIR MALBEC ", "marca": "ZORZAL", "precio": 16600.29525, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3253", "nombre": "ZORZAL TERROIR UNICO PINOT NOIR ROSADO", "marca": "ZORZAL", "precio": 10931.901749999999, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "3254", "nombre": "ZORZAL TERROIR UNICO PINOT NOIR", "marca": "ZORZAL", "precio": 8914.0436385, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "3260", "nombre": "MANDALA MALBEC", "marca": "MANDALA", "precio": 5486.250407549999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3264", "nombre": "CORTAGOTAS LO DE GRANADO", "marca": "LDG", "precio": 274.31297025, "rubro": "LDG", "subrubro": "LDG"}, {"id": "3271", "nombre": "CRIOLLA ARGENTINA CHICA RESERVA", "marca": "Niven Wines", "precio": 12551.442750000002, "rubro": "VINO", "subrubro": "CRIOLLA"}, {"id": "3272", "nombre": "LORCA POETICO WHITE BLEND", "marca": "LORCA", "precio": 14107.500313500002, "rubro": "VINO", "subrubro": "BLANC DE BLANCS"}, {"id": "3274", "nombre": "ARTESANO ORGANICO MALBEC - CABRNET FRANC", "marca": "ARTESANO", "precio": 9013.12484325, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "3275", "nombre": "ARGENTO SINGLE VINEYARDS CABERNET FRANC", "marca": "ARGENTO", "precio": 21945.00034485, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "3276", "nombre": "ARGENTO SINGLE VINEYARDS ORG. AGRELO MALBEC", "marca": "ARGENTO", "precio": 21945.00034485, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3280", "nombre": "SEPTIMA EMBLEMA CABERNET", "marca": "Septima", "precio": 9013.12484325, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "3281", "nombre": "SEPTIMA TIERRA LAS COMPUERTAS", "marca": "Septima", "precio": 13715.6253762, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3283", "nombre": "BUENA FAMA MALBEC RESERVA", "marca": "BUENA FAMA", "precio": 15283.1251254, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3284", "nombre": "BUENA FAMA BLEND RESERVA", "marca": "BUENA FAMA", "precio": 15283.1251254, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "3291", "nombre": "LA QUEBRADA MISTELA", "marca": "BODEGA BORBORE", "precio": 3526.8744356999996, "rubro": "VINO", "subrubro": "MISTELA"}, {"id": "3293", "nombre": "TRIVENTO ESTUCHE TRIPACK MALBEC COLLECTION", "marca": "Trivento", "precio": 29449.939200000004, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "3297", "nombre": "ARGENTO ESTATE COLLECTION MALBEC- CABERNET FRANC", "marca": "ARGENTO", "precio": 13149.130500000001, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "3302", "nombre": "SEPTIMA EMBLEMA MALBEC", "marca": "Septima", "precio": 9013.12484325, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3304", "nombre": "TALISMAN CABERNET", "marca": "Norton", "precio": 3017.43753135, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "3312", "nombre": "SEPTIMA EMBLEMA SAVIGNON BLANC", "marca": "Septima", "precio": 9013.12484325, "rubro": "VINO", "subrubro": "SAVIGNON BLANC"}, {"id": "3315", "nombre": "GIN TANQUERAY ROYALES", "marca": "Tanqueray", "precio": 31271.624623800002, "rubro": "GIN", "subrubro": "GIN"}, {"id": "3325", "nombre": "LOS PASOS ROSADO DULCE", "marca": "Septima", "precio": 4702.50053295, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "3334", "nombre": "COPON ACONCAGUA AZUL", "marca": "ACONCAGUA", "precio": 11756.24940435, "rubro": "GIN", "subrubro": "GIN"}, {"id": "3337", "nombre": "VERMUT FEDERAL  TIPO TORINO ROSSO", "marca": "FEDERAL", "precio": 13161.983999999999, "rubro": "VERMUT", "subrubro": "VERMUT"}, {"id": "3339", "nombre": "DO\u00d1A PAULA UNIQUE MALBEC ORGANICO", "marca": "DO\u00d1A PAULA", "precio": 7759.124529749999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3340", "nombre": "DO\u00d1A PAULA ESTATE MALBEC", "marca": "DO\u00d1A PAULA", "precio": 7814.927999999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3343", "nombre": "LOS CARDOS MALBEC", "marca": "LOS CARDOS", "precio": 5094.37547025, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3344", "nombre": "LOS CARDOS RED BLEND", "marca": "LOS CARDOS", "precio": 5758.368, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "3346", "nombre": "LOS CARDOS DULCE ", "marca": "LOS CARDOS", "precio": 5094.37547025, "rubro": "VINO", "subrubro": "COSECHA TARDIA"}, {"id": "3347", "nombre": "DO\u00d1A PAULA ROSE OF MALBEC", "marca": "DO\u00d1A PAULA", "precio": 5976.8775000000005, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "3348", "nombre": "MANI KING FRITO SALADO 100 GR", "marca": "King", "precio": 1410.7500313499997, "rubro": "MANI", "subrubro": "MANI"}, {"id": "3364", "nombre": "ARGENTO ROSE ORGANICO", "marca": "ARGENTO", "precio": 6661.875219449998, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "3366", "nombre": "MIL ROSAS ", "marca": "Norton", "precio": 3809.0254702499997, "rubro": "VINO", "subrubro": "BLANC DE BLANCS"}, {"id": "3382", "nombre": "EDELMIRA  ROSADO", "marca": "EDELMIRA", "precio": 7491.019800000001, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "3384", "nombre": "AL OTRO LADO DEL RIO ROSADO", "marca": "AL OTRO LADO DEL RIO", "precio": 9404.99978055, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "3407", "nombre": "GIN LARIOS ROSE", "marca": "Norton", "precio": 13149.130500000001, "rubro": "GIN", "subrubro": "GIN"}, {"id": "3418", "nombre": "CAJA REBATIBLE 1 BOT LO DE GRANADO ", "marca": "LDG", "precio": 557.8419, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "3421", "nombre": "LATA AL OTRO LADO DEL RIO ", "marca": "LDG", "precio": 6270.000282149999, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "3422", "nombre": "LATA MANDALA SWEET", "marca": "MANDALA", "precio": 2351.2496238, "rubro": "DULCE", "subrubro": "DULCE"}, {"id": "3428", "nombre": "LUIGI BOSCA DE SANGRE CABERNET FRANC", "marca": "Luigi Bosca", "precio": 20976.912, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "3439", "nombre": "DO\u00d1A PAULA ESTATE BLACK EDITION BLEND ", "marca": "DO\u00d1A PAULA", "precio": 7814.927999999999, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "3441", "nombre": " DO\u00d1A PAULA SMOKEY ", "marca": "DO\u00d1A PAULA", "precio": 9460.176, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3456", "nombre": "SMIRNOFF RUBY ORANGE", "marca": "Smirnoff", "precio": 9312.36075, "rubro": "VODKA", "subrubro": "VODKA"}, {"id": "3459", "nombre": "SAURUS ESTATE SAVIGNON BLANC", "marca": "SAURUS", "precio": 9013.12484325, "rubro": "VINO", "subrubro": "SAVIGNON BLANC"}, {"id": "3461", "nombre": "SAURUS SELECT MALBEC", "marca": "SAURUS", "precio": 14575.869, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3467", "nombre": "LA MISION MALBEC", "marca": "CATENITA", "precio": 8542.874404350001, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3470", "nombre": "LUIGI BOSCA SAUVIGNON BLANC", "marca": "Luigi Bosca", "precio": 13323.750438899997, "rubro": "VINO", "subrubro": "SAVIGNON BLANC"}, {"id": "3475", "nombre": "DEMENCIAL MALBEC", "marca": "DIAGEO", "precio": 12551.442750000002, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3476", "nombre": "ALEGORIA GRAN RESERV MALBEC", "marca": "DIAGEO", "precio": 10737.375595649999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3477", "nombre": "TRAPICHE GRAN MEDALLA MALBEC", "marca": "DIAGEO", "precio": 37087.4889, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3478", "nombre": "LUIGI BOSCA DE SANGRE MALBEC VALLE DE UCO", "marca": "Luigi Bosca", "precio": 20976.912, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3486", "nombre": "UGARTECHE CABERNET", "marca": "SAN HUBERTO", "precio": 4343.19765, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "3496", "nombre": "TRAPICHE MEDALLA MALBEC", "marca": "DIAGEO", "precio": 15790.524749999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "3512", "nombre": "SEPTIMA EMBLEMA CABERNET FRANC", "marca": "Septima", "precio": 9013.12484325, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "3516", "nombre": "COPA BORDEAUX MARRASO", "marca": "Septima", "precio": 7445.625094049999, "rubro": "CRISTAL", "subrubro": "CRISTAL"}, {"id": "4514", "nombre": "LUIGI BOSCA DE SANGRE CABERNET", "marca": "Luigi Bosca", "precio": 22622.160000000003, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "4524", "nombre": "WHISKY BUCHANAN S DELUXE", "marca": "J WALKER", "precio": 59480.85660000001, "rubro": "WHISKY", "subrubro": "WHISKY"}, {"id": "4536", "nombre": "TRIVENTO ESTABLISHED SEMILLON", "marca": "Trivento", "precio": 23033.472, "rubro": "VINO", "subrubro": "SEMILLON"}, {"id": "4537", "nombre": "TRIVENTO ESTABLISHED PETIT VERDOT", "marca": "Trivento", "precio": 23033.472, "rubro": "VINO", "subrubro": "PETIT VERDOT"}, {"id": "4542", "nombre": "CAJA DE MADERA LUIGI BOSCA", "marca": "Luigi Bosca", "precio": 16066.875000000002, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "5550", "nombre": "VASO WHISKY BARROCCO", "marca": "ENCANTA", "precio": 3984.585, "rubro": "CRISTAL", "subrubro": "CRISTAL"}, {"id": "5552", "nombre": "CAJA DE BAMBU CON GOMA 4 ACCESORIOS  (SACARCORCHO, TERMOMETRO, PICO Y TAPON)", "marca": "ENCANTA", "precio": 30566.2502508, "rubro": "ACCESORIOS VINO", "subrubro": "ACCESORIOS VINO"}, {"id": "5554", "nombre": "TRIVENTO GOLDEN ESTUCHE DE MADERA X 6 BOT", "marca": "Trivento", "precio": 155797.2735, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "5556", "nombre": "IQUE CABERNET", "marca": "FOSTER", "precio": 6818.624937299999, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "5559", "nombre": "TRIVENTO STRATUS TINTO ", "marca": "Trivento", "precio": 42244.125438899995, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "5561", "nombre": "VI\u00d1A PROVIDENCIA BLEND", "marca": "CHA\u00d1ARMUYO", "precio": 20769.375532949998, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "5570", "nombre": "CA\u00d1A PIRAGUA", "marca": "Capel", "precio": 6661.875219449998, "rubro": "BEBIDAS BLANCAS", "subrubro": "BRANDY"}, {"id": "5571", "nombre": "DO\u00d1A PAULA 1050 CABERNET SAUVIGNON", "marca": "DO\u00d1A PAULA", "precio": 12540.000564299999, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "5572", "nombre": "DO\u00d1A PAULA 1290 WHITE BLEND", "marca": "DO\u00d1A PAULA", "precio": 12540.000564299999, "rubro": "VINO", "subrubro": "BLANC DE BLANCS"}, {"id": "5573", "nombre": "DO\u00d1A PAULA 1100 RED BLEND", "marca": "DO\u00d1A PAULA", "precio": 12540.000564299999, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "5574", "nombre": "DO\u00d1A PAULA 1350 CABERNET FRANC", "marca": "DO\u00d1A PAULA", "precio": 15629.855999999998, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "5575", "nombre": "DO\u00d1A PAULA 969 PETIT VERDOT-BONARDA", "marca": "DO\u00d1A PAULA", "precio": 15629.855999999998, "rubro": "VINO", "subrubro": "PETIT VERDOT"}, {"id": "5576", "nombre": "DO\u00d1A PAULA SINGLE VINEYARD MALBEC", "marca": "DO\u00d1A PAULA", "precio": 13149.130500000001, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5580", "nombre": "SMIRNOFF TAMARINDO", "marca": "Smirnoff", "precio": 9312.36075, "rubro": "VODKA", "subrubro": "VODKA"}, {"id": "5596", "nombre": "GIN TONIC HERBAL LATA X 10 SAQUITOS", "marca": "HIERBAS DEL OASIS", "precio": 10345.499372999999, "rubro": "HIERBAS", "subrubro": "HIERBAS"}, {"id": "5604", "nombre": "DH ORIGEN TORRONTES", "marca": "Domingo", "precio": 7092.561299999999, "rubro": "VINO", "subrubro": "TORRONTES"}, {"id": "5606", "nombre": "CORONA  0.0", "marca": "QUILMES", "precio": 2743.1245611, "rubro": "CEREZAS", "subrubro": "CEREZAS"}, {"id": "5616", "nombre": "IQUE RESERVE MALBEC", "marca": "FOSTER", "precio": 10758.379500000001, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5618", "nombre": "CALLEJON DEL CRIMEN RESERVA CABERNET SAUVIGNON", "marca": "CALLEJON DEL CRIMEN", "precio": 9561.749498399999, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "5621", "nombre": "CALLEJON DEL CRIMEN RESERVA CABERNET FRANC", "marca": "CALLEJON DEL CRIMEN", "precio": 9722.3874, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "5623", "nombre": "CALLEJON DEL CRIMEN GRAN RESERVA PETIT VERDOT", "marca": "CALLEJON DEL CRIMEN", "precio": 13245.3749373, "rubro": "VINO", "subrubro": "PETIT VERDOT"}, {"id": "5630", "nombre": "CALLEJON DEL CRIMEN EXTRA BRUT PINOT NOIR", "marca": "CALLEJON DEL CRIMEN", "precio": 13245.3749373, "rubro": "ESPUMANTE", "subrubro": "CHAMPPAGNE"}, {"id": "5631", "nombre": "COPA ESPUMANTE MARIA", "marca": "CODORNIU", "precio": 5878.12534485, "rubro": "CRISTAL", "subrubro": "CRISTAL"}, {"id": "5649", "nombre": "CHIRIGUA CABERNET SAUVIGNON", "marca": "FILENI", "precio": 11156.837999999998, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "5677", "nombre": "PROSECO CARPENE MALVOLTI BRUT DOC", "marca": "GALA GOURMET", "precio": 30879.749686499996, "rubro": "ESPUMANTE", "subrubro": "PROSECCO"}, {"id": "5681", "nombre": "CAELUM CLASICO FIANO", "marca": "Caelum", "precio": 10031.9999373, "rubro": "VINO", "subrubro": "FIANO"}, {"id": "5693", "nombre": "ESTUCHE LUIGI BOSCA DE SANGRE MALBEC DOC", "marca": "Luigi Bosca", "precio": 29087.4705, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "5694", "nombre": "ESTUCHE LUIGI BOSCA DE SANGRE MALBEC-CABERNET", "marca": "Luigi Bosca", "precio": 64151.818499999994, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "5700", "nombre": "TRAPICHE TESORO MALBEC", "marca": "TRAPICHE", "precio": 11741.67225, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5714", "nombre": "CONFIADO MALBEC ACACIA", "marca": "CONFIADO", "precio": 15629.855999999998, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5716", "nombre": "CONFIADO VIOGNIER PINOT", "marca": "CONFIADO", "precio": 14822.656200000001, "rubro": "VINO", "subrubro": "VIOGNIER"}, {"id": "5718", "nombre": "PYRUS PERA LATA", "marca": "PYRUS", "precio": 2879.184, "rubro": "SIDRA", "subrubro": "SIDRA"}, {"id": "5719", "nombre": "PYRUS MANZANA LATA", "marca": "PYRUS", "precio": 2879.184, "rubro": "SIDRA", "subrubro": "SIDRA"}, {"id": "5723", "nombre": "VIRUTA DE PAPEL PARA CAJAS ", "marca": "LDG", "precio": 12063.00975, "rubro": "LDG", "subrubro": "LDG"}, {"id": "5727", "nombre": "NUEVA CAJA REBATIBLE 3 BOTELLAS LO DE GRANADO ", "marca": "LDG", "precio": 1175.6248119, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "5728", "nombre": "GIN QUEBRACHO LONDON DRY", "marca": "GIN QUEBRACHO", "precio": 10280.229299999999, "rubro": "GIN", "subrubro": "GIN"}, {"id": "5729", "nombre": "GIN QUEBRACHO PINK", "marca": "GIN QUEBRACHO", "precio": 11156.837999999998, "rubro": "GIN", "subrubro": "GIN"}, {"id": "5731", "nombre": "PAMPA BREWING IPA", "marca": "PAMPA BREWING", "precio": 3586.1265, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "5732", "nombre": "PAMPA BREWING DORADA PAMPEANA", "marca": "PAMPA BREWING", "precio": 3187.668, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "5735", "nombre": "PAMPA BREWING HONEY", "marca": "PAMPA BREWING", "precio": 3187.668, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "5736", "nombre": "RABIETA AMERICAN IPA LATA", "marca": "RABIETA", "precio": 4781.5019999999995, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "5737", "nombre": "RABIETA GOLDEN ALE LATA", "marca": "RABIETA", "precio": 4383.043500000001, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "5739", "nombre": "RABIETA RED HONEY LATA", "marca": "RABIETA", "precio": 4383.043500000001, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "5740", "nombre": "FINjAMOS DEMENCIA MALBEC", "marca": "Trivento", "precio": 6375.336, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5742", "nombre": "TRIVENTO ARGENTINA MALBEC X 375CC", "marca": "Trivento", "precio": 4935.744, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5765", "nombre": "VERMUT TRIPULANTE TORINO ", "marca": "TRIPULANTE", "precio": 12591.2886, "rubro": "VERMUT", "subrubro": "VERMUT"}, {"id": "5766", "nombre": "VERMUT TRIPULANTE FRANCES", "marca": "TRIPULANTE", "precio": 12591.2886, "rubro": "VERMUT", "subrubro": "VERMUT"}, {"id": "5767", "nombre": "VERMUT TRIPULANTE MALBEC", "marca": "TRIPULANTE", "precio": 13715.6253762, "rubro": "VERMUT", "subrubro": "VERMUT"}, {"id": "5780", "nombre": "CHOCOLATES DRIMER DOLAR ", "marca": "CHOCOLATES DRIMER", "precio": 9460.176, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "5787", "nombre": "CHOCOLATES DRIMER CHUPETIN CORAZON ", "marca": "CHOCOLATES DRIMER", "precio": 4524.431999999999, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "5790", "nombre": "SACACORCHO AUTOMATICO A BATERIA USB", "marca": "ENCANTA", "precio": 30282.845999999998, "rubro": "ACCESORIOS VINO", "subrubro": "ACCESORIOS VINO"}, {"id": "5793", "nombre": "SAURUS SELECT CABERNET-CAB FRANC", "marca": "SAURUS", "precio": 14107.500313500002, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "5802", "nombre": "Cepita del valle Naranja", "marca": "Coca", "precio": 2185.0950000000003, "rubro": "JUGO", "subrubro": "JUGO"}, {"id": "5808", "nombre": "ALFAJOR RASTA NEGRO", "marca": "RASTA", "precio": 1141.3908, "rubro": "CONFITURAS", "subrubro": "ALFAJOR"}, {"id": "5809", "nombre": "MOUTON CADET", "marca": "BARON PHILIPPE DE ROSTHSCHILD", "precio": 34665.8895, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "5810", "nombre": "MARIANA 2022 BLEND", "marca": "HERDADO DO ROCIM", "precio": 22622.160000000003, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "5817", "nombre": "NINA NARANJO", "marca": "NINA", "precio": 8194.10625, "rubro": "VINO", "subrubro": "NARANJO"}, {"id": "5818", "nombre": "NINA NATURAL ROSADO", "marca": "NINA", "precio": 10519.304399999999, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "5819", "nombre": "NINA NATURAL TINTO", "marca": "NINA", "precio": 10519.304399999999, "rubro": "VINO", "subrubro": "TINTO"}, {"id": "5821", "nombre": "GARZON ESTATE TANNAT DE CORTE", "marca": "GARZON", "precio": 15283.1251254, "rubro": "VINO", "subrubro": "TANNAT"}, {"id": "5822", "nombre": "GARZON ESTATE PINOT ROSE DE CORTE", "marca": "GARZON", "precio": 15283.1251254, "rubro": "VINO", "subrubro": "PINOT ROSE"}, {"id": "5823", "nombre": "GARZON ESTATE SAUVIGNON BLANC DE CORTE", "marca": "GARZON", "precio": 15283.1251254, "rubro": "VINO", "subrubro": "SAVIGNON BLANC"}, {"id": "5826", "nombre": "CAMINO EMPEDRADO AMANDI", "marca": "LORCA", "precio": 42804.802821, "rubro": "VINO", "subrubro": "MENCIA"}, {"id": "5831", "nombre": "INDOMITO ESPIRITU PRIETO PICUDO BARRICA", "marca": "LORCA", "precio": 17965.285536, "rubro": "VINO", "subrubro": "PRIETO PICUDO"}, {"id": "5835", "nombre": "DO\u00d1A PAULA SINGLE VINEYARD PINOT NOIR", "marca": "DO\u00d1A PAULA", "precio": 13149.130500000001, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "5836", "nombre": "ESTUCHE QUEBRACHO CON COPA", "marca": "GIN QUEBRACHO", "precio": 24545.043599999997, "rubro": "GIN", "subrubro": "GIN"}, {"id": "5837", "nombre": "ESTUCHE ICONO (CAELUM)", "marca": "Estuche", "precio": 11953.755000000001, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "5838", "nombre": "TRIVENTO PRIVATE MALBEC", "marca": "Trivento", "precio": 8637.552, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5841", "nombre": "ANDELUNA ALTITUD MALBEC", "marca": "ANDELUNA", "precio": 11555.296499999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5842", "nombre": "ANDELUNA ALTITUD CABENET FRANC", "marca": "ANDELUNA", "precio": 11555.296499999999, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "5844", "nombre": "ANDELUNA ALTITUD MALBEC ORGANICO", "marca": "ANDELUNA", "precio": 12148.125627, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5845", "nombre": "ANDELUNA FRANC DEL CUARTEL", "marca": "ANDELUNA", "precio": 13715.6253762, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "5846", "nombre": "ANDELUNA RESERVA BLANC DE FRANC", "marca": "ANDELUNA", "precio": 22336.87528215, "rubro": "VINO", "subrubro": "BLANC DE FRANC"}, {"id": "5847", "nombre": "ANDELUNA 1300 MALBEC", "marca": "ANDELUNA", "precio": 7445.625094049999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5851", "nombre": "CAVA ANNA CODORNIU ICE ROSE", "marca": "CODORNIU", "precio": 23827.818300000003, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "5852", "nombre": "CAVA ANNA CODORNIU ICE BLANC", "marca": "CODORNIU", "precio": 23827.818300000003, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "5853", "nombre": "EL VENENO DE DIOS MALBEC", "marca": "Niven Wines", "precio": 45642.7785, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5854", "nombre": "EL VENENO DE DIOS CHARDONNAY", "marca": "Niven Wines", "precio": 45642.7785, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "5856", "nombre": "CASILLERO DEL DIABLO manchester red blend ", "marca": "Trivento", "precio": 9796.874717850002, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "5857", "nombre": "ALDEBARAN MALBEC", "marca": "ALDEBARAN", "precio": 9323.928899999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5860", "nombre": "WAPISA PINOT", "marca": "WAPISA", "precio": 16735.257, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "5861", "nombre": "FANTINI SANGIOVESE (ITALIA) ", "marca": "FANTINI WINES", "precio": 22210.847999999998, "rubro": "VINO", "subrubro": "SANGIOVESE"}, {"id": "5862", "nombre": "FANTINI MONTEPULCIANO D\u00b4ABRUZZO (ITALIA)", "marca": "FANTINI WINES", "precio": 22622.160000000003, "rubro": "VINO", "subrubro": "MONTEPULCIANO D'ABRUZZO"}, {"id": "5864", "nombre": "CHANDON DELICE MINI 187", "marca": "Chandon", "precio": 4283.3903144999995, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "5865", "nombre": "LATITUD 33 MALBEC ROSE ", "marca": "LATITUD 33", "precio": 5593.1876715, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "5866", "nombre": "LATITUD 33 MALBEC ", "marca": "LATITUD 33", "precio": 6027.777360000001, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5868", "nombre": "TERRAZAS DE LOS ANDES RESERVA MALBEC", "marca": "TERRAZAS DE LOS ANDES ", "precio": 16211.271219000002, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5869", "nombre": "TERRAZAS DE LOS ANDES ORIGEN CHACAYANES MALBEC", "marca": "TERRAZAS DE LOS ANDES ", "precio": 17110.5792, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5870", "nombre": "ESTUCHE CHANDON EXTRA BRUT (2 BOT-2 COPAS)", "marca": "Chandon", "precio": 45801.043645499994, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "5872", "nombre": "EMBLEMA MALBEC 375", "marca": "Septima", "precio": 5347.0560000000005, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5875", "nombre": "SUNSET", "marca": "SUNSET ", "precio": 20565.600000000002, "rubro": "CATA", "subrubro": "CATA"}, {"id": "5876", "nombre": "MANTECOL X 64 GR", "marca": "Mantecol", "precio": 1192.3677809999997, "rubro": "MANTECOL", "subrubro": "MANTECOL"}, {"id": "5877", "nombre": "MARRASO MODERN BLEND ROSADO", "marca": "Septima", "precio": 7329.065699999999, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "5881", "nombre": "LA LINDA SWEET SC", "marca": "Luigi Bosca", "precio": 7889.4783, "rubro": "VINO", "subrubro": "DULCE"}, {"id": "5882", "nombre": "LUIGI BOSCA DE SANGRE MALBEC DOC MAGNUM", "marca": "Luigi Bosca", "precio": 34093.1246865, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5883", "nombre": "CONSUMICION EVENTOS ", "marca": "CONSUMISION", "precio": 3918.749373, "rubro": "CATA", "subrubro": "CATA"}, {"id": "5886", "nombre": "PIMIENTSA MIX EL CASTILLO ", "marca": "EL CASTILLO", "precio": 16336.7985, "rubro": "CONSERVAS", "subrubro": "CONSERVAS"}, {"id": "5887", "nombre": "PASTA DE MANI KING CRUNCHY", "marca": "King", "precio": 3918.749373, "rubro": "CONSERVAS", "subrubro": "CONSERVAS"}, {"id": "5888", "nombre": "CONEJO VERDE CHENIN DULCE NATURAL", "marca": "CONEJO VERDE", "precio": 7847.06175, "rubro": "DULCE", "subrubro": "DULCE"}, {"id": "5889", "nombre": "CHATEAU SUBSONICO ASTI ESPUMANTE", "marca": "CHATEAU SUBSONICO", "precio": 9563.003999999999, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "5890", "nombre": "CHATEAU SUBSONICO NARANJO ", "marca": "CHATEAU SUBSONICO", "precio": 9563.003999999999, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "5891", "nombre": "ESTUCHE FERUS MALBEC", "marca": "FALASCO WINES", "precio": 27431.24946705, "rubro": "ESTUCHES", "subrubro": "ESTUCHES"}, {"id": "5892", "nombre": "CONEJO VERDE CHENIN DULCE ALUMINIO", "marca": "FALASCO WINES", "precio": 5578.418999999999, "rubro": "VINO", "subrubro": "CHENING DULCE"}, {"id": "5893", "nombre": "ESTUCHE FINJAMOS DEMENCIA X 2 BOTELLAS", "marca": "Trivento", "precio": 15938.34, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "5894", "nombre": "LAUREANO GOMEZ MERLOT RESERVA", "marca": "LAUREANO GOMEZ", "precio": 23444.784, "rubro": "VINO", "subrubro": "MERLOT"}, {"id": "5895", "nombre": "LAUREANO GOMEZ MALBEC TERROIR", "marca": "LAUREANO GOMEZ", "precio": 13573.295999999998, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5897", "nombre": "LAUREANO GOMEZ MALBEC RESERVA", "marca": "LAUREANO GOMEZ", "precio": 21964.0608, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5899", "nombre": "ANDELUNA ALTITUD PINOT NOIR", "marca": "ANDELUNA", "precio": 11555.296499999999, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "5900", "nombre": "ANDELUNA MALBEC ROSE", "marca": "ANDELUNA", "precio": 11555.296499999999, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "5901", "nombre": "DO\u00d1A PAULA SINGLE VINEYARD RIESLING", "marca": "DO\u00d1A PAULA", "precio": 13149.130500000001, "rubro": "VINO", "subrubro": "RIESLING"}, {"id": "5902", "nombre": "ANDELUNA ALTITUD CHARDONNAY", "marca": "ANDELUNA", "precio": 11555.296499999999, "rubro": "VINO", "subrubro": "CHARDONNAY"}, {"id": "5914", "nombre": "GUINNESS HOP HOUSE LAGER", "marca": "GUINNESS", "precio": 3643.96725, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "5915", "nombre": "PAN DULCE DON ENRIQUE EXAGONAL", "marca": "Deubel", "precio": 23907.510000000002, "rubro": "PANIFICACION", "subrubro": "PANIFICACION"}, {"id": "5916", "nombre": "Tortillas", "marca": "UENO", "precio": 6478.164000000001, "rubro": "COMIDA", "subrubro": "TORTILLAS"}, {"id": "5921", "nombre": "GIN RESTINGA FLAVOURED", "marca": "RESTINGA", "precio": 21118.300499999998, "rubro": "GIN", "subrubro": "GIN"}, {"id": "5926", "nombre": "BUDWEISER BOTELLA 355 CC", "marca": "BUDWEISER", "precio": 1568.127, "rubro": "CERVEZAS", "subrubro": "CERVEZAS"}, {"id": "5930", "nombre": "RESTINGA VERMU 746", "marca": "RESTINGA", "precio": 13573.295999999998, "rubro": "VERMUT", "subrubro": "VERMUT"}, {"id": "5931", "nombre": "RESTINGA ESTUCHE LONDON TAKE AWAY (BOTELLA + COPA)", "marca": "RESTINGA", "precio": 31876.68, "rubro": "GIN", "subrubro": "GIN"}, {"id": "5932", "nombre": "RESTINGA ESTUCHE TRIPACK", "marca": "RESTINGA", "precio": 29087.4705, "rubro": "GIN", "subrubro": "GIN"}, {"id": "5938", "nombre": "GANCIA 0.0", "marca": "Gancia", "precio": 1562.9855999999997, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "5939", "nombre": "SAN HUBERTO BLANCO CERO ALCOHOL", "marca": "SAN HUBERTO", "precio": 4113.12, "rubro": "VINO", "subrubro": "BLEND BLANCO"}, {"id": "5944", "nombre": "CONEJO VERDE BAJO ALCOHOL MALBEC", "marca": "CONEJO VERDE", "precio": 6073.278749999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5945", "nombre": "CAVA CODORNIU ROSADO ZERO", "marca": "CODORNIU", "precio": 17686.415999999997, "rubro": "ESPUMANTE", "subrubro": "ESPUMANTE"}, {"id": "5947", "nombre": "SOTTANO MALBEC ROSE", "marca": "Sottano", "precio": 7570.711499999999, "rubro": "VINO", "subrubro": "ROSADO"}, {"id": "5949", "nombre": "AMARUA RASPBERRY", "marca": "Amarula", "precio": 30437.088, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "5950", "nombre": "PENEDO BORGES PRISMA BLEND", "marca": "PENEDO BORGES", "precio": 9127.5402735, "rubro": "VINO", "subrubro": "BLEND TINTO"}, {"id": "5951", "nombre": "PENEDO BORGES PRISMA MALBEC", "marca": "PENEDO BORGES", "precio": 14575.869, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5952", "nombre": "PENEDO BORGES CEPAS MALBEC", "marca": "PENEDO BORGES", "precio": 10931.901749999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5953", "nombre": " AMARULA COFFEE", "marca": "Amarula", "precio": 30437.088, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "5954", "nombre": " GANCIA HIBISCUS", "marca": "Gancia", "precio": 8351.9343765, "rubro": "APERITIVO", "subrubro": "APERITIVO"}, {"id": "5955", "nombre": "ANDELUNA MALBEC BAJO ALCOHOL", "marca": "SAN HUBERTO", "precio": 8907.475499999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5962", "nombre": "ALTUS RESERVA MALBEC", "marca": "ALTUS", "precio": 13685.121449999999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5963", "nombre": "ALTUS GRAND VIN", "marca": "ALTUS", "precio": 25102.885500000004, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "5965", "nombre": "ZORZAL EGGO PINOT", "marca": "ZORZAL", "precio": 19331.663999999997, "rubro": "VINO", "subrubro": "PINOT NOIR"}, {"id": "5966", "nombre": "ZORZAL EGGO CABERNET FRANC", "marca": "ZORZAL", "precio": 19331.663999999997, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "5967", "nombre": "ZORZAL EGGO MALBEC", "marca": "ZORZAL", "precio": 19331.663999999997, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5969", "nombre": "LUIGI BOSCA DE SANGRE CORTE (BLEND)", "marca": "Luigi Bosca", "precio": 19331.663999999997, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "5970", "nombre": "HERMANDAD BRUT", "marca": "FALASCO WINES", "precio": 25090.032, "rubro": "ESPUMANTE", "subrubro": "CHAMPPAGNE"}, {"id": "5972", "nombre": "RUTINI CABERNET", "marca": "Rutini Wines", "precio": 23856.095999999998, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "5974", "nombre": "RUTA 60 MALBEC", "marca": "Ruta 60", "precio": 9511.59, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5975", "nombre": "RUTA 60 SYRAH", "marca": "Ruta 60", "precio": 9511.59, "rubro": "VINO", "subrubro": "SYRAH"}, {"id": "5976", "nombre": "TRES PLUMAS LICOR DE HUEVO", "marca": "Tres Plumas", "precio": 7969.17, "rubro": "LICOR", "subrubro": "LICORES"}, {"id": "5977", "nombre": "ABSENTE 53.7% GRADOS", "marca": "ABSENTA", "precio": 102686.6115, "rubro": "ABSENTA", "subrubro": "ABSENTA"}, {"id": "5980", "nombre": "DO\u00d1A PAULA ESTATE MALBEC EDICION MUNDIAL", "marca": "DO\u00d1A PAULA", "precio": 7945.480999499999, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5981", "nombre": "PETACA LISA ACERO 9OZ", "marca": "OTROS", "precio": 13573.295999999998, "rubro": "COCTELERIA", "subrubro": "COCTELERIA"}, {"id": "5982", "nombre": "SET DE VINOS 3 ELEMENTOS SAVE WATER DRINK", "marca": "OTROS", "precio": 16452.48, "rubro": "ACCESORIOS VINO", "subrubro": "ACCESORIOS VINO"}, {"id": "5984", "nombre": "TERRAZAS RESERVA CABERNET FRANC", "marca": "TERRAZAS DE LOS ANDES ", "precio": 16211.271219000002, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "5985", "nombre": "ESTUCHE CASILLERO DEL DIABLO MANCHESTER RED BLEND", "marca": "Trivento", "precio": 16863.792, "rubro": "VINO", "subrubro": "BLEND"}, {"id": "5986", "nombre": "DO\u00d1A PAULA PARCELA SELECTION MALBEC LOS INDIOS", "marca": "DO\u00d1A PAULA", "precio": 58817.615999999995, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5987", "nombre": "DO\u00d1A PAULA PARCELA SELECTION MALBEC ALUVIA", "marca": "DO\u00d1A PAULA", "precio": 58817.615999999995, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5988", "nombre": "DO\u00d1A PAULA SELECCION DE BODEGA MALBEC", "marca": "DO\u00d1A PAULA", "precio": 62108.111999999994, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5989", "nombre": "CHATEAU SUBSONICO MALBEC SINGLE VINEYARD", "marca": "CHATEAU SUBSONICO", "precio": 16041.167999999998, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5990", "nombre": "LAUREANO GOMEZ MERLOT TERROIR", "marca": "LAUREANO GOMEZ", "precio": 13573.295999999998, "rubro": "VINO", "subrubro": "MERLOT"}, {"id": "5991", "nombre": "DRIMER TUBO ALMENDRAS CON CHOCOLATE", "marca": "CHOCOLATES DRIMER", "precio": 5347.0560000000005, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "5992", "nombre": "DRIMER TUBO AVELLANAS CON CHOCOLATE", "marca": "CHOCOLATES DRIMER", "precio": 5347.0560000000005, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "5993", "nombre": "DRIMER TUBO NARANJAS CON CHOCOLATE", "marca": "CHOCOLATES DRIMER", "precio": 5347.0560000000005, "rubro": "CHOCOLATES", "subrubro": "CHOCOLATES"}, {"id": "5994", "nombre": "ALTOMONTE DE SANGRE MALBEC", "marca": "Altomonte", "precio": 8007.7305, "rubro": "VINO", "subrubro": "MALBEC"}, {"id": "5995", "nombre": "ALTOMONTE DE SANGRE CABERNET", "marca": "Altomonte", "precio": 9706.9632, "rubro": "VINO", "subrubro": "CABERNET"}, {"id": "5996", "nombre": "ALTOMONTE DE SANGRE CABERNET FRANC", "marca": "Altomonte", "precio": 9706.9632, "rubro": "VINO", "subrubro": "CABERNET FRANC"}, {"id": "5998", "nombre": "DO\u00d1A PAULA SINGLE VINEYARDS MALBEC MAGNUN 1.5L", "marca": "DO\u00d1A PAULA", "precio": 29532.201600000004, "rubro": "VINO", "subrubro": "MALBEC"}];
         let carrito = [];
         let filtroActivoRubro = null;
-
-        // URL de tu número de WhatsApp
         const WHATSAPP_NUMBER = '5493413264215';
 
-        // Efecto de agregado al carrito
+        // GTM - Evento: Ver página
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            'event': 'page_view',
+            'page_title': 'Vinoteca Premium'
+        });
+
         function mostrarEfectoAgregado(e) {
             const rect = e.target.getBoundingClientRect();
-            const x = rect.left + rect.width / 2;
-            const y = rect.top + rect.height / 2;
-
             const elemento = document.createElement('div');
             elemento.className = 'agregar-animacion';
             elemento.textContent = '✓';
-            elemento.style.left = x + 'px';
-            elemento.style.top = y + 'px';
+            elemento.style.left = rect.left + rect.width / 2 + 'px';
+            elemento.style.top = rect.top + rect.height / 2 + 'px';
             elemento.style.color = '#25D366';
-            elemento.style.fontWeight = 'bold';
             document.body.appendChild(elemento);
-
             setTimeout(() => elemento.remove(), 800);
         }
 
-        // Mostrar productos
         function mostrarProductos(lista) {
             const grid = document.getElementById('productosGrid');
-
             if (lista.length === 0) {
                 grid.innerHTML = '<div class="sin-resultados">No encontramos productos que coincidan con tu búsqueda</div>';
                 return;
             }
-
             grid.innerHTML = lista.map(p => `
                 <div class="producto-card">
                     <div class="producto-nombre">${p.nombre}</div>
@@ -839,21 +230,16 @@
                     </div>
                     <div class="producto-precio">$${p.precio.toLocaleString('es-AR')}</div>
                     <div class="producto-precio-nota">💚 Precio contado</div>
-
                     <div class="producto-cantidad">
                         <button onclick="cambiarCantidad('${p.id}', -1)">−</button>
                         <input type="number" id="qty-${p.id}" value="0" min="0" readonly>
                         <button onclick="cambiarCantidad('${p.id}', 1)">+</button>
                     </div>
-
-                    <button class="btn-agregar" onclick="agregarAlCarrito('${p.id}', event)">
-                        Agregar al carrito
-                    </button>
+                    <button class="btn-agregar" onclick="agregarAlCarrito('${p.id}', event, '${p.nombre}', ${p.precio})">Agregar al carrito</button>
                 </div>
             `).join('');
         }
 
-        // Cambiar cantidad
         function cambiarCantidad(productId, cambio) {
             const input = document.getElementById(`qty-${productId}`);
             let valor = parseInt(input.value) || 0;
@@ -861,28 +247,31 @@
             input.value = valor;
         }
 
-        // Agregar al carrito
-        function agregarAlCarrito(productId, e) {
+        function agregarAlCarrito(productId, e, nombre, precio) {
             const cantidad = parseInt(document.getElementById(`qty-${productId}`).value) || 0;
             if (cantidad === 0) return;
-
+            
+            // GTM - Evento: Agregar al carrito
+            window.dataLayer.push({
+                'event': 'add_to_cart',
+                'product_id': productId,
+                'product_name': nombre,
+                'product_price': precio,
+                'quantity': cantidad
+            });
+            
             const producto = productos.find(p => p.id === productId);
             const itemCarrito = carrito.find(i => i.id === productId);
-
             if (itemCarrito) {
                 itemCarrito.cantidad += cantidad;
             } else {
                 carrito.push({ ...producto, cantidad });
             }
-
-            // Efecto visual
             mostrarEfectoAgregado(e);
-
             document.getElementById(`qty-${productId}`).value = 0;
             actualizarCarrito();
         }
 
-        // Actualizar vista carrito
         function actualizarCarrito() {
             const carritoItems = document.getElementById('carritoItems');
             const totalCarrito = document.getElementById('totalCarrito');
@@ -908,30 +297,21 @@
                     <div class="carrito-item">
                         <div class="carrito-item-nombre">${item.nombre}</div>
                         <div class="carrito-item-precio">$${item.precio.toLocaleString('es-AR')}</div>
-
                         <div class="carrito-item-qty">
                             <button onclick="cambiarCarrito('${item.id}', -1)">−</button>
                             <input type="number" value="${item.cantidad}" readonly>
                             <button onclick="cambiarCarrito('${item.id}', 1)">+</button>
                         </div>
-
                         <div style="font-size: 0.9rem; color: #666; margin-bottom: 0.5rem;">
                             Subtotal: $${subtotal.toLocaleString('es-AR')}
                         </div>
-
-                        <button class="btn-eliminar" onclick="eliminarCarrito('${item.id}')">
-                            Eliminar
-                        </button>
+                        <button class="btn-eliminar" onclick="eliminarCarrito('${item.id}')">Eliminar</button>
                     </div>
                 `;
             }).join('');
 
-            // Calcular costo de envío
             const costoEnvio = total < 100000 ? 5000 : 0;
-
-            // Calcular aumento por otros medios de pago
             const aumenoPago = pagarOtrosMedios ? Math.round(total * 0.05) : 0;
-
             const totalConEnvio = total + costoEnvio + aumenoPago;
 
             totalCarrito.textContent = `$${totalConEnvio.toLocaleString('es-AR')}`;
@@ -944,15 +324,12 @@
                 infoEnvio.innerHTML = '<strong>📦 Envío sin cargo</strong><span>¡Felicidades! Tu envío es gratis</span>';
                 infoEnvio.style.display = 'block';
             }
-
             btnWhatsapp.disabled = false;
         }
 
-        // Cambiar cantidad en carrito
         function cambiarCarrito(productId, cambio) {
             const item = carrito.find(i => i.id === productId);
             if (!item) return;
-
             item.cantidad += cambio;
             if (item.cantidad <= 0) {
                 carrito = carrito.filter(i => i.id !== productId);
@@ -960,111 +337,108 @@
             actualizarCarrito();
         }
 
-        // Eliminar del carrito
         function eliminarCarrito(productId) {
             carrito = carrito.filter(i => i.id !== productId);
             actualizarCarrito();
         }
 
-        // Enviar por WhatsApp
         function enviarWhatsApp() {
             if (carrito.length === 0) return;
-
+            
             const pagarOtrosMedios = document.getElementById('pagarOtrosMedios').checked;
             const metodoPago = pagarOtrosMedios ? 'OTROS MEDIOS DE PAGO' : 'CONTADO';
-
-            let mensaje = '📋 *Nuevo Pedido*\n\n';
+            
             let total = 0;
-
-            carrito.forEach(item => {
-                const subtotal = item.precio * item.cantidad;
-                total += subtotal;
-                mensaje += `✓ ${item.nombre}\n   Cantidad: ${item.cantidad} × $${item.precio.toLocaleString('es-AR')}\n   Subtotal: $${subtotal.toLocaleString('es-AR')}\n\n`;
-            });
-
+            carrito.forEach(item => { total += item.precio * item.cantidad; });
+            
             const costoEnvio = total < 100000 ? 5000 : 0;
             const aumenoPago = pagarOtrosMedios ? Math.round(total * 0.05) : 0;
             const totalConEnvio = total + costoEnvio + aumenoPago;
-
-            mensaje += `---\n`;
-            mensaje += `💰 Total productos: $${total.toLocaleString('es-AR')}\n`;
-
-            if (aumenoPago > 0) {
-                mensaje += `➕ Recargo otros medios (+5%): $${aumenoPago.toLocaleString('es-AR')}\n`;
-            }
-
+            
+            // GTM - Evento: Conversión (compra)
+            window.dataLayer.push({
+                'event': 'purchase',
+                'transaction_id': 'vinoteca_' + new Date().getTime(),
+                'value': totalConEnvio,
+                'currency': 'ARS',
+                'items': carrito.map(item => ({
+                    'id': item.id,
+                    'name': item.nombre,
+                    'price': item.precio,
+                    'quantity': item.cantidad
+                })),
+                'payment_method': metodoPago,
+                'shipping_cost': costoEnvio
+            });
+            
+            let mensaje = '📋 *Nuevo Pedido*\n\n';
+            carrito.forEach(item => {
+                const subtotal = item.precio * item.cantidad;
+                mensaje += `✓ ${item.nombre}\n   Cantidad: ${item.cantidad} × $${item.precio.toLocaleString('es-AR')}\n   Subtotal: $${subtotal.toLocaleString('es-AR')}\n\n`;
+            });
+            
+            mensaje += `---\n💰 Total productos: $${total.toLocaleString('es-AR')}\n`;
+            if (aumenoPago > 0) mensaje += `➕ Recargo otros medios (+5%): $${aumenoPago.toLocaleString('es-AR')}\n`;
             if (costoEnvio > 0) {
                 mensaje += `📦 Costo envío: $${costoEnvio.toLocaleString('es-AR')}\n`;
             } else {
                 mensaje += `✨ Envío sin cargo\n`;
             }
-
-            mensaje += `\n💳 *MÉTODO DE PAGO: ${metodoPago}*\n`;
-            mensaje += `💰 *TOTAL: $${totalConEnvio.toLocaleString('es-AR')}*\n\n`;
-            mensaje += `📅 Entregas: Martes y Jueves`;
-
+            mensaje += `\n💳 *MÉTODO DE PAGO: ${metodoPago}*\n💰 *TOTAL: $${totalConEnvio.toLocaleString('es-AR')}*\n\n📅 Entregas: Martes y Jueves`;
+            
             const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(mensaje)}`;
             window.open(url, '_blank');
         }
 
-        // Filtro rápido por rubro
         function filtrarPorRubro(rubro) {
             filtroActivoRubro = filtroActivoRubro === rubro ? null : rubro;
-
-            // Limpiar filtros avanzados
             document.getElementById('buscar').value = '';
             document.getElementById('filtroRubro').value = '';
             document.getElementById('filtroSubrubro').value = '';
             document.getElementById('precioMin').value = '';
             document.getElementById('precioMax').value = '';
-
-            // Actualizar botones
-            document.querySelectorAll('.btn-filtro-rapido').forEach(btn => {
-                btn.classList.remove('activo');
-            });
-
-            if (filtroActivoRubro !== null && event) {
-                event.target.closest('.btn-filtro-rapido').classList.add('activo');
+            document.querySelectorAll('.btn-filtro-rapido').forEach(btn => btn.classList.remove('activo'));
+            if (filtroActivoRubro !== null && event) event.target.closest('.btn-filtro-rapido').classList.add('activo');
+            
+            // GTM - Evento: Filtro aplicado
+            if (filtroActivoRubro) {
+                window.dataLayer.push({
+                    'event': 'filter_applied',
+                    'filter_type': 'category',
+                    'filter_value': filtroActivoRubro
+                });
             }
-
+            
             filtrarProductos();
         }
 
-        // Filtrar productos
         function filtrarProductos() {
             const buscar = document.getElementById('buscar').value.toLowerCase();
             const rubro = filtroActivoRubro || document.getElementById('filtroRubro').value;
             const subrubro = document.getElementById('filtroSubrubro').value;
             const precioMin = parseInt(document.getElementById('precioMin').value) || 0;
             const precioMax = parseInt(document.getElementById('precioMax').value) || Infinity;
-
             const filtrados = productos.filter(p => {
                 const coincideBusqueda = !buscar || p.nombre.toLowerCase().includes(buscar) || p.marca.toLowerCase().includes(buscar);
                 const coincideRubro = !rubro || p.rubro === rubro;
                 const coincideSubrubro = !subrubro || p.subrubro === subrubro;
                 const coincidePrecio = p.precio >= precioMin && p.precio <= precioMax;
-
                 return coincideBusqueda && coincideRubro && coincideSubrubro && coincidePrecio;
             });
-
             mostrarProductos(filtrados);
         }
 
-        // Poblar filtros
         function poblarFiltros() {
             const rubros = [...new Set(productos.map(p => p.rubro))].filter(Boolean).sort();
             const subrubros = [...new Set(productos.map(p => p.subrubro))].filter(Boolean).sort();
-
             const selectRubro = document.getElementById('filtroRubro');
             const selectSubrubro = document.getElementById('filtroSubrubro');
-
             rubros.forEach(rubro => {
                 const option = document.createElement('option');
                 option.value = rubro;
                 option.textContent = rubro;
                 selectRubro.appendChild(option);
             });
-
             subrubros.forEach(subrubro => {
                 const option = document.createElement('option');
                 option.value = subrubro;
@@ -1073,31 +447,24 @@
             });
         }
 
-        // Event listeners
         document.getElementById('buscar').addEventListener('input', filtrarProductos);
         document.getElementById('filtroRubro').addEventListener('change', filtrarProductos);
         document.getElementById('filtroSubrubro').addEventListener('change', filtrarProductos);
         document.getElementById('precioMin').addEventListener('input', filtrarProductos);
         document.getElementById('precioMax').addEventListener('input', filtrarProductos);
-
         document.getElementById('btnCarrito').addEventListener('click', () => {
             document.getElementById('carritoPanel').classList.toggle('abierto');
             document.getElementById('overlay').classList.toggle('visible');
         });
-
         document.getElementById('btnCerrarCarrito').addEventListener('click', () => {
             document.getElementById('carritoPanel').classList.remove('abierto');
             document.getElementById('overlay').classList.remove('visible');
         });
-
         document.getElementById('overlay').addEventListener('click', () => {
             document.getElementById('carritoPanel').classList.remove('abierto');
             document.getElementById('overlay').classList.remove('visible');
         });
-
         document.getElementById('btnWhatsapp').addEventListener('click', enviarWhatsApp);
-
-        // Inicializar
         poblarFiltros();
         mostrarProductos(productos);
     </script>
