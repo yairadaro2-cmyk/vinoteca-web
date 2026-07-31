@@ -16,15 +16,15 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f8f7f4; color: #333; line-height: 1.6; }
-        header { background: linear-gradient(135deg, #722f37 0%, #8b3a42 100%); color: white; padding: 1.5rem 1rem; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); display: flex; align-items: center; justify-content: flex-start; gap: 2rem; flex-wrap: wrap; }
-        .logo-container { display: flex; align-items: center; justify-content: center; min-width: 100px; }
-        .logo-header { height: 80px; width: auto; object-fit: contain; }
-        .header-content { display: flex; flex-direction: column; align-items: flex-start; flex: 1; min-width: 250px; }
-        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; font-weight: 700; text-align: left; }
-        header p { font-size: 1.1rem; opacity: 0.95; margin-bottom: 0; text-align: left; }
-        .promo-banner { background: #d4af37; color: #722f37; padding: 1rem; text-align: center; font-weight: 600; font-size: 1rem; border-bottom: 3px solid #c9a82e; }
+        header { background: linear-gradient(135deg, #722f37 0%, #8b3a42 100%); color: white; padding: 1rem; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); display: flex; align-items: center; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+        .logo-container { display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .logo-header { height: 60px; width: auto; object-fit: contain; }
+        .header-content { display: flex; flex-direction: column; align-items: flex-start; }
+        header h1 { font-size: 2rem; margin-bottom: 0.3rem; font-weight: 700; text-align: left; line-height: 1; }
+        header p { font-size: 0.95rem; opacity: 0.95; margin-bottom: 0; text-align: left; }
+        .promo-banner { background: #d4af37; color: #722f37; padding: 0.8rem 1rem; text-align: center; font-weight: 600; font-size: 0.95rem; border-bottom: 3px solid #c9a82e; }
         .promo-banner strong { display: block; margin-bottom: 0.3rem; }
-        .promo-details { display: flex; justify-content: center; gap: 2rem; margin-top: 0.5rem; flex-wrap: wrap; font-size: 0.95rem; }
+        .promo-details { display: flex; justify-content: center; gap: 2rem; margin-top: 0.5rem; flex-wrap: wrap; font-size: 0.9rem; }
         .promo-details span { display: flex; align-items: center; gap: 0.5rem; }
         main { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
         .filtros-rapidos { background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border-top: 3px solid #d4af37; }
@@ -100,15 +100,14 @@
         .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.3); opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 999; }
         .overlay.visible { opacity: 1; pointer-events: auto; }
         @media (max-width: 768px) { 
-            header { flex-direction: column; padding: 1rem; justify-content: center; }
-            .logo-container { min-width: auto; }
-            .logo-header { height: 60px; }
-            .header-content { align-items: center; text-align: center; }
-            header h1 { font-size: 1.8rem; text-align: center; }
-            header p { text-align: center; }
+            header { padding: 0.8rem; gap: 1rem; }
+            .logo-header { height: 50px; }
+            header h1 { font-size: 1.5rem; }
+            header p { font-size: 0.85rem; }
+            .promo-banner { padding: 0.6rem 0.8rem; font-size: 0.8rem; }
+            .promo-details { gap: 1rem; font-size: 0.75rem; }
             .productos-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1rem; }
             .producto-card { padding: 1rem; }
-            .promo-details { gap: 1rem; font-size: 0.85rem; }
             .btn-carrito-flotante { width: 50px; height: 50px; font-size: 1.4rem; bottom: 1rem; right: 1rem; }
             .botones-rapidos { grid-template-columns: repeat(2, 1fr); }
             .tipo-compra { flex-direction: column; }
@@ -297,8 +296,8 @@
             let cantidadFinal = cantidad;
             
             if (tipo === 'caja') {
-                precioFinal = precio * 0.97; // 3% descuento para cajas
-                cantidadFinal = cantidad * 6;
+                precioFinal = (precio * 6) * 0.97; // 6 botellas con 3% descuento
+                cantidadFinal = cantidad; // cantidad sigue siendo en cajas
             }
             
             window.dataLayer.push({'event': 'add_to_cart', 'product_id': productId, 'product_name': nombre, 'product_price': precioFinal, 'quantity': cantidadFinal});
