@@ -1,0 +1,32 @@
+name: Actualizar Stock Vinoteca
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Diariamente a las 00:00 UTC
+  workflow_dispatch:  # Permite ejecutar manualmente desde GitHub
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: pip install gspread google-auth-oauthlib google-auth-httplib2
+      
+      - name: Update stock from Google Sheets
+        env:
+          GOOGLE_CREDS: ${{ secrets.GOOGLE_CREDS }}
+        run: python scripts/update_stock.py
+      
+      - name: Push changes to GitHub
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "Stock Updater Bot"
+          git add productos.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update stock - $(date -u +'%Y-%m-%d %H:%M:%S UTC')" && git push)
